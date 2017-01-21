@@ -1,0 +1,15 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "95392ece9f2eff2717b24f5137b8520d"
+build_time: [538239638, 399094000]
+inputs:
+  "/Users/xiamin/Documents/Code/RBRefresh/RBRefresh/ViewController.swift": [536400425, 0]
+  "/Users/xiamin/Documents/Code/RBRefresh/RBRefresh/TestViewController.swift": [538237562, 0]
+  "/Users/xiamin/Documents/Code/RBRefresh/RBRefresh/AppDelegate.swift": [536399173, 0]
+  "/Users/xiamin/Documents/Code/RBRefresh/Refresh/RBNormalFooter.swift": [538236409, 0]
+  "/Users/xiamin/Documents/Code/RBRefresh/Refresh/RBView.swift": [538143358, 0]
+  "/Users/xiamin/Documents/Code/RBRefresh/Refresh/RBFooter.swift": [538229551, 0]
+  "/Users/xiamin/Documents/Code/RBRefresh/RBRefresh/TableViewController.swift": [538232958, 0]
+  "/Users/xiamin/Documents/Code/RBRefresh/Refresh/RBHeader.swift": [538232804, 0]
+  "/Users/xiamin/Documents/Code/RBRefresh/Refresh/RBRefreshExtension.swift": [538237562, 0]
+  "/Users/xiamin/Documents/Code/RBRefresh/Refresh/RBNormalHeader.swift": [538224327, 0]
+  "/Users/xiamin/Documents/Code/RBRefresh/Refresh/RBGifHeader.swift": [538239618, 0]

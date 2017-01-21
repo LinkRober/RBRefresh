@@ -1,0 +1,10 @@
+framework module SwiftGifOrigin {
+  umbrella header "SwiftGifOrigin-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftGifOrigin.__Swift {
+    exclude header "SwiftGifOrigin-Swift.h"
+}
