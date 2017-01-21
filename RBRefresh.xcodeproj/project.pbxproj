@@ -20,12 +20,12 @@
 		8A2573761E16524900B81871 /* RBHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2573751E16524900B81871 /* RBHeader.swift */; };
 		8A2573781E16528700B81871 /* RBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2573771E16528700B81871 /* RBView.swift */; };
 		8A25737A1E1652F000B81871 /* RBFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2573791E1652F000B81871 /* RBFooter.swift */; };
-		8A63133D1E30DC3600698087 /* RBNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A63133C1E30DC3600698087 /* RBNormalHeader.swift */; };
-		8A6313401E3221C600698087 /* RBNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A63133F1E3221C600698087 /* RBNormalFooter.swift */; };
 		8A6313421E322EB600698087 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6313411E322EB600698087 /* TestViewController.swift */; };
-		8A6313441E3252B300698087 /* RBGifHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6313431E3252B300698087 /* RBGifHeader.swift */; };
 		8A63134C1E3263D800698087 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A63134B1E3263D800698087 /* UIImage+Gif.swift */; };
 		8A63134E1E33025900698087 /* vivasam_currency_refresh.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A63134D1E33025900698087 /* vivasam_currency_refresh.gif */; };
+		8A6313651E33407400698087 /* RBGifHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6313621E33407400698087 /* RBGifHeader.swift */; };
+		8A6313661E33407400698087 /* RBNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6313631E33407400698087 /* RBNormalFooter.swift */; };
+		8A6313671E33407400698087 /* RBNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6313641E33407400698087 /* RBNormalHeader.swift */; };
 		ADE797D4269CA7A19FD2409F /* Pods_RBRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B412BA369F2DB5BD7B01DFD /* Pods_RBRefresh.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,12 +68,12 @@
 		8A2573751E16524900B81871 /* RBHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBHeader.swift; sourceTree = "<group>"; };
 		8A2573771E16528700B81871 /* RBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBView.swift; sourceTree = "<group>"; };
 		8A2573791E1652F000B81871 /* RBFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBFooter.swift; sourceTree = "<group>"; };
-		8A63133C1E30DC3600698087 /* RBNormalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNormalHeader.swift; sourceTree = "<group>"; };
-		8A63133F1E3221C600698087 /* RBNormalFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNormalFooter.swift; sourceTree = "<group>"; };
 		8A6313411E322EB600698087 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		8A6313431E3252B300698087 /* RBGifHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBGifHeader.swift; sourceTree = "<group>"; };
 		8A63134B1E3263D800698087 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		8A63134D1E33025900698087 /* vivasam_currency_refresh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = vivasam_currency_refresh.gif; sourceTree = "<group>"; };
+		8A6313621E33407400698087 /* RBGifHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBGifHeader.swift; sourceTree = "<group>"; };
+		8A6313631E33407400698087 /* RBNormalFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNormalFooter.swift; sourceTree = "<group>"; };
+		8A6313641E33407400698087 /* RBNormalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNormalHeader.swift; sourceTree = "<group>"; };
 		92D58396B8DAA16E3F4E83B2 /* Pods-RBRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBRefresh/Pods-RBRefresh.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				8A2573721E164D7C00B81871 /* Refresh */,
+				8A6313611E33407400698087 /* custom */,
 				8A25733E1E16484500B81871 /* RBRefresh */,
 				8A2573561E16484500B81871 /* RBRefreshTests */,
 				8A2573611E16484500B81871 /* RBRefreshUITests */,
@@ -186,11 +187,18 @@
 				8A2573751E16524900B81871 /* RBHeader.swift */,
 				8A2573791E1652F000B81871 /* RBFooter.swift */,
 				8A2573771E16528700B81871 /* RBView.swift */,
-				8A63133C1E30DC3600698087 /* RBNormalHeader.swift */,
-				8A63133F1E3221C600698087 /* RBNormalFooter.swift */,
-				8A6313431E3252B300698087 /* RBGifHeader.swift */,
 			);
 			path = Refresh;
+			sourceTree = "<group>";
+		};
+		8A6313611E33407400698087 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				8A6313621E33407400698087 /* RBGifHeader.swift */,
+				8A6313631E33407400698087 /* RBNormalFooter.swift */,
+				8A6313641E33407400698087 /* RBNormalHeader.swift */,
+			);
+			path = custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,14 +393,14 @@
 				8A6313421E322EB600698087 /* TestViewController.swift in Sources */,
 				8A2573401E16484500B81871 /* AppDelegate.swift in Sources */,
 				8A63134C1E3263D800698087 /* UIImage+Gif.swift in Sources */,
-				8A6313401E3221C600698087 /* RBNormalFooter.swift in Sources */,
+				8A6313671E33407400698087 /* RBNormalHeader.swift in Sources */,
 				8A2573781E16528700B81871 /* RBView.swift in Sources */,
 				8A25737A1E1652F000B81871 /* RBFooter.swift in Sources */,
+				8A6313661E33407400698087 /* RBNormalFooter.swift in Sources */,
 				8A2573711E1649BD00B81871 /* TableViewController.swift in Sources */,
 				8A2573761E16524900B81871 /* RBHeader.swift in Sources */,
 				8A2573741E1650C600B81871 /* RBRefreshExtension.swift in Sources */,
-				8A63133D1E30DC3600698087 /* RBNormalHeader.swift in Sources */,
-				8A6313441E3252B300698087 /* RBGifHeader.swift in Sources */,
+				8A6313651E33407400698087 /* RBGifHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

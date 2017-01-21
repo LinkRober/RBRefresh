@@ -6,29 +6,29 @@ provides-nominal:
 provides-member:
 - ["C9RBRefresh11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidBecomeActive"
-- "persistentContainer"
 - "applicationWillTerminate"
 - "window"
+- "persistentContainer"
+- "applicationDidBecomeActive"
+- "saveContext"
+- "applicationDidEnterBackground"
 - "application"
 - "applicationWillResignActive"
-- "saveContext"
 - "applicationWillEnterForeground"
-- "applicationDidEnterBackground"
 depends-top-level:
-- "UIApplicationDelegate"
-- "NSPersistentContainer"
-- "UIApplication"
 - !private "fatalError"
+- "NSPersistentContainer"
+- "UIApplicationDelegate"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
+- "UIApplication"
 - "UIWindow"
 - "CastingPrecedence"
-- !private "NSError"
-- !private "StringLiteralType"
-- "UIResponder"
 - "Bool"
 - "UIApplicationLaunchOptionsKey"
-- !private "BooleanLiteralType"
 - "AppDelegate"
+- "UIResponder"
+- !private "NSError"
 depends-member:
 - !private ["Ps9AnyObject", "NSPersistentContainer"]
 - ["Ps9AnyObject", "application"]
