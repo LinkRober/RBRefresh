@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C9RBRefresh14ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "normalRefresh"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
-- "UIViewController"
 - "CastingPrecedence"
-- !private "StringLiteralType"
 - "UIButton"
 - "ViewController"
-- !private "BooleanLiteralType"
 - !private "TableViewController"
+- !private "BooleanLiteralType"
+- "UIViewController"
+- !private "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "init"]

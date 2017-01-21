@@ -31,6 +31,7 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         self.edgesForExtendedLayout = []
         self.datasoucre = [Type.Normal,Type.Gif]
+        
     }
     
     func randNumber() -> Int {
@@ -61,4 +62,12 @@ class TableViewController: UITableViewController {
         vc.type = datasoucre[indexPath.row]
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    
+    func addMehtod(number:Int) -> ((Int) -> (Int)) {
+        return { (addNumber:Int) ->(Int) in
+            return number + addNumber
+        }
+    }
+    
 }

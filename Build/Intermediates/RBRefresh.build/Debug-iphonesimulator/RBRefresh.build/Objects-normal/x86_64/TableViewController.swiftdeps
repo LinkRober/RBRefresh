@@ -10,35 +10,38 @@ provides-member:
 - ["O9RBRefresh4Type", ""]
 - ["C9RBRefresh19TableViewController", ""]
 provides-dynamic-lookup:
-- "numberOfSections"
+- "tableView"
+- "tableView"
+- "tableView"
 - "viewDidLoad"
 - "randNumber"
+- "addMehtod"
 - "viewDidAppear"
-- "tableView"
-- "tableView"
-- "tableView"
+- "numberOfSections"
 depends-top-level:
-- "IndexPath"
-- "TableViewController"
-- !private "arc4random_uniform"
-- !private "StringLiteralType"
-- !private "TestViewController"
-- !private "BooleanLiteralType"
-- "String"
-- !private "Array"
-- "Int"
-- "Type"
-- "UITableView"
-- "UITableViewCell"
 - "Bool"
+- !private "StringLiteralType"
+- "UITableView"
+- !private "BooleanLiteralType"
+- "IndexPath"
+- !private "arc4random_uniform"
+- "UITableViewCell"
+- !private "TestViewController"
+- "String"
+- "Int"
 - "UITableViewController"
+- !private "+"
+- "Type"
 - "=="
 - "AssignmentPrecedence"
+- "TableViewController"
+- !private "Array"
 depends-member:
 - !private ["Ps9AnyObject", "Int"]
 - !private ["Ps9AnyObject", "TestViewController"]
 - !private ["Ps9AnyObject", "Type"]
 - !private ["Ps9AnyObject", "UITableViewCell"]
+- ["Ps9AnyObject", "addMehtod"]
 - !private ["Ps9AnyObject", "arc4random_uniform"]
 - ["Ps9AnyObject", "datasoucre"]
 - !private ["Ps9AnyObject", "edgesForExtendedLayout"]
@@ -109,6 +112,7 @@ depends-member:
 - !private ["Ps7CVarArg", "UITableViewCell"]
 - !private ["Ps7CVarArg", "_DisabledRangeIndex"]
 - !private ["Ps7CVarArg", "_Element"]
+- ["Ps7CVarArg", "addMehtod"]
 - !private ["Ps7CVarArg", "arc4random_uniform"]
 - !private ["Ps7CVarArg", "count"]
 - ["Ps7CVarArg", "datasoucre"]
@@ -152,6 +156,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Type"]
 - !private ["Ps28CustomDebugStringConvertible", "UITableViewCell"]
 - !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "addMehtod"]
 - !private ["Ps28CustomDebugStringConvertible", "arc4random_uniform"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
 - ["Ps28CustomDebugStringConvertible", "datasoucre"]
@@ -200,6 +205,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "UITableViewCell"]
 - !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
 - !private ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "addMehtod"]
 - !private ["Ps23CustomStringConvertible", "arc4random_uniform"]
 - !private ["Ps23CustomStringConvertible", "count"]
 - ["Ps23CustomStringConvertible", "datasoucre"]
@@ -240,6 +246,7 @@ depends-member:
 - !private ["Ps9Equatable", "UITableViewCell"]
 - !private ["Ps9Equatable", "_DisabledRangeIndex"]
 - ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "addMehtod"]
 - !private ["Ps9Equatable", "arc4random_uniform"]
 - ["Ps9Equatable", "datasoucre"]
 - !private ["Ps9Equatable", "default"]
@@ -286,6 +293,7 @@ depends-member:
 - !private ["Ps8Hashable", "UITableViewCell"]
 - !private ["Ps8Hashable", "_DisabledRangeIndex"]
 - ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "addMehtod"]
 - !private ["Ps8Hashable", "arc4random_uniform"]
 - ["Ps8Hashable", "datasoucre"]
 - !private ["Ps8Hashable", "default"]
@@ -372,6 +380,7 @@ depends-member:
 - !private ["PSo8NSCoding", "TestViewController"]
 - !private ["PSo8NSCoding", "Type"]
 - !private ["PSo8NSCoding", "UITableViewCell"]
+- ["PSo8NSCoding", "addMehtod"]
 - !private ["PSo8NSCoding", "arc4random_uniform"]
 - ["PSo8NSCoding", "datasoucre"]
 - !private ["PSo8NSCoding", "edgesForExtendedLayout"]
@@ -392,6 +401,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "TestViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "Type"]
 - !private ["PSo26NSExtensionRequestHandling", "UITableViewCell"]
+- ["PSo26NSExtensionRequestHandling", "addMehtod"]
 - !private ["PSo26NSExtensionRequestHandling", "arc4random_uniform"]
 - ["PSo26NSExtensionRequestHandling", "datasoucre"]
 - !private ["PSo26NSExtensionRequestHandling", "edgesForExtendedLayout"]
@@ -413,6 +423,7 @@ depends-member:
 - ["CSo8NSObject", "Type"]
 - ["CSo8NSObject", "UITableView"]
 - ["CSo8NSObject", "UITableViewCell"]
+- ["CSo8NSObject", "addMehtod"]
 - !private ["CSo8NSObject", "arc4random_uniform"]
 - ["CSo8NSObject", "datasoucre"]
 - !private ["CSo8NSObject", "edgesForExtendedLayout"]
@@ -431,6 +442,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "TestViewController"]
 - !private ["PSo16NSObjectProtocol", "Type"]
 - !private ["PSo16NSObjectProtocol", "UITableViewCell"]
+- ["PSo16NSObjectProtocol", "addMehtod"]
 - !private ["PSo16NSObjectProtocol", "arc4random_uniform"]
 - ["PSo16NSObjectProtocol", "datasoucre"]
 - !private ["PSo16NSObjectProtocol", "edgesForExtendedLayout"]
@@ -532,6 +544,7 @@ depends-member:
 - ["C9RBRefresh19TableViewController", "Type"]
 - ["C9RBRefresh19TableViewController", "UITableView"]
 - ["C9RBRefresh19TableViewController", "UITableViewCell"]
+- ["C9RBRefresh19TableViewController", "addMehtod"]
 - !private ["C9RBRefresh19TableViewController", "arc4random_uniform"]
 - ["C9RBRefresh19TableViewController", "datasoucre"]
 - ["C9RBRefresh19TableViewController", "deinit"]
@@ -566,6 +579,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "TestViewController"]
 - !private ["PSo21UIAppearanceContainer", "Type"]
 - !private ["PSo21UIAppearanceContainer", "UITableViewCell"]
+- ["PSo21UIAppearanceContainer", "addMehtod"]
 - !private ["PSo21UIAppearanceContainer", "arc4random_uniform"]
 - ["PSo21UIAppearanceContainer", "datasoucre"]
 - !private ["PSo21UIAppearanceContainer", "edgesForExtendedLayout"]
@@ -585,6 +599,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "TestViewController"]
 - !private ["PSo18UIContentContainer", "Type"]
 - !private ["PSo18UIContentContainer", "UITableViewCell"]
+- ["PSo18UIContentContainer", "addMehtod"]
 - !private ["PSo18UIContentContainer", "arc4random_uniform"]
 - ["PSo18UIContentContainer", "datasoucre"]
 - !private ["PSo18UIContentContainer", "edgesForExtendedLayout"]
@@ -609,6 +624,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "TestViewController"]
 - !private ["PSo18UIFocusEnvironment", "Type"]
 - !private ["PSo18UIFocusEnvironment", "UITableViewCell"]
+- ["PSo18UIFocusEnvironment", "addMehtod"]
 - !private ["PSo18UIFocusEnvironment", "arc4random_uniform"]
 - ["PSo18UIFocusEnvironment", "datasoucre"]
 - !private ["PSo18UIFocusEnvironment", "edgesForExtendedLayout"]
@@ -642,6 +658,7 @@ depends-member:
 - ["CSo11UIResponder", "Type"]
 - ["CSo11UIResponder", "UITableView"]
 - ["CSo11UIResponder", "UITableViewCell"]
+- ["CSo11UIResponder", "addMehtod"]
 - !private ["CSo11UIResponder", "arc4random_uniform"]
 - ["CSo11UIResponder", "datasoucre"]
 - !private ["CSo11UIResponder", "edgesForExtendedLayout"]
@@ -660,6 +677,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "TestViewController"]
 - !private ["PSo30UIResponderStandardEditActions", "Type"]
 - !private ["PSo30UIResponderStandardEditActions", "UITableViewCell"]
+- ["PSo30UIResponderStandardEditActions", "addMehtod"]
 - !private ["PSo30UIResponderStandardEditActions", "arc4random_uniform"]
 - ["PSo30UIResponderStandardEditActions", "datasoucre"]
 - !private ["PSo30UIResponderStandardEditActions", "edgesForExtendedLayout"]
@@ -679,6 +697,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "TestViewController"]
 - !private ["PSo20UIScrollViewDelegate", "Type"]
 - !private ["PSo20UIScrollViewDelegate", "UITableViewCell"]
+- ["PSo20UIScrollViewDelegate", "addMehtod"]
 - !private ["PSo20UIScrollViewDelegate", "arc4random_uniform"]
 - ["PSo20UIScrollViewDelegate", "datasoucre"]
 - !private ["PSo20UIScrollViewDelegate", "edgesForExtendedLayout"]
@@ -695,6 +714,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "TestViewController"]
 - !private ["PSo16UIStateRestoring", "Type"]
 - !private ["PSo16UIStateRestoring", "UITableViewCell"]
+- ["PSo16UIStateRestoring", "addMehtod"]
 - !private ["PSo16UIStateRestoring", "arc4random_uniform"]
 - ["PSo16UIStateRestoring", "datasoucre"]
 - !private ["PSo16UIStateRestoring", "edgesForExtendedLayout"]
@@ -720,6 +740,7 @@ depends-member:
 - ["CSo21UITableViewController", "Type"]
 - ["CSo21UITableViewController", "UITableView"]
 - ["CSo21UITableViewController", "UITableViewCell"]
+- ["CSo21UITableViewController", "addMehtod"]
 - !private ["CSo21UITableViewController", "arc4random_uniform"]
 - ["CSo21UITableViewController", "datasoucre"]
 - ["CSo21UITableViewController", "deinit"]
@@ -736,6 +757,7 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "TestViewController"]
 - !private ["PSo21UITableViewDataSource", "Type"]
 - !private ["PSo21UITableViewDataSource", "UITableViewCell"]
+- ["PSo21UITableViewDataSource", "addMehtod"]
 - !private ["PSo21UITableViewDataSource", "arc4random_uniform"]
 - ["PSo21UITableViewDataSource", "datasoucre"]
 - !private ["PSo21UITableViewDataSource", "edgesForExtendedLayout"]
@@ -752,6 +774,7 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "TestViewController"]
 - !private ["PSo19UITableViewDelegate", "Type"]
 - !private ["PSo19UITableViewDelegate", "UITableViewCell"]
+- ["PSo19UITableViewDelegate", "addMehtod"]
 - !private ["PSo19UITableViewDelegate", "arc4random_uniform"]
 - ["PSo19UITableViewDelegate", "datasoucre"]
 - !private ["PSo19UITableViewDelegate", "edgesForExtendedLayout"]
@@ -769,6 +792,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "TestViewController"]
 - !private ["PSo18UITraitEnvironment", "Type"]
 - !private ["PSo18UITraitEnvironment", "UITableViewCell"]
+- ["PSo18UITraitEnvironment", "addMehtod"]
 - !private ["PSo18UITraitEnvironment", "arc4random_uniform"]
 - ["PSo18UITraitEnvironment", "datasoucre"]
 - !private ["PSo18UITraitEnvironment", "edgesForExtendedLayout"]
@@ -794,6 +818,7 @@ depends-member:
 - ["CSo16UIViewController", "Type"]
 - ["CSo16UIViewController", "UITableView"]
 - ["CSo16UIViewController", "UITableViewCell"]
+- ["CSo16UIViewController", "addMehtod"]
 - !private ["CSo16UIViewController", "arc4random_uniform"]
 - ["CSo16UIViewController", "datasoucre"]
 - !private ["CSo16UIViewController", "edgesForExtendedLayout"]
@@ -844,6 +869,7 @@ depends-member:
 - !private ["Ps9_Hashable", "UITableViewCell"]
 - !private ["Ps9_Hashable", "_DisabledRangeIndex"]
 - ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "addMehtod"]
 - !private ["Ps9_Hashable", "arc4random_uniform"]
 - ["Ps9_Hashable", "datasoucre"]
 - !private ["Ps9_Hashable", "default"]
@@ -1025,4 +1051,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "93b73fc908f70ae5b6ff5d535ac66943"
+interface-hash: "7aecdf01791d607d00d075eef8dc0d3b"
