@@ -1,7 +1,8 @@
 # RBRefresh
---
+-
 How to use
-**pod 'RBRefresh' **
+
+####pod 'RBRefresh'
 ```
 self.tableview.rb_addHeaderRefreshBlock({
                 DispatchQueue.main.asyncAfter(deadline:.now() + 1) {
