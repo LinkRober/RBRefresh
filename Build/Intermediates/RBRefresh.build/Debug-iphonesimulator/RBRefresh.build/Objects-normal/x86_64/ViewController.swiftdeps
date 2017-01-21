@@ -14,9 +14,9 @@ depends-top-level:
 - "UIButton"
 - "ViewController"
 - !private "TableViewController"
-- !private "BooleanLiteralType"
-- "UIViewController"
 - !private "StringLiteralType"
+- "UIViewController"
+- !private "BooleanLiteralType"
 depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "init"]

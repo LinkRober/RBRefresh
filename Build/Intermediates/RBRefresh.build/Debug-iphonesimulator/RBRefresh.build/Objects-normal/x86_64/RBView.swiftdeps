@@ -7,8 +7,8 @@ provides-member:
 - ["C9RBRefresh6RBView", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "RBView"
 - "UIControl"
+- "RBView"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", ""]

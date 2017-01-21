@@ -283,11 +283,11 @@ SWIFT_CLASS("_TtC9RBRefresh18TestViewController")
 @interface UIScrollView (SWIFT_EXTENSION(RBRefresh))
 @property (nonatomic, readonly, strong) RBHeader * _Nullable headerView;
 @property (nonatomic, readonly, strong) RBFooter * _Nullable footerView;
-- (void)beginHeaderRefresh;
-- (void)endHeaderRefresh;
-- (void)endFooterRefresh;
-- (void)noticeNoMoreData;
-- (void)resetNoMoreData;
+- (void)rb_beginHeaderRefresh;
+- (void)rb_endHeaderRefresh;
+- (void)rb_endFooterRefresh;
+- (void)rb_noticeNoMoreData;
+- (void)rb_resetNoMoreData;
 @end
 
 @class UIButton;

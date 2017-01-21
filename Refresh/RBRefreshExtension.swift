@@ -11,7 +11,6 @@ let kScreenWidth:CGFloat = UIScreen.main.bounds.width
 private let kHeaderViewTag = 10001
 private let kFooterViewTag = 10002
 
-
 public enum PullDownToRefreshViewState {
     case loading
     case pullDownToRefresh
@@ -56,7 +55,7 @@ extension UIScrollView {
     }
     
     //MARK:- Public
-    func addHeaderRefreshBlock<T:UIView>(_ refreshCompleteBlock:@escaping (()->())
+    func rb_addHeaderRefreshBlock<T:UIView>(_ refreshCompleteBlock:@escaping (()->())
         ,animator:T)
         where T:PullDownToRefreshViewDelegate
     {
@@ -68,7 +67,7 @@ extension UIScrollView {
         addSubview(headerView)
     }
     
-    func addFooterRefreshBlock<T:UIView>(_ refreshCompleteBlock:@escaping (()->()),
+    func rb_addFooterRefreshBlock<T:UIView>(_ refreshCompleteBlock:@escaping (()->()),
                                animator:T)
         where T:PullUpToRefreshViewDelegate
     {
@@ -80,23 +79,23 @@ extension UIScrollView {
         addSubview(footerView)
     }
     
-    func beginHeaderRefresh(){
+    func rb_beginHeaderRefresh(){
         self.headerView?.autociallyRefreshHeader()
     }
     
-    func endHeaderRefresh(){
+    func rb_endHeaderRefresh(){
         headerView?.endHeaderRefresh()
     }
     
-    func endFooterRefresh(){
+    func rb_endFooterRefresh(){
         footerView?.endFooterRefrsh()
     }
     
-    func noticeNoMoreData(){
+    func rb_noticeNoMoreData(){
         footerView?.footerNoMoreData()
     }
     
-    func resetNoMoreData(){
+    func rb_resetNoMoreData(){
         footerView?.footerResetMoreData()
     }
     

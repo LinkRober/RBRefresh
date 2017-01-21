@@ -12,6 +12,4 @@ import UIKit
 
 class RBView: UIControl {
 
-
-
 }
