@@ -69,7 +69,7 @@ class TestViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             }
         }, animator: RBNormalFooter.init(frame: CGRect(x:0,y:0,width:0,height:50)))
         
-//        self.tableview.beginHeaderRefresh()
+        self.tableview.rb_beginHeaderRefresh()
         
     }
     

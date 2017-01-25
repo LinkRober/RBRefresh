@@ -1,9 +1,9 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "6e08cd999db3016e27ac731c711a7206"
-build_time: [538314830, 990644000]
+build_time: [538630732, 973456000]
 inputs:
   "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/ViewController.swift": [536400425, 0]
-  "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/TestViewController.swift": [538306776, 0]
+  "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/TestViewController.swift": [538630732, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/AppDelegate.swift": [536399173, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/UIImage+Gif.swift": [538239615, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/custom/RBNormalHeader.swift": [538294345, 0]
