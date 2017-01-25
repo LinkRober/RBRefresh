@@ -1,9 +1,14 @@
 # RBRefresh
 
-###How to use
+###  How to use
 
-####pod 'RBRefresh'
+#### pod 'RBRefresh'
 #### support swift3.0
+#### Example
+
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh.gif)
+
+
 
 ```
 self.tableview.rb_addHeaderRefreshBlock({
