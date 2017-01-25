@@ -11,7 +11,7 @@
 ###  How to use
 >所有自定义的header和footer，需要遵循 `PullDownToRefreshViewDelegate` `PullUpToRefreshViewDelegate`，并且时UIView的范型。
 >在使用的时候只需要把它们作为入参传入`animator`如下
->header和footer的高度和你传入的入参一样，其他位置参数可以随便写
+>header和footer的frame只需要传高度的参数即可
 
 ```
 self.tableview.rb_addHeaderRefreshBlock({
