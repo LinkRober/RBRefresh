@@ -63,6 +63,19 @@ class TestViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
                     self.tableview.reloadData()
                 }
             }, animator:RBBallRoateChaseHeader.init(frame: CGRect(x:0,y:0,width:kScreenWidth,height:50)))
+        } else if type == .BallClipRotate {
+            self.tableview.rb_addHeaderRefreshBlock({
+                DispatchQueue.main.asyncAfter(deadline:.now() + 1) {
+                    self.datasource.removeAll()
+                    self.tableview.reloadData()
+                    for _ in 0 ..< 10 {
+                        self.datasource.append(self.randNumber())
+                    }
+                    self.tableview.rb_resetNoMoreData()
+                    self.tableview.rb_endHeaderRefresh()
+                    self.tableview.reloadData()
+                }
+            }, animator:RBBallClipRoateHeader.init(frame: CGRect(x:0,y:0,width:kScreenWidth,height:50)))
         }
         
         

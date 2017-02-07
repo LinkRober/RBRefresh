@@ -145,6 +145,17 @@ SWIFT_CLASS("_TtC9RBRefresh11AppDelegate")
 @class NSCoder;
 @class RBHeader;
 
+SWIFT_CLASS("_TtC9RBRefresh21RBBallClipRoateHeader")
+@interface RBBallClipRoateHeader : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (CAAnimationGroup * _Nonnull)roateAnimation;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)pullDownToRefreshAnimationDidEnd:(RBHeader * _Nonnull)view;
+- (void)pullDownToRefreshAnimationDidStart:(RBHeader * _Nonnull)view;
+- (void)pullDownToRefresh:(RBHeader * _Nonnull)view progressDidChange:(CGFloat)progress;
+@end
+
+
 SWIFT_CLASS("_TtC9RBRefresh22RBBallRoateChaseHeader")
 @interface RBBallRoateChaseHeader : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;

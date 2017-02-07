@@ -1,9 +1,10 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "afcaa9c9a55a56d463240a4d59c9df29"
-build_time: [539770879, 197504000]
+build_time: [539776919, 350744000]
 inputs:
+  "/Users/xiamin/Documents/XYRepository/RBRefresh/custom/RBBallClipRoateHeader.swift": [539776919, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/ViewController.swift": [536400425, 0]
-  "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/TestViewController.swift": [539685331, 0]
+  "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/TestViewController.swift": [539774361, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/AppDelegate.swift": [536399173, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/UIImage+Gif.swift": [538239615, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/custom/RBNormalHeader.swift": [539667441, 0]
@@ -11,7 +12,7 @@ inputs:
   "/Users/xiamin/Documents/XYRepository/RBRefresh/Refresh/RBView.swift": [538303359, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/Refresh/RBFooter.swift": [539667441, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/custom/RBNormalFooter.swift": [539667516, 0]
-  "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/TableViewController.swift": [539686351, 0]
+  "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh/TableViewController.swift": [539774404, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/Refresh/RBHeader.swift": [539667644, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/Refresh/RBRefreshExtension.swift": [539667623, 0]
   "/Users/xiamin/Documents/XYRepository/RBRefresh/custom/RBGifHeader.swift": [539667656, 0]

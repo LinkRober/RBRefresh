@@ -27,6 +27,7 @@
 		8A6313661E33407400698087 /* RBNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6313631E33407400698087 /* RBNormalFooter.swift */; };
 		8A6313671E33407400698087 /* RBNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6313641E33407400698087 /* RBNormalHeader.swift */; };
 		8AA0BBB91E4825A100482C22 /* RBBallRoateChaseHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0BBB81E4825A100482C22 /* RBBallRoateChaseHeader.swift */; };
+		8AAEBE5B1E49C84C00B5F9C7 /* RBBallClipRoateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEBE5A1E49C84C00B5F9C7 /* RBBallClipRoateHeader.swift */; };
 		8AF2850D1E486D5E000F93DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2850C1E486D5E000F93DD /* main.m */; };
 		ADE797D4269CA7A19FD2409F /* Pods_RBRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B412BA369F2DB5BD7B01DFD /* Pods_RBRefresh.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,7 @@
 		8A6313631E33407400698087 /* RBNormalFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNormalFooter.swift; sourceTree = "<group>"; };
 		8A6313641E33407400698087 /* RBNormalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNormalHeader.swift; sourceTree = "<group>"; };
 		8AA0BBB81E4825A100482C22 /* RBBallRoateChaseHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBBallRoateChaseHeader.swift; sourceTree = "<group>"; };
+		8AAEBE5A1E49C84C00B5F9C7 /* RBBallClipRoateHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBBallClipRoateHeader.swift; sourceTree = "<group>"; };
 		8AF2850B1E486D5E000F93DD /* RBRefresh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RBRefresh-Bridging-Header.h"; sourceTree = "<group>"; };
 		8AF2850C1E486D5E000F93DD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92D58396B8DAA16E3F4E83B2 /* Pods-RBRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBRefresh/Pods-RBRefresh.release.xcconfig"; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				8A6313631E33407400698087 /* RBNormalFooter.swift */,
 				8A6313641E33407400698087 /* RBNormalHeader.swift */,
 				8AA0BBB81E4825A100482C22 /* RBBallRoateChaseHeader.swift */,
+				8AAEBE5A1E49C84C00B5F9C7 /* RBBallClipRoateHeader.swift */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A2573481E16484500B81871 /* RBRefresh.xcdatamodeld in Sources */,
+				8AAEBE5B1E49C84C00B5F9C7 /* RBBallClipRoateHeader.swift in Sources */,
 				8A2573421E16484500B81871 /* ViewController.swift in Sources */,
 				8A6313421E322EB600698087 /* TestViewController.swift in Sources */,
 				8A2573401E16484500B81871 /* AppDelegate.swift in Sources */,
