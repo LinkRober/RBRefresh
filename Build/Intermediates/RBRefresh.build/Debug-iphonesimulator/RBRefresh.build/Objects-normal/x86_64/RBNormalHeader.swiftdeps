@@ -7,29 +7,29 @@ provides-member:
 - ["C9RBRefresh14RBNormalHeader", ""]
 provides-dynamic-lookup:
 - "pullDownToRefresh"
+- "activity"
+- "pullDownToRefreshAnimationDidStart"
 - "pullDownToRefreshAnimationDidEnd"
 - "timeLabel"
 - "layoutSubviews"
-- "pullDownToRefreshAnimationDidStart"
-- "activity"
 depends-top-level:
-- "NSCoder"
-- "RBHeader"
-- "CGRect"
-- "BooleanLiteralType"
-- !private "StringLiteralType"
 - "UIActivityIndicatorView"
-- "UIView"
-- "UILabel"
-- "AssignmentPrecedence"
-- !private "=="
+- "BooleanLiteralType"
 - !private "UIColor"
-- "RBNormalHeader"
-- !private "fatalError"
-- "PullDownToRefreshViewDelegate"
+- "UILabel"
+- "NSCoder"
+- !private "StringLiteralType"
 - !private "NSLayoutConstraint"
-- "PullDownToRefreshViewState"
+- "AssignmentPrecedence"
+- "RBNormalHeader"
+- !private "=="
+- !private "fatalError"
+- "UIView"
+- "CGRect"
+- "RBPullDownToRefreshViewState"
+- "RBHeader"
 - "CGFloat"
+- "RBPullDownToRefreshViewDelegate"
 depends-member:
 - !private ["Ps9AnyObject", "NSLayoutConstraint"]
 - !private ["Ps9AnyObject", "UIActivityIndicatorView"]
@@ -290,8 +290,8 @@ depends-member:
 - ["CSo8NSObject", "CGRect"]
 - ["CSo8NSObject", "NSCoder"]
 - !private ["CSo8NSObject", "NSLayoutConstraint"]
-- ["CSo8NSObject", "PullDownToRefreshViewState"]
 - ["CSo8NSObject", "RBHeader"]
+- ["CSo8NSObject", "RBPullDownToRefreshViewState"]
 - ["CSo8NSObject", "UIActivityIndicatorView"]
 - !private ["CSo8NSObject", "UIColor"]
 - ["CSo8NSObject", "UILabel"]
@@ -349,30 +349,12 @@ depends-member:
 - !private ["Sq", "loading"]
 - !private ["Sq", "pullDownToRefresh"]
 - !private ["Sq", "releaseToRefresh"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "NSLayoutConstraint"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "UIActivityIndicatorView"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "UIColor"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "UILabel"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "activity"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "addConstraint"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "addSubview"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "backgroundColor"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "fatalError"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefresh"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidEnd"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidStart"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "timeLabel"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", ""]
-- ["O9RBRefresh26PullDownToRefreshViewState", "deinit"]
-- !private ["O9RBRefresh26PullDownToRefreshViewState", "loading"]
-- !private ["O9RBRefresh26PullDownToRefreshViewState", "pullDownToRefresh"]
-- !private ["O9RBRefresh26PullDownToRefreshViewState", "releaseToRefresh"]
 - ["C9RBRefresh14RBNormalHeader", "CGFloat"]
 - ["C9RBRefresh14RBNormalHeader", "CGRect"]
 - ["C9RBRefresh14RBNormalHeader", "NSCoder"]
 - !private ["C9RBRefresh14RBNormalHeader", "NSLayoutConstraint"]
-- ["C9RBRefresh14RBNormalHeader", "PullDownToRefreshViewState"]
 - ["C9RBRefresh14RBNormalHeader", "RBHeader"]
+- ["C9RBRefresh14RBNormalHeader", "RBPullDownToRefreshViewState"]
 - ["C9RBRefresh14RBNormalHeader", "UIActivityIndicatorView"]
 - !private ["C9RBRefresh14RBNormalHeader", "UIColor"]
 - ["C9RBRefresh14RBNormalHeader", "UILabel"]
@@ -390,6 +372,24 @@ depends-member:
 - ["C9RBRefresh14RBNormalHeader", "pullDownToRefreshAnimationDidStart"]
 - ["C9RBRefresh14RBNormalHeader", "timeLabel"]
 - !private ["C9RBRefresh14RBNormalHeader", "timeLabel.storage"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "NSLayoutConstraint"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "UIActivityIndicatorView"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "UIColor"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "UILabel"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "activity"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "addConstraint"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "addSubview"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "backgroundColor"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "fatalError"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefresh"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidEnd"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidStart"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "timeLabel"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", ""]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", "deinit"]
+- !private ["O9RBRefresh28RBPullDownToRefreshViewState", "loading"]
+- !private ["O9RBRefresh28RBPullDownToRefreshViewState", "pullDownToRefresh"]
+- !private ["O9RBRefresh28RBPullDownToRefreshViewState", "releaseToRefresh"]
 - !private ["Ps16RawRepresentable", "centerX"]
 - !private ["Ps16RawRepresentable", "centerY"]
 - !private ["Ps16RawRepresentable", "equal"]
@@ -586,8 +586,8 @@ depends-member:
 - ["CSo11UIResponder", "CGRect"]
 - ["CSo11UIResponder", "NSCoder"]
 - !private ["CSo11UIResponder", "NSLayoutConstraint"]
-- ["CSo11UIResponder", "PullDownToRefreshViewState"]
 - ["CSo11UIResponder", "RBHeader"]
+- ["CSo11UIResponder", "RBPullDownToRefreshViewState"]
 - ["CSo11UIResponder", "UIActivityIndicatorView"]
 - !private ["CSo11UIResponder", "UIColor"]
 - ["CSo11UIResponder", "UILabel"]
@@ -659,8 +659,8 @@ depends-member:
 - ["CSo6UIView", "CGRect"]
 - ["CSo6UIView", "NSCoder"]
 - !private ["CSo6UIView", "NSLayoutConstraint"]
-- ["CSo6UIView", "PullDownToRefreshViewState"]
 - ["CSo6UIView", "RBHeader"]
+- ["CSo6UIView", "RBPullDownToRefreshViewState"]
 - ["CSo6UIView", "UIActivityIndicatorView"]
 - !private ["CSo6UIView", "UIColor"]
 - ["CSo6UIView", "UILabel"]
@@ -792,9 +792,9 @@ depends-nominal:
 - !private "CSo8NSString"
 - "Os5Never"
 - "Sq"
-- "P9RBRefresh29PullDownToRefreshViewDelegate"
-- "O9RBRefresh26PullDownToRefreshViewState"
 - "C9RBRefresh14RBNormalHeader"
+- "P9RBRefresh31RBPullDownToRefreshViewDelegate"
+- "O9RBRefresh28RBPullDownToRefreshViewState"
 - !private "Ps16RawRepresentable"
 - "Vs12StaticString"
 - "SS"
@@ -831,6 +831,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh-Bridging-Header.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
@@ -841,4 +842,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "c30a09fec26b235b7bca9106736ec2db"
+interface-hash: "20a5981bbae5e581d39ff51e0f6cf6a4"

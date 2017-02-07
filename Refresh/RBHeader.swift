@@ -14,7 +14,7 @@ private let stagnate_padding:CGFloat = 30
 class RBHeader: RBView {
     
     var action:(() -> ()) = {}
-    var animator:PullDownToRefreshViewDelegate?
+    var animator:RBPullDownToRefreshViewDelegate?
     var loading:Bool = false {
         didSet {
             if loading != oldValue {
@@ -34,18 +34,18 @@ class RBHeader: RBView {
     }
     
     //MARK:- LifyCycle
-     init(frame: CGRect,animator:PullDownToRefreshViewDelegate) {
+     init(frame: CGRect,animator:RBPullDownToRefreshViewDelegate) {
         self.animator = animator
         super.init(frame: frame)
 
     }
     
-    convenience init(frame: CGRect,action:@escaping (() -> ()),animator:PullDownToRefreshViewDelegate) {
+    convenience init(frame: CGRect,action:@escaping (() -> ()),animator:RBPullDownToRefreshViewDelegate) {
         self.init(frame: frame,animator:animator)
         self.action = action
     }
     
-    convenience init(frame: CGRect,action:@escaping (() -> ()),animator:PullDownToRefreshViewDelegate,subView:UIView) {
+    convenience init(frame: CGRect,action:@escaping (() -> ()),animator:RBPullDownToRefreshViewDelegate,subView:UIView) {
         self.init(frame: frame,animator:animator)
         self.action = action
         addSubview(subView)

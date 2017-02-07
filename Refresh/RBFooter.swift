@@ -15,7 +15,7 @@ private let ContentSizeKeyPath = "contentSize"
 class RBFooter: RBView {
     
     var action:(()->()) = {}
-    var animator:PullUpToRefreshViewDelegate?
+    var animator:RBPullUpToRefreshViewDelegate?
     var loadmore:Bool = false
     var enableLoadMore:Bool = true
     //MARK:- LifyCycle
@@ -23,13 +23,13 @@ class RBFooter: RBView {
         super.init(frame: frame)
     }
     
-    init(frame: CGRect,animator:PullUpToRefreshViewDelegate) {
+    init(frame: CGRect,animator:RBPullUpToRefreshViewDelegate) {
         self.animator = animator
         super.init(frame: frame)
         loadmore = false
     }
     
-    convenience init(frame: CGRect,action:@escaping () -> (),animator:PullUpToRefreshViewDelegate,subView:UIView) {
+    convenience init(frame: CGRect,action:@escaping () -> (),animator:RBPullUpToRefreshViewDelegate,subView:UIView) {
         self.init(frame: frame,animator:animator)
         self.action = action
         subView.frame = bounds

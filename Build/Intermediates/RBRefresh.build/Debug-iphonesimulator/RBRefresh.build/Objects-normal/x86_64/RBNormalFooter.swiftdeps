@@ -6,32 +6,32 @@ provides-nominal:
 provides-member:
 - ["C9RBRefresh14RBNormalFooter", ""]
 provides-dynamic-lookup:
-- "pullUpToRefreshAnimationDidEnd"
-- "activity"
-- "pullUpToRefreshAnimationDidStart"
-- "pullUpToRefreshAnimationResetNoMore"
-- "moreLabel"
-- "layoutSubviews"
 - "pullUpToRefresh"
 - "pullUpToRefreshAnimationNoticeNoMore"
+- "pullUpToRefreshAnimationDidEnd"
+- "moreLabel"
+- "pullUpToRefreshAnimationDidStart"
+- "layoutSubviews"
+- "pullUpToRefreshAnimationResetNoMore"
+- "activity"
 depends-top-level:
-- !private "UIColor"
+- "UIActivityIndicatorView"
 - "RBNormalFooter"
-- "UIView"
-- "RBFooter"
-- !private "StringLiteralType"
-- !private "NSLayoutConstraint"
+- "UILabel"
 - !private "BooleanLiteralType"
-- "CGRect"
-- "CGFloat"
-- !private "fatalError"
-- "PullUpToRefreshViewState"
-- "NSCoder"
+- !private "NSLayoutConstraint"
+- "RBPullUpToRefreshViewState"
+- !private "StringLiteralType"
+- "RBFooter"
+- "RBPullUpToRefreshViewDelegate"
 - "AssignmentPrecedence"
 - !private "=="
-- "PullUpToRefreshViewDelegate"
-- "UILabel"
-- "UIActivityIndicatorView"
+- "CGRect"
+- !private "UIColor"
+- !private "fatalError"
+- "NSCoder"
+- "UIView"
+- "CGFloat"
 depends-member:
 - !private ["Ps9AnyObject", "NSLayoutConstraint"]
 - !private ["Ps9AnyObject", "UIActivityIndicatorView"]
@@ -318,8 +318,8 @@ depends-member:
 - ["CSo8NSObject", "CGRect"]
 - ["CSo8NSObject", "NSCoder"]
 - !private ["CSo8NSObject", "NSLayoutConstraint"]
-- ["CSo8NSObject", "PullUpToRefreshViewState"]
 - ["CSo8NSObject", "RBFooter"]
+- ["CSo8NSObject", "RBPullUpToRefreshViewState"]
 - ["CSo8NSObject", "UIActivityIndicatorView"]
 - !private ["CSo8NSObject", "UIColor"]
 - ["CSo8NSObject", "UILabel"]
@@ -385,32 +385,12 @@ depends-member:
 - !private ["Sq", "loading"]
 - !private ["Sq", "pullUpToRefresh"]
 - !private ["Sq", "releaseToLoadMore"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "NSLayoutConstraint"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "UIActivityIndicatorView"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "UIColor"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "UILabel"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "activity"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "addConstraint"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "addSubview"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "backgroundColor"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "fatalError"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "moreLabel"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "pullUpToRefresh"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "pullUpToRefreshAnimationDidEnd"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "pullUpToRefreshAnimationDidStart"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "pullUpToRefreshAnimationNoticeNoMore"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "pullUpToRefreshAnimationResetNoMore"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", ""]
-- ["O9RBRefresh24PullUpToRefreshViewState", "deinit"]
-- !private ["O9RBRefresh24PullUpToRefreshViewState", "loading"]
-- !private ["O9RBRefresh24PullUpToRefreshViewState", "pullUpToRefresh"]
-- !private ["O9RBRefresh24PullUpToRefreshViewState", "releaseToLoadMore"]
 - ["C9RBRefresh14RBNormalFooter", "CGFloat"]
 - ["C9RBRefresh14RBNormalFooter", "CGRect"]
 - ["C9RBRefresh14RBNormalFooter", "NSCoder"]
 - !private ["C9RBRefresh14RBNormalFooter", "NSLayoutConstraint"]
-- ["C9RBRefresh14RBNormalFooter", "PullUpToRefreshViewState"]
 - ["C9RBRefresh14RBNormalFooter", "RBFooter"]
+- ["C9RBRefresh14RBNormalFooter", "RBPullUpToRefreshViewState"]
 - ["C9RBRefresh14RBNormalFooter", "UIActivityIndicatorView"]
 - !private ["C9RBRefresh14RBNormalFooter", "UIColor"]
 - ["C9RBRefresh14RBNormalFooter", "UILabel"]
@@ -430,6 +410,26 @@ depends-member:
 - ["C9RBRefresh14RBNormalFooter", "pullUpToRefreshAnimationDidStart"]
 - ["C9RBRefresh14RBNormalFooter", "pullUpToRefreshAnimationNoticeNoMore"]
 - ["C9RBRefresh14RBNormalFooter", "pullUpToRefreshAnimationResetNoMore"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "NSLayoutConstraint"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "UIActivityIndicatorView"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "UIColor"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "UILabel"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "activity"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "addConstraint"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "addSubview"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "backgroundColor"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "fatalError"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "moreLabel"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefresh"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefreshAnimationDidEnd"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefreshAnimationDidStart"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefreshAnimationNoticeNoMore"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefreshAnimationResetNoMore"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", ""]
+- ["O9RBRefresh26RBPullUpToRefreshViewState", "deinit"]
+- !private ["O9RBRefresh26RBPullUpToRefreshViewState", "loading"]
+- !private ["O9RBRefresh26RBPullUpToRefreshViewState", "pullUpToRefresh"]
+- !private ["O9RBRefresh26RBPullUpToRefreshViewState", "releaseToLoadMore"]
 - !private ["Ps16RawRepresentable", "centerX"]
 - !private ["Ps16RawRepresentable", "centerY"]
 - !private ["Ps16RawRepresentable", "equal"]
@@ -655,8 +655,8 @@ depends-member:
 - ["CSo11UIResponder", "CGRect"]
 - ["CSo11UIResponder", "NSCoder"]
 - !private ["CSo11UIResponder", "NSLayoutConstraint"]
-- ["CSo11UIResponder", "PullUpToRefreshViewState"]
 - ["CSo11UIResponder", "RBFooter"]
+- ["CSo11UIResponder", "RBPullUpToRefreshViewState"]
 - ["CSo11UIResponder", "UIActivityIndicatorView"]
 - !private ["CSo11UIResponder", "UIColor"]
 - ["CSo11UIResponder", "UILabel"]
@@ -740,8 +740,8 @@ depends-member:
 - ["CSo6UIView", "CGRect"]
 - ["CSo6UIView", "NSCoder"]
 - !private ["CSo6UIView", "NSLayoutConstraint"]
-- ["CSo6UIView", "PullUpToRefreshViewState"]
 - ["CSo6UIView", "RBFooter"]
+- ["CSo6UIView", "RBPullUpToRefreshViewState"]
 - ["CSo6UIView", "UIActivityIndicatorView"]
 - !private ["CSo6UIView", "UIColor"]
 - ["CSo6UIView", "UILabel"]
@@ -883,9 +883,9 @@ depends-nominal:
 - !private "CSo8NSString"
 - "Os5Never"
 - "Sq"
-- "P9RBRefresh27PullUpToRefreshViewDelegate"
-- "O9RBRefresh24PullUpToRefreshViewState"
 - "C9RBRefresh14RBNormalFooter"
+- "P9RBRefresh29RBPullUpToRefreshViewDelegate"
+- "O9RBRefresh26RBPullUpToRefreshViewState"
 - !private "Ps16RawRepresentable"
 - "Vs12StaticString"
 - "SS"
@@ -922,6 +922,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh-Bridging-Header.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
@@ -932,4 +933,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "6c645a6cb07e629a56227a036b4550ea"
+interface-hash: "82b5090ea9a138c00ea2845e441afe40"

@@ -141,7 +141,20 @@ SWIFT_CLASS("_TtC9RBRefresh11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class CAAnimationGroup;
 @class NSCoder;
+@class RBHeader;
+
+SWIFT_CLASS("_TtC9RBRefresh22RBBallRoateChaseHeader")
+@interface RBBallRoateChaseHeader : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (CAAnimationGroup * _Nonnull)roateAnimationWithX:(CGFloat)x y:(CGFloat)y rate:(float)rate;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)pullDownToRefreshAnimationDidEnd:(RBHeader * _Nonnull)view;
+- (void)pullDownToRefreshAnimationDidStart:(RBHeader * _Nonnull)view;
+- (void)pullDownToRefresh:(RBHeader * _Nonnull)view progressDidChange:(CGFloat)progress;
+@end
+
 
 SWIFT_CLASS("_TtC9RBRefresh6RBView")
 @interface RBView : UIControl
@@ -149,7 +162,6 @@ SWIFT_CLASS("_TtC9RBRefresh6RBView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIView;
 
 SWIFT_CLASS("_TtC9RBRefresh8RBFooter")
 @interface RBFooter : RBView
@@ -168,7 +180,6 @@ SWIFT_CLASS("_TtC9RBRefresh8RBFooter")
 @end
 
 @class UIImageView;
-@class RBHeader;
 
 SWIFT_CLASS("_TtC9RBRefresh11RBGifHeader")
 @interface RBGifHeader : UIView

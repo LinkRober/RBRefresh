@@ -6,42 +6,42 @@ provides-nominal:
 provides-member:
 - ["C9RBRefresh8RBHeader", ""]
 provides-dynamic-lookup:
-- "willMove"
-- "stopAnimation"
-- "startAnimation"
-- "loading"
-- "headerHeight"
-- "endHeaderRefresh"
-- "observeValue"
 - "autociallyRefreshHeader"
 - "action"
+- "observeValue"
+- "willMove"
+- "endHeaderRefresh"
+- "startAnimation"
+- "stopAnimation"
+- "loading"
+- "headerHeight"
 depends-top-level:
-- "UnsafeMutableRawPointer"
-- "RBHeader"
-- !private "-"
-- "BooleanLiteralType"
-- !private "KVOContext"
-- "PullDownToRefreshViewDelegate"
-- !private "&&"
-- "NSCoder"
-- "String"
-- "NSKeyValueChangeKey"
-- !private "UIEdgeInsetsMake"
-- "StringLiteralType"
-- !private "ContentOffsetKeyPath"
-- "CGRect"
 - !private "stagnate_padding"
-- !private "<="
 - "Bool"
-- "AssignmentPrecedence"
-- !private "=="
+- !private "KVOContext"
+- "BooleanLiteralType"
+- "NSKeyValueChangeKey"
+- !private "&&"
 - !private "!="
-- !private "fatalError"
-- "CastingPrecedence"
-- !private "UIScrollView"
-- "UIView"
-- "CGFloat"
+- "StringLiteralType"
+- "NSCoder"
 - "RBView"
+- !private "-"
+- "AssignmentPrecedence"
+- "CGRect"
+- !private "ContentOffsetKeyPath"
+- !private "UIScrollView"
+- "CastingPrecedence"
+- "RBHeader"
+- !private "=="
+- "String"
+- "RBPullDownToRefreshViewDelegate"
+- !private "<="
+- !private "fatalError"
+- "UIView"
+- "UnsafeMutableRawPointer"
+- !private "UIEdgeInsetsMake"
+- "CGFloat"
 depends-member:
 - !private ["Ps9AnyObject", "ContentOffsetKeyPath"]
 - !private ["Ps9AnyObject", "KVOContext"]
@@ -307,7 +307,7 @@ depends-member:
 - !private ["CSo8NSObject", "KVOContext"]
 - ["CSo8NSObject", "NSCoder"]
 - ["CSo8NSObject", "NSKeyValueChangeKey"]
-- ["CSo8NSObject", "PullDownToRefreshViewDelegate"]
+- ["CSo8NSObject", "RBPullDownToRefreshViewDelegate"]
 - ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIEdgeInsetsMake"]
 - !private ["CSo8NSObject", "UIScrollView"]
@@ -367,14 +367,6 @@ depends-member:
 - ["Os5Never", "deinit"]
 - !private ["Ps9OptionSet", "initial"]
 - ["Sq", "deinit"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "deinit"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefresh"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidEnd"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidStart"]
-- ["O9RBRefresh26PullDownToRefreshViewState", "deinit"]
-- !private ["O9RBRefresh26PullDownToRefreshViewState", "loading"]
-- !private ["O9RBRefresh26PullDownToRefreshViewState", "pullDownToRefresh"]
-- !private ["O9RBRefresh26PullDownToRefreshViewState", "releaseToRefresh"]
 - ["C9RBRefresh8RBHeader", "Bool"]
 - ["C9RBRefresh8RBHeader", "CGFloat"]
 - ["C9RBRefresh8RBHeader", "CGRect"]
@@ -382,7 +374,7 @@ depends-member:
 - !private ["C9RBRefresh8RBHeader", "KVOContext"]
 - ["C9RBRefresh8RBHeader", "NSCoder"]
 - ["C9RBRefresh8RBHeader", "NSKeyValueChangeKey"]
-- ["C9RBRefresh8RBHeader", "PullDownToRefreshViewDelegate"]
+- ["C9RBRefresh8RBHeader", "RBPullDownToRefreshViewDelegate"]
 - ["C9RBRefresh8RBHeader", "String"]
 - !private ["C9RBRefresh8RBHeader", "UIEdgeInsetsMake"]
 - !private ["C9RBRefresh8RBHeader", "UIScrollView"]
@@ -404,6 +396,14 @@ depends-member:
 - ["C9RBRefresh8RBHeader", "stopAnimation"]
 - !private ["C9RBRefresh8RBHeader", "superview"]
 - ["C9RBRefresh8RBHeader", "willMove"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "deinit"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefresh"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidEnd"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidStart"]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", "deinit"]
+- !private ["O9RBRefresh28RBPullDownToRefreshViewState", "loading"]
+- !private ["O9RBRefresh28RBPullDownToRefreshViewState", "pullDownToRefresh"]
+- !private ["O9RBRefresh28RBPullDownToRefreshViewState", "releaseToRefresh"]
 - ["C9RBRefresh6RBView", "Bool"]
 - ["C9RBRefresh6RBView", "CGFloat"]
 - ["C9RBRefresh6RBView", "CGRect"]
@@ -411,7 +411,7 @@ depends-member:
 - !private ["C9RBRefresh6RBView", "KVOContext"]
 - ["C9RBRefresh6RBView", "NSCoder"]
 - ["C9RBRefresh6RBView", "NSKeyValueChangeKey"]
-- ["C9RBRefresh6RBView", "PullDownToRefreshViewDelegate"]
+- ["C9RBRefresh6RBView", "RBPullDownToRefreshViewDelegate"]
 - ["C9RBRefresh6RBView", "String"]
 - !private ["C9RBRefresh6RBView", "UIEdgeInsetsMake"]
 - !private ["C9RBRefresh6RBView", "UIScrollView"]
@@ -530,7 +530,7 @@ depends-member:
 - !private ["CSo9UIControl", "KVOContext"]
 - ["CSo9UIControl", "NSCoder"]
 - ["CSo9UIControl", "NSKeyValueChangeKey"]
-- ["CSo9UIControl", "PullDownToRefreshViewDelegate"]
+- ["CSo9UIControl", "RBPullDownToRefreshViewDelegate"]
 - ["CSo9UIControl", "String"]
 - !private ["CSo9UIControl", "UIEdgeInsetsMake"]
 - !private ["CSo9UIControl", "UIScrollView"]
@@ -668,7 +668,7 @@ depends-member:
 - !private ["CSo11UIResponder", "KVOContext"]
 - ["CSo11UIResponder", "NSCoder"]
 - ["CSo11UIResponder", "NSKeyValueChangeKey"]
-- ["CSo11UIResponder", "PullDownToRefreshViewDelegate"]
+- ["CSo11UIResponder", "RBPullDownToRefreshViewDelegate"]
 - ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIEdgeInsetsMake"]
 - !private ["CSo11UIResponder", "UIScrollView"]
@@ -763,7 +763,7 @@ depends-member:
 - !private ["CSo6UIView", "KVOContext"]
 - ["CSo6UIView", "NSCoder"]
 - ["CSo6UIView", "NSKeyValueChangeKey"]
-- ["CSo6UIView", "PullDownToRefreshViewDelegate"]
+- ["CSo6UIView", "RBPullDownToRefreshViewDelegate"]
 - ["CSo6UIView", "String"]
 - !private ["CSo6UIView", "UIEdgeInsetsMake"]
 - !private ["CSo6UIView", "UIScrollView"]
@@ -895,9 +895,9 @@ depends-nominal:
 - "Os5Never"
 - !private "Ps9OptionSet"
 - "Sq"
-- "P9RBRefresh29PullDownToRefreshViewDelegate"
-- "O9RBRefresh26PullDownToRefreshViewState"
 - "C9RBRefresh8RBHeader"
+- "P9RBRefresh31RBPullDownToRefreshViewDelegate"
+- "O9RBRefresh28RBPullDownToRefreshViewState"
 - "C9RBRefresh6RBView"
 - !private "Ps16RawRepresentable"
 - !private "Ps10SetAlgebra"
@@ -932,6 +932,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh-Bridging-Header.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
@@ -942,4 +943,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "a322e938dc7a2afcd92c3298103f93ba"
+interface-hash: "1dbcf56a764e571c1131422254d8db40"

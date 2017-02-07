@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RBNormalHeader: UIView,PullDownToRefreshViewDelegate {
+class RBNormalHeader: UIView,RBPullDownToRefreshViewDelegate {
     lazy var activity:UIActivityIndicatorView = {
         let activity = UIActivityIndicatorView.init(activityIndicatorStyle: .white)
         activity.translatesAutoresizingMaskIntoConstraints = false
@@ -71,7 +71,7 @@ class RBNormalHeader: UIView,PullDownToRefreshViewDelegate {
     }
     
     //MARK:- PullDownToRefreshViewDelegate
-    func pullDownToRefresh(_ view: RBHeader, stateDidChange state: PullDownToRefreshViewState) {
+    func pullDownToRefresh(_ view: RBHeader, stateDidChange state: RBPullDownToRefreshViewState) {
         if state == .loading {
             self.activity.startAnimating()
             self.timeLabel.text = "刷新中..."

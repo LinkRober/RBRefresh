@@ -26,6 +26,8 @@
 		8A6313651E33407400698087 /* RBGifHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6313621E33407400698087 /* RBGifHeader.swift */; };
 		8A6313661E33407400698087 /* RBNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6313631E33407400698087 /* RBNormalFooter.swift */; };
 		8A6313671E33407400698087 /* RBNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6313641E33407400698087 /* RBNormalHeader.swift */; };
+		8AA0BBB91E4825A100482C22 /* RBBallRoateChaseHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0BBB81E4825A100482C22 /* RBBallRoateChaseHeader.swift */; };
+		8AF2850D1E486D5E000F93DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2850C1E486D5E000F93DD /* main.m */; };
 		ADE797D4269CA7A19FD2409F /* Pods_RBRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B412BA369F2DB5BD7B01DFD /* Pods_RBRefresh.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,9 @@
 		8A6313621E33407400698087 /* RBGifHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBGifHeader.swift; sourceTree = "<group>"; };
 		8A6313631E33407400698087 /* RBNormalFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNormalFooter.swift; sourceTree = "<group>"; };
 		8A6313641E33407400698087 /* RBNormalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNormalHeader.swift; sourceTree = "<group>"; };
+		8AA0BBB81E4825A100482C22 /* RBBallRoateChaseHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBBallRoateChaseHeader.swift; sourceTree = "<group>"; };
+		8AF2850B1E486D5E000F93DD /* RBRefresh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RBRefresh-Bridging-Header.h"; sourceTree = "<group>"; };
+		8AF2850C1E486D5E000F93DD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92D58396B8DAA16E3F4E83B2 /* Pods-RBRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBRefresh/Pods-RBRefresh.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +128,7 @@
 		8A2573331E16484500B81871 = {
 			isa = PBXGroup;
 			children = (
+				8AF2850C1E486D5E000F93DD /* main.m */,
 				8A2573721E164D7C00B81871 /* Refresh */,
 				8A6313611E33407400698087 /* custom */,
 				8A25733E1E16484500B81871 /* RBRefresh */,
@@ -131,6 +137,7 @@
 				8A25733D1E16484500B81871 /* Products */,
 				0A97CB57A41BA080D4015FC0 /* Pods */,
 				1F9B7C1A49DC3D51F035D84E /* Frameworks */,
+				8AF2850B1E486D5E000F93DD /* RBRefresh-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +204,7 @@
 				8A6313621E33407400698087 /* RBGifHeader.swift */,
 				8A6313631E33407400698087 /* RBNormalFooter.swift */,
 				8A6313641E33407400698087 /* RBNormalHeader.swift */,
+				8AA0BBB81E4825A100482C22 /* RBBallRoateChaseHeader.swift */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -273,6 +281,7 @@
 					8A25733B1E16484500B81871 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = BMP99N9345;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					8A2573521E16484500B81871 = {
@@ -394,9 +403,11 @@
 				8A2573401E16484500B81871 /* AppDelegate.swift in Sources */,
 				8A63134C1E3263D800698087 /* UIImage+Gif.swift in Sources */,
 				8A6313671E33407400698087 /* RBNormalHeader.swift in Sources */,
+				8AA0BBB91E4825A100482C22 /* RBBallRoateChaseHeader.swift in Sources */,
 				8A2573781E16528700B81871 /* RBView.swift in Sources */,
 				8A25737A1E1652F000B81871 /* RBFooter.swift in Sources */,
 				8A6313661E33407400698087 /* RBNormalFooter.swift in Sources */,
+				8AF2850D1E486D5E000F93DD /* main.m in Sources */,
 				8A2573711E1649BD00B81871 /* TableViewController.swift in Sources */,
 				8A2573761E16524900B81871 /* RBHeader.swift in Sources */,
 				8A2573741E1650C600B81871 /* RBRefreshExtension.swift in Sources */,
@@ -551,12 +562,15 @@
 			baseConfigurationReference = 7C2181E4DD6076886D231518 /* Pods-RBRefresh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BMP99N9345;
 				INFOPLIST_FILE = RBRefresh/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Robert.RBRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RBRefresh-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -566,12 +580,14 @@
 			baseConfigurationReference = 92D58396B8DAA16E3F4E83B2 /* Pods-RBRefresh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BMP99N9345;
 				INFOPLIST_FILE = RBRefresh/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Robert.RBRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RBRefresh-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

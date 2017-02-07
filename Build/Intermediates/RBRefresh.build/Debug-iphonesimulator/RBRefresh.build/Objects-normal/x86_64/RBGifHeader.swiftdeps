@@ -6,29 +6,29 @@ provides-nominal:
 provides-member:
 - ["C9RBRefresh11RBGifHeader", ""]
 provides-dynamic-lookup:
-- "layoutSubviews"
-- "pullDownToRefreshAnimationDidStart"
-- "pullDownToRefreshAnimationHeight"
-- "loadingImageView"
 - "pullDownToRefresh"
+- "pullDownToRefreshAnimationDidStart"
 - "pullDownToRefreshAnimationDidEnd"
+- "loadingImageView"
+- "layoutSubviews"
+- "pullDownToRefreshAnimationHeight"
 depends-top-level:
-- "UIView"
-- "CGFloat"
-- "RBGifHeader"
-- !private "UIImage"
-- "UIImageView"
-- !private "fatalError"
-- "CGRect"
-- !private "NSLayoutConstraint"
-- "AssignmentPrecedence"
-- "PullDownToRefreshViewState"
-- "RBHeader"
-- !private "=="
-- "NSCoder"
 - !private "StringLiteralType"
-- "PullDownToRefreshViewDelegate"
+- "RBPullDownToRefreshViewDelegate"
+- "UIImageView"
+- "CGRect"
+- !private "UIImage"
+- "UIView"
 - "BooleanLiteralType"
+- "CGFloat"
+- !private "fatalError"
+- !private "NSLayoutConstraint"
+- "RBPullDownToRefreshViewState"
+- "NSCoder"
+- "AssignmentPrecedence"
+- !private "=="
+- "RBGifHeader"
+- "RBHeader"
 depends-member:
 - !private ["Ps9AnyObject", "NSLayoutConstraint"]
 - !private ["Ps9AnyObject", "UIImage"]
@@ -243,8 +243,8 @@ depends-member:
 - ["CSo8NSObject", "CGRect"]
 - ["CSo8NSObject", "NSCoder"]
 - !private ["CSo8NSObject", "NSLayoutConstraint"]
-- ["CSo8NSObject", "PullDownToRefreshViewState"]
 - ["CSo8NSObject", "RBHeader"]
+- ["CSo8NSObject", "RBPullDownToRefreshViewState"]
 - !private ["CSo8NSObject", "UIImage"]
 - ["CSo8NSObject", "UIImageView"]
 - !private ["CSo8NSObject", "addConstraint"]
@@ -289,27 +289,12 @@ depends-member:
 - !private ["Sq", "loading"]
 - !private ["Sq", "pullDownToRefresh"]
 - !private ["Sq", "releaseToRefresh"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "NSLayoutConstraint"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "UIImage"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "UIImageView"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "addConstraint"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "addSubview"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "fatalError"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "loadingImageView"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefresh"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidEnd"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidStart"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", ""]
-- ["O9RBRefresh26PullDownToRefreshViewState", "deinit"]
-- !private ["O9RBRefresh26PullDownToRefreshViewState", "loading"]
-- !private ["O9RBRefresh26PullDownToRefreshViewState", "pullDownToRefresh"]
-- !private ["O9RBRefresh26PullDownToRefreshViewState", "releaseToRefresh"]
 - ["C9RBRefresh11RBGifHeader", "CGFloat"]
 - ["C9RBRefresh11RBGifHeader", "CGRect"]
 - ["C9RBRefresh11RBGifHeader", "NSCoder"]
 - !private ["C9RBRefresh11RBGifHeader", "NSLayoutConstraint"]
-- ["C9RBRefresh11RBGifHeader", "PullDownToRefreshViewState"]
 - ["C9RBRefresh11RBGifHeader", "RBHeader"]
+- ["C9RBRefresh11RBGifHeader", "RBPullDownToRefreshViewState"]
 - !private ["C9RBRefresh11RBGifHeader", "UIImage"]
 - ["C9RBRefresh11RBGifHeader", "UIImageView"]
 - !private ["C9RBRefresh11RBGifHeader", "addConstraint"]
@@ -324,6 +309,21 @@ depends-member:
 - ["C9RBRefresh11RBGifHeader", "pullDownToRefreshAnimationDidEnd"]
 - ["C9RBRefresh11RBGifHeader", "pullDownToRefreshAnimationDidStart"]
 - ["C9RBRefresh11RBGifHeader", "pullDownToRefreshAnimationHeight"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "NSLayoutConstraint"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "UIImage"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "UIImageView"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "addConstraint"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "addSubview"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "fatalError"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "loadingImageView"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefresh"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidEnd"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidStart"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", ""]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", "deinit"]
+- !private ["O9RBRefresh28RBPullDownToRefreshViewState", "loading"]
+- !private ["O9RBRefresh28RBPullDownToRefreshViewState", "pullDownToRefresh"]
+- !private ["O9RBRefresh28RBPullDownToRefreshViewState", "releaseToRefresh"]
 - !private ["Ps16RawRepresentable", "bottom"]
 - !private ["Ps16RawRepresentable", "centerX"]
 - !private ["Ps16RawRepresentable", "equal"]
@@ -475,8 +475,8 @@ depends-member:
 - ["CSo11UIResponder", "CGRect"]
 - ["CSo11UIResponder", "NSCoder"]
 - !private ["CSo11UIResponder", "NSLayoutConstraint"]
-- ["CSo11UIResponder", "PullDownToRefreshViewState"]
 - ["CSo11UIResponder", "RBHeader"]
+- ["CSo11UIResponder", "RBPullDownToRefreshViewState"]
 - !private ["CSo11UIResponder", "UIImage"]
 - ["CSo11UIResponder", "UIImageView"]
 - !private ["CSo11UIResponder", "addConstraint"]
@@ -533,8 +533,8 @@ depends-member:
 - ["CSo6UIView", "CGRect"]
 - ["CSo6UIView", "NSCoder"]
 - !private ["CSo6UIView", "NSLayoutConstraint"]
-- ["CSo6UIView", "PullDownToRefreshViewState"]
 - ["CSo6UIView", "RBHeader"]
+- ["CSo6UIView", "RBPullDownToRefreshViewState"]
 - !private ["CSo6UIView", "UIImage"]
 - ["CSo6UIView", "UIImageView"]
 - !private ["CSo6UIView", "addConstraint"]
@@ -653,9 +653,9 @@ depends-nominal:
 - !private "CSo8NSString"
 - "Os5Never"
 - "Sq"
-- "P9RBRefresh29PullDownToRefreshViewDelegate"
-- "O9RBRefresh26PullDownToRefreshViewState"
 - "C9RBRefresh11RBGifHeader"
+- "P9RBRefresh31RBPullDownToRefreshViewDelegate"
+- "O9RBRefresh28RBPullDownToRefreshViewState"
 - !private "Ps16RawRepresentable"
 - "Vs12StaticString"
 - "SS"
@@ -690,6 +690,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh-Bridging-Header.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
@@ -700,4 +701,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "5b682a8565137eb20ff16fa0fa96f9bc"
+interface-hash: "5693b2dd976efd9d6afa79cada4301f1"

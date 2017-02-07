@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RBNormalFooter: UIView,PullUpToRefreshViewDelegate {
+class RBNormalFooter: UIView,RBPullUpToRefreshViewDelegate {
 
     lazy var activity:UIActivityIndicatorView = {
         let activity = UIActivityIndicatorView.init(activityIndicatorStyle: .white)
@@ -85,7 +85,7 @@ class RBNormalFooter: UIView,PullUpToRefreshViewDelegate {
         self.moreLabel.text = "上拉加载更多"
     }
     
-    func pullUpToRefresh(_ view: RBFooter, stateDidChange state: PullUpToRefreshViewState) {
+    func pullUpToRefresh(_ view: RBFooter, stateDidChange state: RBPullUpToRefreshViewState) {
         if state == .loading {
             self.moreLabel.isHidden = true
             self.activity.startAnimating()

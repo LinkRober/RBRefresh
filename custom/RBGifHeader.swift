@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RBGifHeader: UIView,PullDownToRefreshViewDelegate {
+class RBGifHeader: UIView,RBPullDownToRefreshViewDelegate {
 
     lazy var loadingImageView:UIImageView = {
         let imageview = UIImageView()
@@ -80,7 +80,7 @@ class RBGifHeader: UIView,PullDownToRefreshViewDelegate {
         //
     }
     
-    func pullDownToRefresh(_ view: RBHeader, stateDidChange state: PullDownToRefreshViewState) {
+    func pullDownToRefresh(_ view: RBHeader, stateDidChange state: RBPullDownToRefreshViewState) {
         //
         if state == .loading {
             self.loadingImageView.image = UIImage.gif(name: "vivasam_currency_refresh")

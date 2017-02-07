@@ -11,29 +11,29 @@ let kScreenWidth:CGFloat = UIScreen.main.bounds.width
 private let kHeaderViewTag = 10001
 private let kFooterViewTag = 10002
 
-public enum PullDownToRefreshViewState {
+public enum RBPullDownToRefreshViewState {
     case loading
     case pullDownToRefresh
     case releaseToRefresh
 }
-public enum PullUpToRefreshViewState {
+public enum RBPullUpToRefreshViewState {
     case loading
     case pullUpToRefresh
     case releaseToLoadMore
 }
 
-protocol PullDownToRefreshViewDelegate {
+protocol RBPullDownToRefreshViewDelegate {
     func pullDownToRefreshAnimationDidStart(_ view: RBHeader)
     func pullDownToRefreshAnimationDidEnd(_ view: RBHeader)
     func pullDownToRefresh(_ view: RBHeader, progressDidChange progress: CGFloat)
-    func pullDownToRefresh(_ view: RBHeader, stateDidChange state: PullDownToRefreshViewState)
+    func pullDownToRefresh(_ view: RBHeader, stateDidChange state: RBPullDownToRefreshViewState)
 }
 
-protocol PullUpToRefreshViewDelegate {
+protocol RBPullUpToRefreshViewDelegate {
     func pullUpToRefreshAnimationDidStart(_ view: RBFooter)
     func pullUpToRefreshAnimationDidEnd(_ view: RBFooter)
     func pullUpToRefresh(_ view: RBFooter, progressDidChange progress: CGFloat)
-    func pullUpToRefresh(_ view: RBFooter, stateDidChange state: PullUpToRefreshViewState)
+    func pullUpToRefresh(_ view: RBFooter, stateDidChange state: RBPullUpToRefreshViewState)
     func pullUpToRefreshAnimationNoticeNoMore(_ view: RBFooter)
     func pullUpToRefreshAnimationResetNoMore(_ view: RBFooter)
 }
@@ -57,7 +57,7 @@ extension UIScrollView {
     //MARK:- Public
     func rb_addHeaderRefreshBlock<T:UIView>(_ refreshCompleteBlock:@escaping (()->())
         ,animator:T)
-        where T:PullDownToRefreshViewDelegate
+        where T:RBPullDownToRefreshViewDelegate
     {
         let headerView = RBHeader.init(frame: CGRect(x:0,y:-animator.bounds.size.height,width: kScreenWidth,height: animator.bounds.size.height),
                                        action: refreshCompleteBlock,
@@ -69,7 +69,7 @@ extension UIScrollView {
     
     func rb_addFooterRefreshBlock<T:UIView>(_ refreshCompleteBlock:@escaping (()->()),
                                animator:T)
-        where T:PullUpToRefreshViewDelegate
+        where T:RBPullUpToRefreshViewDelegate
     {
         let footerView = RBFooter.init(frame: CGRect(x:0,y:0,width: kScreenWidth,height: animator.bounds.height),
                                        action: refreshCompleteBlock,

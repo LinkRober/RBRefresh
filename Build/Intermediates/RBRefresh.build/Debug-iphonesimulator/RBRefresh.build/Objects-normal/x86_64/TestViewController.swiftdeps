@@ -6,46 +6,49 @@ provides-nominal:
 provides-member:
 - ["C9RBRefresh18TestViewController", ""]
 provides-dynamic-lookup:
-- "randNumber"
 - "datasource"
-- "viewDidLoad"
-- "numberOfSections"
+- "randNumber"
 - "didReceiveMemoryWarning"
-- "tableView"
-- "tableView"
-- "tableView"
 - "tableview"
+- "numberOfSections"
+- "viewDidLoad"
+- "tableView"
+- "tableView"
+- "tableView"
 depends-top-level:
-- "Type"
-- !private "RBGifHeader"
-- "Int"
-- "UIViewController"
-- "AssignmentPrecedence"
-- "UITableViewCell"
-- !private "=="
-- "UITableView"
-- !private "RBNormalFooter"
-- !private "CGRect"
-- !private "arc4random_uniform"
-- !private "..<"
-- "TestViewController"
-- !private "+"
 - "Array"
 - "UITableViewDataSource"
-- !private "-"
-- !private "RBNormalHeader"
-- "CGFloat"
-- "UITableViewDelegate"
-- "IndexPath"
-- !private "sleep"
-- !private "DispatchQueue"
-- !private "OperationQueue"
 - !private "StringLiteralType"
+- "UITableViewDelegate"
+- !private "OperationQueue"
+- !private "=="
+- !private "RBNormalHeader"
+- !private "+"
+- !private "..<"
+- !private "CGRect"
+- "Int"
+- !private "arc4random_uniform"
+- !private "RBNormalFooter"
+- !private "kScreenWidth"
+- !private "DispatchQueue"
+- "CGFloat"
+- !private "RBBallRoateChaseHeader"
+- !private "-"
+- "IndexPath"
+- "UIViewController"
+- !private "sleep"
+- "UITableView"
+- "AssignmentPrecedence"
+- "UITableViewCell"
+- !private "RBGifHeader"
+- "TestViewController"
+- "Type"
 depends-member:
 - !private ["Ps9AnyObject", "CGRect"]
 - !private ["Ps9AnyObject", "DispatchQueue"]
 - !private ["Ps9AnyObject", "Int"]
 - !private ["Ps9AnyObject", "OperationQueue"]
+- !private ["Ps9AnyObject", "RBBallRoateChaseHeader"]
 - !private ["Ps9AnyObject", "RBGifHeader"]
 - !private ["Ps9AnyObject", "RBNormalFooter"]
 - !private ["Ps9AnyObject", "RBNormalHeader"]
@@ -64,6 +67,7 @@ depends-member:
 - ["Ps9AnyObject", "indexPathForPreferredFocusedView"]
 - ["Ps9AnyObject", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kScreenWidth"]
 - !private ["Ps9AnyObject", "main"]
 - ["Ps9AnyObject", "numberOfSections"]
 - ["Ps9AnyObject", "numberOfSectionsInTableView"]
@@ -180,6 +184,7 @@ depends-member:
 - !private ["Ps7CVarArg", "IntegerLiteralType"]
 - !private ["Ps7CVarArg", "Iterator"]
 - !private ["Ps7CVarArg", "OperationQueue"]
+- !private ["Ps7CVarArg", "RBBallRoateChaseHeader"]
 - !private ["Ps7CVarArg", "RBGifHeader"]
 - !private ["Ps7CVarArg", "RBNormalFooter"]
 - !private ["Ps7CVarArg", "RBNormalHeader"]
@@ -204,6 +209,7 @@ depends-member:
 - ["Ps7CVarArg", "indexPathForPreferredFocusedView"]
 - ["Ps7CVarArg", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "kScreenWidth"]
 - !private ["Ps7CVarArg", "main"]
 - !private ["Ps7CVarArg", "map"]
 - ["Ps7CVarArg", "numberOfSections"]
@@ -267,15 +273,18 @@ depends-member:
 - !private ["Vs14CountableRange", "Iterator"]
 - !private ["Vs14CountableRange", "_Element"]
 - !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "BallRoateChase"]
 - !private ["Ps28CustomDebugStringConvertible", "CGRect"]
 - !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
 - ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Gif"]
 - !private ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
 - !private ["Ps28CustomDebugStringConvertible", "Int"]
 - !private ["Ps28CustomDebugStringConvertible", "Iterator"]
 - !private ["Ps28CustomDebugStringConvertible", "Normal"]
 - !private ["Ps28CustomDebugStringConvertible", "OperationQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "RBBallRoateChaseHeader"]
 - !private ["Ps28CustomDebugStringConvertible", "RBGifHeader"]
 - !private ["Ps28CustomDebugStringConvertible", "RBNormalFooter"]
 - !private ["Ps28CustomDebugStringConvertible", "RBNormalHeader"]
@@ -299,6 +308,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "indexPathForPreferredFocusedView"]
 - ["Ps28CustomDebugStringConvertible", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kScreenWidth"]
 - !private ["Ps28CustomDebugStringConvertible", "main"]
 - !private ["Ps28CustomDebugStringConvertible", "map"]
 - ["Ps28CustomDebugStringConvertible", "numberOfSections"]
@@ -350,7 +360,9 @@ depends-member:
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "size"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "BallRoateChase"]
 - ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Gif"]
 - !private ["Ps17CustomReflectable", "Index"]
 - !private ["Ps17CustomReflectable", "IndexDistance"]
 - !private ["Ps17CustomReflectable", "IntegerLiteralType"]
@@ -380,6 +392,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "Iterator"]
 - !private ["Ps23CustomStringConvertible", "OperationQueue"]
+- !private ["Ps23CustomStringConvertible", "RBBallRoateChaseHeader"]
 - !private ["Ps23CustomStringConvertible", "RBGifHeader"]
 - !private ["Ps23CustomStringConvertible", "RBNormalFooter"]
 - !private ["Ps23CustomStringConvertible", "RBNormalHeader"]
@@ -405,6 +418,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "indexPathForPreferredFocusedView"]
 - ["Ps23CustomStringConvertible", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kScreenWidth"]
 - !private ["Ps23CustomStringConvertible", "main"]
 - !private ["Ps23CustomStringConvertible", "map"]
 - ["Ps23CustomStringConvertible", "numberOfSections"]
@@ -465,14 +479,17 @@ depends-member:
 - !private ["V8Dispatch12DispatchTime", "now"]
 - !private ["O8Dispatch20DispatchTimeInterval", "deinit"]
 - !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "BallRoateChase"]
 - !private ["Ps9Equatable", "CGRect"]
 - !private ["Ps9Equatable", "DispatchQueue"]
 - !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "Gif"]
 - !private ["Ps9Equatable", "Int"]
 - !private ["Ps9Equatable", "IntegerLiteralType"]
 - !private ["Ps9Equatable", "Iterator"]
 - ["Ps9Equatable", "Normal"]
 - !private ["Ps9Equatable", "OperationQueue"]
+- !private ["Ps9Equatable", "RBBallRoateChaseHeader"]
 - !private ["Ps9Equatable", "RBGifHeader"]
 - !private ["Ps9Equatable", "RBNormalFooter"]
 - !private ["Ps9Equatable", "RBNormalHeader"]
@@ -497,6 +514,7 @@ depends-member:
 - ["Ps9Equatable", "indexPathForPreferredFocusedView"]
 - ["Ps9Equatable", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kScreenWidth"]
 - !private ["Ps9Equatable", "main"]
 - !private ["Ps9Equatable", "now"]
 - ["Ps9Equatable", "numberOfSections"]
@@ -557,17 +575,22 @@ depends-member:
 - !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "BallRoateChase"]
+- !private ["Ps23ExpressibleByNilLiteral", "Gif"]
 - !private ["Ps23ExpressibleByNilLiteral", "Normal"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "BallRoateChase"]
 - !private ["Ps8Hashable", "CGRect"]
 - !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "Gif"]
 - !private ["Ps8Hashable", "Int"]
 - !private ["Ps8Hashable", "IntegerLiteralType"]
 - ["Ps8Hashable", "Normal"]
 - !private ["Ps8Hashable", "OperationQueue"]
+- !private ["Ps8Hashable", "RBBallRoateChaseHeader"]
 - !private ["Ps8Hashable", "RBGifHeader"]
 - !private ["Ps8Hashable", "RBNormalFooter"]
 - !private ["Ps8Hashable", "RBNormalHeader"]
@@ -590,6 +613,7 @@ depends-member:
 - ["Ps8Hashable", "indexPathForPreferredFocusedView"]
 - ["Ps8Hashable", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kScreenWidth"]
 - !private ["Ps8Hashable", "main"]
 - ["Ps8Hashable", "numberOfSections"]
 - ["Ps8Hashable", "numberOfSectionsInTableView"]
@@ -711,6 +735,7 @@ depends-member:
 - !private ["PSo8NSCoding", "DispatchQueue"]
 - !private ["PSo8NSCoding", "Int"]
 - !private ["PSo8NSCoding", "OperationQueue"]
+- !private ["PSo8NSCoding", "RBBallRoateChaseHeader"]
 - !private ["PSo8NSCoding", "RBGifHeader"]
 - !private ["PSo8NSCoding", "RBNormalFooter"]
 - !private ["PSo8NSCoding", "RBNormalHeader"]
@@ -727,6 +752,7 @@ depends-member:
 - ["PSo8NSCoding", "indexPathForPreferredFocusedView"]
 - ["PSo8NSCoding", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kScreenWidth"]
 - ["PSo8NSCoding", "numberOfSections"]
 - ["PSo8NSCoding", "numberOfSectionsInTableView"]
 - ["PSo8NSCoding", "randNumber"]
@@ -768,6 +794,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "DispatchQueue"]
 - !private ["PSo26NSExtensionRequestHandling", "Int"]
 - !private ["PSo26NSExtensionRequestHandling", "OperationQueue"]
+- !private ["PSo26NSExtensionRequestHandling", "RBBallRoateChaseHeader"]
 - !private ["PSo26NSExtensionRequestHandling", "RBGifHeader"]
 - !private ["PSo26NSExtensionRequestHandling", "RBNormalFooter"]
 - !private ["PSo26NSExtensionRequestHandling", "RBNormalHeader"]
@@ -780,6 +807,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "indexPathForPreferredFocusedView"]
 - ["PSo26NSExtensionRequestHandling", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "kScreenWidth"]
 - ["PSo26NSExtensionRequestHandling", "numberOfSections"]
 - ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
 - ["PSo26NSExtensionRequestHandling", "randNumber"]
@@ -814,6 +842,7 @@ depends-member:
 - ["CSo8NSObject", "IndexPath"]
 - ["CSo8NSObject", "Int"]
 - !private ["CSo8NSObject", "OperationQueue"]
+- !private ["CSo8NSObject", "RBBallRoateChaseHeader"]
 - !private ["CSo8NSObject", "RBGifHeader"]
 - !private ["CSo8NSObject", "RBNormalFooter"]
 - !private ["CSo8NSObject", "RBNormalHeader"]
@@ -833,6 +862,7 @@ depends-member:
 - ["CSo8NSObject", "indexPathForPreferredFocusedView"]
 - ["CSo8NSObject", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kScreenWidth"]
 - !private ["CSo8NSObject", "main"]
 - ["CSo8NSObject", "numberOfSections"]
 - ["CSo8NSObject", "numberOfSectionsInTableView"]
@@ -873,6 +903,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "DispatchQueue"]
 - !private ["PSo16NSObjectProtocol", "Int"]
 - !private ["PSo16NSObjectProtocol", "OperationQueue"]
+- !private ["PSo16NSObjectProtocol", "RBBallRoateChaseHeader"]
 - !private ["PSo16NSObjectProtocol", "RBGifHeader"]
 - !private ["PSo16NSObjectProtocol", "RBNormalFooter"]
 - !private ["PSo16NSObjectProtocol", "RBNormalHeader"]
@@ -891,6 +922,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedView"]
 - ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kScreenWidth"]
 - !private ["PSo16NSObjectProtocol", "main"]
 - ["PSo16NSObjectProtocol", "numberOfSections"]
 - ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
@@ -937,16 +969,20 @@ depends-member:
 - !private ["CSo14OperationQueue", "init"]
 - !private ["CSo14OperationQueue", "main"]
 - !private ["Ps9OptionSet", "Element"]
+- !private ["Sq", "BallRoateChase"]
+- !private ["Sq", "Gif"]
 - !private ["Sq", "Normal"]
 - ["Sq", "deinit"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "init"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "init"]
+- ["C9RBRefresh22RBBallRoateChaseHeader", "deinit"]
+- !private ["C9RBRefresh22RBBallRoateChaseHeader", "init"]
 - ["C9RBRefresh11RBGifHeader", "deinit"]
 - !private ["C9RBRefresh11RBGifHeader", "init"]
 - ["C9RBRefresh14RBNormalFooter", "deinit"]
 - !private ["C9RBRefresh14RBNormalFooter", "init"]
 - ["C9RBRefresh14RBNormalHeader", "deinit"]
 - !private ["C9RBRefresh14RBNormalHeader", "init"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "init"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "init"]
 - ["Ps22RandomAccessCollection", "Element"]
 - !private ["Ps22RandomAccessCollection", "Index"]
 - !private ["Ps22RandomAccessCollection", "IndexDistance"]
@@ -1044,6 +1080,7 @@ depends-member:
 - ["C9RBRefresh18TestViewController", "IndexPath"]
 - ["C9RBRefresh18TestViewController", "Int"]
 - !private ["C9RBRefresh18TestViewController", "OperationQueue"]
+- !private ["C9RBRefresh18TestViewController", "RBBallRoateChaseHeader"]
 - !private ["C9RBRefresh18TestViewController", "RBGifHeader"]
 - !private ["C9RBRefresh18TestViewController", "RBNormalFooter"]
 - !private ["C9RBRefresh18TestViewController", "RBNormalHeader"]
@@ -1058,6 +1095,7 @@ depends-member:
 - ["C9RBRefresh18TestViewController", "indexPathForPreferredFocusedView"]
 - ["C9RBRefresh18TestViewController", "indexPathForPreferredFocusedViewInTableView"]
 - ["C9RBRefresh18TestViewController", "init"]
+- !private ["C9RBRefresh18TestViewController", "kScreenWidth"]
 - ["C9RBRefresh18TestViewController", "numberOfSections"]
 - ["C9RBRefresh18TestViewController", "numberOfSectionsInTableView"]
 - ["C9RBRefresh18TestViewController", "randNumber"]
@@ -1086,6 +1124,8 @@ depends-member:
 - ["C9RBRefresh18TestViewController", "viewForZoomingInScrollView"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
+- !private ["O9RBRefresh4Type", "BallRoateChase"]
+- !private ["O9RBRefresh4Type", "Gif"]
 - ["O9RBRefresh4Type", "Normal"]
 - ["O9RBRefresh4Type", "deinit"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
@@ -1120,6 +1160,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "DispatchQueue"]
 - !private ["PSo21UIAppearanceContainer", "Int"]
 - !private ["PSo21UIAppearanceContainer", "OperationQueue"]
+- !private ["PSo21UIAppearanceContainer", "RBBallRoateChaseHeader"]
 - !private ["PSo21UIAppearanceContainer", "RBGifHeader"]
 - !private ["PSo21UIAppearanceContainer", "RBNormalFooter"]
 - !private ["PSo21UIAppearanceContainer", "RBNormalHeader"]
@@ -1136,6 +1177,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "indexPathForPreferredFocusedView"]
 - ["PSo21UIAppearanceContainer", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "kScreenWidth"]
 - ["PSo21UIAppearanceContainer", "numberOfSections"]
 - ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
 - ["PSo21UIAppearanceContainer", "randNumber"]
@@ -1176,6 +1218,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "DispatchQueue"]
 - !private ["PSo18UIContentContainer", "Int"]
 - !private ["PSo18UIContentContainer", "OperationQueue"]
+- !private ["PSo18UIContentContainer", "RBBallRoateChaseHeader"]
 - !private ["PSo18UIContentContainer", "RBGifHeader"]
 - !private ["PSo18UIContentContainer", "RBNormalFooter"]
 - !private ["PSo18UIContentContainer", "RBNormalHeader"]
@@ -1188,6 +1231,7 @@ depends-member:
 - ["PSo18UIContentContainer", "indexPathForPreferredFocusedView"]
 - ["PSo18UIContentContainer", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "kScreenWidth"]
 - ["PSo18UIContentContainer", "numberOfSections"]
 - ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
 - ["PSo18UIContentContainer", "randNumber"]
@@ -1248,6 +1292,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "DispatchQueue"]
 - !private ["PSo18UIFocusEnvironment", "Int"]
 - !private ["PSo18UIFocusEnvironment", "OperationQueue"]
+- !private ["PSo18UIFocusEnvironment", "RBBallRoateChaseHeader"]
 - !private ["PSo18UIFocusEnvironment", "RBGifHeader"]
 - !private ["PSo18UIFocusEnvironment", "RBNormalFooter"]
 - !private ["PSo18UIFocusEnvironment", "RBNormalHeader"]
@@ -1264,6 +1309,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "indexPathForPreferredFocusedView"]
 - ["PSo18UIFocusEnvironment", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "kScreenWidth"]
 - ["PSo18UIFocusEnvironment", "numberOfSections"]
 - ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
 - ["PSo18UIFocusEnvironment", "randNumber"]
@@ -1326,6 +1372,7 @@ depends-member:
 - ["CSo11UIResponder", "IndexPath"]
 - ["CSo11UIResponder", "Int"]
 - !private ["CSo11UIResponder", "OperationQueue"]
+- !private ["CSo11UIResponder", "RBBallRoateChaseHeader"]
 - !private ["CSo11UIResponder", "RBGifHeader"]
 - !private ["CSo11UIResponder", "RBNormalFooter"]
 - !private ["CSo11UIResponder", "RBNormalHeader"]
@@ -1343,6 +1390,7 @@ depends-member:
 - ["CSo11UIResponder", "indexPathForPreferredFocusedView"]
 - ["CSo11UIResponder", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "kScreenWidth"]
 - ["CSo11UIResponder", "numberOfSections"]
 - ["CSo11UIResponder", "numberOfSectionsInTableView"]
 - ["CSo11UIResponder", "randNumber"]
@@ -1382,6 +1430,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "DispatchQueue"]
 - !private ["PSo30UIResponderStandardEditActions", "Int"]
 - !private ["PSo30UIResponderStandardEditActions", "OperationQueue"]
+- !private ["PSo30UIResponderStandardEditActions", "RBBallRoateChaseHeader"]
 - !private ["PSo30UIResponderStandardEditActions", "RBGifHeader"]
 - !private ["PSo30UIResponderStandardEditActions", "RBNormalFooter"]
 - !private ["PSo30UIResponderStandardEditActions", "RBNormalHeader"]
@@ -1398,6 +1447,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "indexPathForPreferredFocusedView"]
 - ["PSo30UIResponderStandardEditActions", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "kScreenWidth"]
 - ["PSo30UIResponderStandardEditActions", "numberOfSections"]
 - ["PSo30UIResponderStandardEditActions", "numberOfSectionsInTableView"]
 - ["PSo30UIResponderStandardEditActions", "randNumber"]
@@ -1448,6 +1498,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "DispatchQueue"]
 - !private ["PSo20UIScrollViewDelegate", "Int"]
 - !private ["PSo20UIScrollViewDelegate", "OperationQueue"]
+- !private ["PSo20UIScrollViewDelegate", "RBBallRoateChaseHeader"]
 - !private ["PSo20UIScrollViewDelegate", "RBGifHeader"]
 - !private ["PSo20UIScrollViewDelegate", "RBNormalFooter"]
 - !private ["PSo20UIScrollViewDelegate", "RBNormalHeader"]
@@ -1458,6 +1509,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "edgesForExtendedLayout"]
 - ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedView"]
 - ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["PSo20UIScrollViewDelegate", "kScreenWidth"]
 - ["PSo20UIScrollViewDelegate", "numberOfSections"]
 - ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
 - !private ["PSo20UIScrollViewDelegate", "randNumber"]
@@ -1487,6 +1539,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "DispatchQueue"]
 - !private ["PSo16UIStateRestoring", "Int"]
 - !private ["PSo16UIStateRestoring", "OperationQueue"]
+- !private ["PSo16UIStateRestoring", "RBBallRoateChaseHeader"]
 - !private ["PSo16UIStateRestoring", "RBGifHeader"]
 - !private ["PSo16UIStateRestoring", "RBNormalFooter"]
 - !private ["PSo16UIStateRestoring", "RBNormalHeader"]
@@ -1499,6 +1552,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "indexPathForPreferredFocusedView"]
 - ["PSo16UIStateRestoring", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "kScreenWidth"]
 - ["PSo16UIStateRestoring", "numberOfSections"]
 - ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
 - ["PSo16UIStateRestoring", "randNumber"]
@@ -1546,6 +1600,7 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "DispatchQueue"]
 - !private ["PSo21UITableViewDataSource", "Int"]
 - !private ["PSo21UITableViewDataSource", "OperationQueue"]
+- !private ["PSo21UITableViewDataSource", "RBBallRoateChaseHeader"]
 - !private ["PSo21UITableViewDataSource", "RBGifHeader"]
 - !private ["PSo21UITableViewDataSource", "RBNormalFooter"]
 - !private ["PSo21UITableViewDataSource", "RBNormalHeader"]
@@ -1556,6 +1611,7 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "edgesForExtendedLayout"]
 - ["PSo21UITableViewDataSource", "indexPathForPreferredFocusedView"]
 - ["PSo21UITableViewDataSource", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["PSo21UITableViewDataSource", "kScreenWidth"]
 - ["PSo21UITableViewDataSource", "numberOfSections"]
 - ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
 - !private ["PSo21UITableViewDataSource", "randNumber"]
@@ -1585,6 +1641,7 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "DispatchQueue"]
 - !private ["PSo19UITableViewDelegate", "Int"]
 - !private ["PSo19UITableViewDelegate", "OperationQueue"]
+- !private ["PSo19UITableViewDelegate", "RBBallRoateChaseHeader"]
 - !private ["PSo19UITableViewDelegate", "RBGifHeader"]
 - !private ["PSo19UITableViewDelegate", "RBNormalFooter"]
 - !private ["PSo19UITableViewDelegate", "RBNormalHeader"]
@@ -1595,6 +1652,7 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "edgesForExtendedLayout"]
 - ["PSo19UITableViewDelegate", "indexPathForPreferredFocusedView"]
 - ["PSo19UITableViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["PSo19UITableViewDelegate", "kScreenWidth"]
 - ["PSo19UITableViewDelegate", "numberOfSections"]
 - ["PSo19UITableViewDelegate", "numberOfSectionsInTableView"]
 - !private ["PSo19UITableViewDelegate", "randNumber"]
@@ -1626,6 +1684,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "DispatchQueue"]
 - !private ["PSo18UITraitEnvironment", "Int"]
 - !private ["PSo18UITraitEnvironment", "OperationQueue"]
+- !private ["PSo18UITraitEnvironment", "RBBallRoateChaseHeader"]
 - !private ["PSo18UITraitEnvironment", "RBGifHeader"]
 - !private ["PSo18UITraitEnvironment", "RBNormalFooter"]
 - !private ["PSo18UITraitEnvironment", "RBNormalHeader"]
@@ -1642,6 +1701,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "indexPathForPreferredFocusedView"]
 - ["PSo18UITraitEnvironment", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "kScreenWidth"]
 - ["PSo18UITraitEnvironment", "numberOfSections"]
 - ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
 - ["PSo18UITraitEnvironment", "randNumber"]
@@ -1699,6 +1759,7 @@ depends-member:
 - ["CSo16UIViewController", "IndexPath"]
 - ["CSo16UIViewController", "Int"]
 - !private ["CSo16UIViewController", "OperationQueue"]
+- !private ["CSo16UIViewController", "RBBallRoateChaseHeader"]
 - !private ["CSo16UIViewController", "RBGifHeader"]
 - !private ["CSo16UIViewController", "RBNormalFooter"]
 - !private ["CSo16UIViewController", "RBNormalHeader"]
@@ -1713,6 +1774,7 @@ depends-member:
 - ["CSo16UIViewController", "indexPathForPreferredFocusedView"]
 - ["CSo16UIViewController", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "kScreenWidth"]
 - ["CSo16UIViewController", "numberOfSections"]
 - ["CSo16UIViewController", "numberOfSectionsInTableView"]
 - ["CSo16UIViewController", "randNumber"]
@@ -1792,12 +1854,15 @@ depends-member:
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "BallRoateChase"]
 - !private ["Ps9_Hashable", "CGRect"]
 - !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "Gif"]
 - !private ["Ps9_Hashable", "Int"]
 - !private ["Ps9_Hashable", "IntegerLiteralType"]
 - ["Ps9_Hashable", "Normal"]
 - !private ["Ps9_Hashable", "OperationQueue"]
+- !private ["Ps9_Hashable", "RBBallRoateChaseHeader"]
 - !private ["Ps9_Hashable", "RBGifHeader"]
 - !private ["Ps9_Hashable", "RBNormalFooter"]
 - !private ["Ps9_Hashable", "RBNormalHeader"]
@@ -1820,6 +1885,7 @@ depends-member:
 - ["Ps9_Hashable", "indexPathForPreferredFocusedView"]
 - ["Ps9_Hashable", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kScreenWidth"]
 - !private ["Ps9_Hashable", "main"]
 - ["Ps9_Hashable", "numberOfSections"]
 - ["Ps9_Hashable", "numberOfSectionsInTableView"]
@@ -1871,7 +1937,9 @@ depends-member:
 - !private ["Ps18_IntegerArithmetic", "Stride"]
 - !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
 - !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "BallRoateChase"]
 - ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Gif"]
 - !private ["Ps21_ObjectiveCBridgeable", "Index"]
 - !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
 - !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
@@ -1892,6 +1960,8 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "size"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
 - !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Vs26_OptionalNilComparisonType", "BallRoateChase"]
+- !private ["Vs26_OptionalNilComparisonType", "Gif"]
 - !private ["Vs26_OptionalNilComparisonType", "Normal"]
 - !private ["Ps14_SignedInteger", "IntegerLiteralType"]
 - !private ["Ps14_SignedInteger", "Stride"]
@@ -1969,11 +2039,12 @@ depends-nominal:
 - !private "CSo14OperationQueue"
 - !private "Ps9OptionSet"
 - "Sq"
-- !private "P9RBRefresh29PullDownToRefreshViewDelegate"
-- !private "P9RBRefresh27PullUpToRefreshViewDelegate"
+- "C9RBRefresh22RBBallRoateChaseHeader"
 - "C9RBRefresh11RBGifHeader"
 - "C9RBRefresh14RBNormalFooter"
 - "C9RBRefresh14RBNormalHeader"
+- !private "P9RBRefresh31RBPullDownToRefreshViewDelegate"
+- !private "P9RBRefresh29RBPullUpToRefreshViewDelegate"
 - "Ps22RandomAccessCollection"
 - "Ps21RandomAccessIndexable"
 - !private "Vs17RandomAccessSlice"
@@ -2046,6 +2117,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh-Bridging-Header.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"

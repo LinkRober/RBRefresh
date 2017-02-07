@@ -1,22 +1,22 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "kScreenWidth"
-- "PullDownToRefreshViewState"
-- "PullUpToRefreshViewState"
-- "PullDownToRefreshViewDelegate"
-- "PullUpToRefreshViewDelegate"
+- "RBPullDownToRefreshViewState"
+- "RBPullUpToRefreshViewState"
+- "RBPullDownToRefreshViewDelegate"
+- "RBPullUpToRefreshViewDelegate"
 - "=="
 - "=="
 provides-nominal:
-- "O9RBRefresh26PullDownToRefreshViewState"
-- "O9RBRefresh24PullUpToRefreshViewState"
-- "P9RBRefresh29PullDownToRefreshViewDelegate"
-- "P9RBRefresh27PullUpToRefreshViewDelegate"
+- "O9RBRefresh28RBPullDownToRefreshViewState"
+- "O9RBRefresh26RBPullUpToRefreshViewState"
+- "P9RBRefresh31RBPullDownToRefreshViewDelegate"
+- "P9RBRefresh29RBPullUpToRefreshViewDelegate"
 provides-member:
-- ["O9RBRefresh26PullDownToRefreshViewState", ""]
-- ["O9RBRefresh24PullUpToRefreshViewState", ""]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", ""]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", ""]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", ""]
+- ["O9RBRefresh26RBPullUpToRefreshViewState", ""]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", ""]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", ""]
 - ["CSo12UIScrollView", ""]
 - ["CSo12UIScrollView", "headerView"]
 - ["CSo12UIScrollView", "footerView"]
@@ -28,32 +28,32 @@ provides-member:
 - ["CSo12UIScrollView", "rb_noticeNoMoreData"]
 - ["CSo12UIScrollView", "rb_resetNoMoreData"]
 provides-dynamic-lookup:
-- "rb_noticeNoMoreData"
-- "rb_beginHeaderRefresh"
+- "headerView"
 - "footerView"
 - "rb_resetNoMoreData"
-- "rb_endHeaderRefresh"
-- "headerView"
 - "rb_endFooterRefresh"
+- "rb_endHeaderRefresh"
+- "rb_noticeNoMoreData"
+- "rb_beginHeaderRefresh"
 depends-top-level:
+- "RBFooter"
 - !private "-"
-- "PullUpToRefreshViewDelegate"
-- "PullDownToRefreshViewState"
-- !private "CGRect"
-- "PullUpToRefreshViewState"
-- "UIView"
-- "CastingPrecedence"
+- !private "kHeaderViewTag"
+- "RBPullDownToRefreshViewState"
+- "RBHeader"
+- !private "kFooterViewTag"
 - "=="
 - "AssignmentPrecedence"
-- "RBHeader"
-- "PullDownToRefreshViewDelegate"
-- !private "kHeaderViewTag"
-- "RBFooter"
 - "UIScreen"
+- "CastingPrecedence"
+- "RBPullUpToRefreshViewDelegate"
+- "RBPullDownToRefreshViewDelegate"
+- !private "CGRect"
 - "UIScrollView"
-- !private "kFooterViewTag"
 - "kScreenWidth"
 - "CGFloat"
+- "RBPullUpToRefreshViewState"
+- "UIView"
 depends-member:
 - !private ["Ps9AnyObject", "CGRect"]
 - !private ["Ps9AnyObject", "RBFooter"]
@@ -299,10 +299,10 @@ depends-member:
 - !private ["PSo8NSCoding", "tag"]
 - !private ["PSo8NSCoding", "viewWithTag"]
 - !private ["CSo8NSObject", "CGRect"]
-- ["CSo8NSObject", "PullDownToRefreshViewDelegate"]
-- ["CSo8NSObject", "PullUpToRefreshViewDelegate"]
 - ["CSo8NSObject", "RBFooter"]
 - ["CSo8NSObject", "RBHeader"]
+- ["CSo8NSObject", "RBPullDownToRefreshViewDelegate"]
+- ["CSo8NSObject", "RBPullUpToRefreshViewDelegate"]
 - ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "addSubview"]
 - !private ["CSo8NSObject", "autociallyRefreshHeader"]
@@ -354,36 +354,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "tag"]
 - !private ["PSo16NSObjectProtocol", "viewWithTag"]
 - ["Sq", "deinit"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "CGFloat"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "PullDownToRefreshViewState"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "RBHeader"]
-- !private ["P9RBRefresh29PullDownToRefreshViewDelegate", "bounds"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefresh"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidEnd"]
-- ["P9RBRefresh29PullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidStart"]
-- ["O9RBRefresh26PullDownToRefreshViewState", "=="]
-- ["O9RBRefresh26PullDownToRefreshViewState", "_toAnyHashable"]
-- ["O9RBRefresh26PullDownToRefreshViewState", "deinit"]
-- ["O9RBRefresh26PullDownToRefreshViewState", "hashValue"]
-- ["O9RBRefresh26PullDownToRefreshViewState", "loading"]
-- ["O9RBRefresh26PullDownToRefreshViewState", "pullDownToRefresh"]
-- ["O9RBRefresh26PullDownToRefreshViewState", "releaseToRefresh"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "CGFloat"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "PullUpToRefreshViewState"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "RBFooter"]
-- !private ["P9RBRefresh27PullUpToRefreshViewDelegate", "bounds"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "pullUpToRefresh"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "pullUpToRefreshAnimationDidEnd"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "pullUpToRefreshAnimationDidStart"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "pullUpToRefreshAnimationNoticeNoMore"]
-- ["P9RBRefresh27PullUpToRefreshViewDelegate", "pullUpToRefreshAnimationResetNoMore"]
-- ["O9RBRefresh24PullUpToRefreshViewState", "=="]
-- ["O9RBRefresh24PullUpToRefreshViewState", "_toAnyHashable"]
-- ["O9RBRefresh24PullUpToRefreshViewState", "deinit"]
-- ["O9RBRefresh24PullUpToRefreshViewState", "hashValue"]
-- ["O9RBRefresh24PullUpToRefreshViewState", "loading"]
-- ["O9RBRefresh24PullUpToRefreshViewState", "pullUpToRefresh"]
-- ["O9RBRefresh24PullUpToRefreshViewState", "releaseToLoadMore"]
 - ["C9RBRefresh8RBFooter", "deinit"]
 - !private ["C9RBRefresh8RBFooter", "endFooterRefrsh"]
 - !private ["C9RBRefresh8RBFooter", "footerNoMoreData"]
@@ -395,6 +365,36 @@ depends-member:
 - !private ["C9RBRefresh8RBHeader", "endHeaderRefresh"]
 - !private ["C9RBRefresh8RBHeader", "init"]
 - !private ["C9RBRefresh8RBHeader", "tag"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "CGFloat"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "RBHeader"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "RBPullDownToRefreshViewState"]
+- !private ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "bounds"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefresh"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidEnd"]
+- ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidStart"]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", "=="]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", "_toAnyHashable"]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", "deinit"]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", "hashValue"]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", "loading"]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", "pullDownToRefresh"]
+- ["O9RBRefresh28RBPullDownToRefreshViewState", "releaseToRefresh"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "CGFloat"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "RBFooter"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "RBPullUpToRefreshViewState"]
+- !private ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "bounds"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefresh"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefreshAnimationDidEnd"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefreshAnimationDidStart"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefreshAnimationNoticeNoMore"]
+- ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefreshAnimationResetNoMore"]
+- ["O9RBRefresh26RBPullUpToRefreshViewState", "=="]
+- ["O9RBRefresh26RBPullUpToRefreshViewState", "_toAnyHashable"]
+- ["O9RBRefresh26RBPullUpToRefreshViewState", "deinit"]
+- ["O9RBRefresh26RBPullUpToRefreshViewState", "hashValue"]
+- ["O9RBRefresh26RBPullUpToRefreshViewState", "loading"]
+- ["O9RBRefresh26RBPullUpToRefreshViewState", "pullUpToRefresh"]
+- ["O9RBRefresh26RBPullUpToRefreshViewState", "releaseToLoadMore"]
 - !private ["C9RBRefresh6RBView", "autociallyRefreshHeader"]
 - !private ["C9RBRefresh6RBView", "endFooterRefrsh"]
 - !private ["C9RBRefresh6RBView", "endHeaderRefresh"]
@@ -581,10 +581,10 @@ depends-member:
 - !private ["PSo11UIFocusItem", "tag"]
 - !private ["PSo11UIFocusItem", "viewWithTag"]
 - !private ["CSo11UIResponder", "CGRect"]
-- ["CSo11UIResponder", "PullDownToRefreshViewDelegate"]
-- ["CSo11UIResponder", "PullUpToRefreshViewDelegate"]
 - ["CSo11UIResponder", "RBFooter"]
 - ["CSo11UIResponder", "RBHeader"]
+- ["CSo11UIResponder", "RBPullDownToRefreshViewDelegate"]
+- ["CSo11UIResponder", "RBPullUpToRefreshViewDelegate"]
 - ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "addSubview"]
 - !private ["CSo11UIResponder", "autociallyRefreshHeader"]
@@ -636,10 +636,10 @@ depends-member:
 - ["CSo8UIScreen", "deinit"]
 - ["CSo8UIScreen", "main"]
 - !private ["CSo12UIScrollView", "CGRect"]
-- ["CSo12UIScrollView", "PullDownToRefreshViewDelegate"]
-- ["CSo12UIScrollView", "PullUpToRefreshViewDelegate"]
 - ["CSo12UIScrollView", "RBFooter"]
 - ["CSo12UIScrollView", "RBHeader"]
+- ["CSo12UIScrollView", "RBPullDownToRefreshViewDelegate"]
+- ["CSo12UIScrollView", "RBPullUpToRefreshViewDelegate"]
 - ["CSo12UIScrollView", "UIView"]
 - !private ["CSo12UIScrollView", "addSubview"]
 - ["CSo12UIScrollView", "deinit"]
@@ -683,10 +683,10 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "tag"]
 - !private ["PSo18UITraitEnvironment", "viewWithTag"]
 - !private ["CSo6UIView", "CGRect"]
-- ["CSo6UIView", "PullDownToRefreshViewDelegate"]
-- ["CSo6UIView", "PullUpToRefreshViewDelegate"]
 - ["CSo6UIView", "RBFooter"]
 - ["CSo6UIView", "RBHeader"]
+- ["CSo6UIView", "RBPullDownToRefreshViewDelegate"]
+- ["CSo6UIView", "RBPullUpToRefreshViewDelegate"]
 - ["CSo6UIView", "UIView"]
 - !private ["CSo6UIView", "addSubview"]
 - !private ["CSo6UIView", "autociallyRefreshHeader"]
@@ -798,12 +798,12 @@ depends-nominal:
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - "Sq"
-- "P9RBRefresh29PullDownToRefreshViewDelegate"
-- "O9RBRefresh26PullDownToRefreshViewState"
-- "P9RBRefresh27PullUpToRefreshViewDelegate"
-- "O9RBRefresh24PullUpToRefreshViewState"
 - "C9RBRefresh8RBFooter"
 - "C9RBRefresh8RBHeader"
+- "P9RBRefresh31RBPullDownToRefreshViewDelegate"
+- "O9RBRefresh28RBPullDownToRefreshViewState"
+- "P9RBRefresh29RBPullUpToRefreshViewDelegate"
+- "O9RBRefresh26RBPullUpToRefreshViewState"
 - !private "C9RBRefresh6RBView"
 - !private "Ps13SignedInteger"
 - !private "Ps12SignedNumber"
@@ -834,6 +834,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh-Bridging-Header.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
@@ -844,4 +845,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "831f98ca0e9c76c0f79bd42b758e8909"
+interface-hash: "5a03ca109210698789ecab96e5d16d21"
