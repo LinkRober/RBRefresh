@@ -1,12 +1,23 @@
 # RBRefresh
 
 ###  Introduction
+> 重造一个刷新的轮子，出于正在学习Swift，新项目也是用swift写的，以前oc的刷新用起来不开森，同时也处于练练手的目的
 
-#### pod 'RBRefresh'
+### Install
+` pod 'RBRefresh'`
 #### support swift3.0
-#### Example
+### Example
 
-![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh1.gif)![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh2.gif)![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh3.gif)![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh4.gif)![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh5.gif)
+**RBNormalHeader**
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh1.gif)
+**RBGifHeader**
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh2.gif)
+**RBBallRoateChaseHeader**
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh3.gif)
+**RBBallClipRoateHeader**
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh4.gif)
+**RBBallScaleHeader**
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh5.gif)
 
 ###  How to use
 >所有自定义的header和footer，需要遵循 `PullDownToRefreshViewDelegate` `PullUpToRefreshViewDelegate`，并且时UIView的范型。
