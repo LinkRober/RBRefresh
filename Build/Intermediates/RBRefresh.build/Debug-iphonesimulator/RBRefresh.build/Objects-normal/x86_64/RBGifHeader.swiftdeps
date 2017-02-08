@@ -6,29 +6,29 @@ provides-nominal:
 provides-member:
 - ["C9RBRefresh11RBGifHeader", ""]
 provides-dynamic-lookup:
-- "pullDownToRefreshAnimationDidStart"
 - "loadingImageView"
+- "pullDownToRefreshAnimationDidStart"
 - "pullDownToRefreshAnimationDidEnd"
-- "pullDownToRefreshAnimationHeight"
-- "pullDownToRefresh"
 - "layoutSubviews"
+- "pullDownToRefresh"
+- "pullDownToRefreshAnimationHeight"
 depends-top-level:
-- "CGFloat"
-- "RBPullDownToRefreshViewDelegate"
+- !private "StringLiteralType"
 - "UIView"
+- "RBPullDownToRefreshViewDelegate"
 - !private "fatalError"
-- "AssignmentPrecedence"
-- "RBGifHeader"
-- !private "=="
-- "RBPullDownToRefreshViewState"
 - !private "NSLayoutConstraint"
 - "CGRect"
-- "UIImageView"
-- !private "StringLiteralType"
-- "RBHeader"
-- !private "UIImage"
-- "NSCoder"
 - "BooleanLiteralType"
+- !private "UIImage"
+- "RBPullDownToRefreshViewState"
+- "CGFloat"
+- "RBGifHeader"
+- "RBHeader"
+- "AssignmentPrecedence"
+- !private "=="
+- "NSCoder"
+- "UIImageView"
 depends-member:
 - !private ["Ps9AnyObject", "NSLayoutConstraint"]
 - !private ["Ps9AnyObject", "UIImage"]

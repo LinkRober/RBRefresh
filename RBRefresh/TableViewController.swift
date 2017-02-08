@@ -14,6 +14,7 @@ enum Type {
     case Gif
     case BallRoateChase
     case BallClipRotate
+    case BallScale
     
     func typeName() -> String{
         switch self {
@@ -25,6 +26,8 @@ enum Type {
             return "BallRoateChase"
         case .BallClipRotate:
             return "BallClipRotate"
+        case .BallScale:
+            return "BallScale"
         }
     }
 }
@@ -36,7 +39,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.edgesForExtendedLayout = []
-        self.datasoucre = [Type.Normal,Type.Gif,Type.BallRoateChase,Type.BallClipRotate]
+        self.datasoucre = [Type.Normal,Type.Gif,Type.BallRoateChase,Type.BallClipRotate,Type.BallScale]
         
     }
     

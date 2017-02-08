@@ -167,6 +167,17 @@ SWIFT_CLASS("_TtC9RBRefresh22RBBallRoateChaseHeader")
 @end
 
 
+SWIFT_CLASS("_TtC9RBRefresh17RBBallScaleHeader")
+@interface RBBallScaleHeader : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (CAAnimationGroup * _Nonnull)getAnimation;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)pullDownToRefreshAnimationDidEnd:(RBHeader * _Nonnull)view;
+- (void)pullDownToRefreshAnimationDidStart:(RBHeader * _Nonnull)view;
+- (void)pullDownToRefresh:(RBHeader * _Nonnull)view progressDidChange:(CGFloat)progress;
+@end
+
+
 SWIFT_CLASS("_TtC9RBRefresh6RBView")
 @interface RBView : UIControl
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;

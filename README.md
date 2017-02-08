@@ -6,7 +6,7 @@
 #### support swift3.0
 #### Example
 
-![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh.gif)
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh1.gif)![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh2.gif)![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh3.gif)![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh4.gif)![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh5.gif)
 
 ###  How to use
 >所有自定义的header和footer，需要遵循 `PullDownToRefreshViewDelegate` `PullUpToRefreshViewDelegate`，并且时UIView的范型。

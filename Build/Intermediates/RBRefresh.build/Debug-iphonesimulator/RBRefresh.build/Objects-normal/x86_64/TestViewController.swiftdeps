@@ -7,44 +7,45 @@ provides-member:
 - ["C9RBRefresh18TestViewController", ""]
 provides-dynamic-lookup:
 - "tableview"
+- "numberOfSections"
+- "viewDidLoad"
 - "didReceiveMemoryWarning"
 - "randNumber"
-- "numberOfSections"
-- "tableView"
-- "tableView"
-- "tableView"
-- "viewDidLoad"
 - "datasource"
+- "tableView"
+- "tableView"
+- "tableView"
 depends-top-level:
-- !private "RBNormalHeader"
-- "CGFloat"
-- !private "CGRect"
-- "UITableView"
-- "Type"
-- !private "UIView"
-- !private "kScreenWidth"
-- "UITableViewCell"
-- !private "sleep"
-- !private "-"
-- "AssignmentPrecedence"
-- "UIViewController"
-- !private "DispatchQueue"
-- !private "=="
-- "IndexPath"
-- "UITableViewDelegate"
-- !private "RBBallClipRoateHeader"
-- "Array"
-- "Int"
-- !private "RBGifHeader"
-- "UITableViewDataSource"
-- !private "StringLiteralType"
-- !private "arc4random_uniform"
+- !private "RBBallScaleHeader"
 - !private "RBNormalFooter"
-- !private "RBBallRoateChaseHeader"
-- "TestViewController"
+- !private "sleep"
+- "UITableView"
 - !private "..<"
 - !private "+"
+- !private "CGRect"
+- !private "-"
+- "UITableViewCell"
+- !private "UIView"
+- !private "kScreenWidth"
+- "UIViewController"
+- !private "arc4random_uniform"
+- "Int"
+- !private "RBBallRoateChaseHeader"
+- "TestViewController"
+- "CGFloat"
+- !private "DispatchQueue"
+- !private "RBBallClipRoateHeader"
+- "Array"
+- !private "RBGifHeader"
+- "UITableViewDataSource"
+- "IndexPath"
+- "AssignmentPrecedence"
+- !private "=="
+- "Type"
+- "UITableViewDelegate"
+- !private "RBNormalHeader"
 - !private "OperationQueue"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "CGRect"]
 - !private ["Ps9AnyObject", "DispatchQueue"]
@@ -52,6 +53,7 @@ depends-member:
 - !private ["Ps9AnyObject", "OperationQueue"]
 - !private ["Ps9AnyObject", "RBBallClipRoateHeader"]
 - !private ["Ps9AnyObject", "RBBallRoateChaseHeader"]
+- !private ["Ps9AnyObject", "RBBallScaleHeader"]
 - !private ["Ps9AnyObject", "RBGifHeader"]
 - !private ["Ps9AnyObject", "RBNormalFooter"]
 - !private ["Ps9AnyObject", "RBNormalHeader"]
@@ -192,6 +194,7 @@ depends-member:
 - !private ["Ps7CVarArg", "OperationQueue"]
 - !private ["Ps7CVarArg", "RBBallClipRoateHeader"]
 - !private ["Ps7CVarArg", "RBBallRoateChaseHeader"]
+- !private ["Ps7CVarArg", "RBBallScaleHeader"]
 - !private ["Ps7CVarArg", "RBGifHeader"]
 - !private ["Ps7CVarArg", "RBNormalFooter"]
 - !private ["Ps7CVarArg", "RBNormalHeader"]
@@ -284,6 +287,7 @@ depends-member:
 - !private ["Vs14CountableRange", "deinit"]
 - !private ["Ps28CustomDebugStringConvertible", "BallClipRotate"]
 - !private ["Ps28CustomDebugStringConvertible", "BallRoateChase"]
+- !private ["Ps28CustomDebugStringConvertible", "BallScale"]
 - !private ["Ps28CustomDebugStringConvertible", "CGRect"]
 - !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
 - ["Ps28CustomDebugStringConvertible", "Element"]
@@ -296,6 +300,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "OperationQueue"]
 - !private ["Ps28CustomDebugStringConvertible", "RBBallClipRoateHeader"]
 - !private ["Ps28CustomDebugStringConvertible", "RBBallRoateChaseHeader"]
+- !private ["Ps28CustomDebugStringConvertible", "RBBallScaleHeader"]
 - !private ["Ps28CustomDebugStringConvertible", "RBGifHeader"]
 - !private ["Ps28CustomDebugStringConvertible", "RBNormalFooter"]
 - !private ["Ps28CustomDebugStringConvertible", "RBNormalHeader"]
@@ -375,6 +380,7 @@ depends-member:
 - !private ["Ps29CustomPlaygroundQuickLookable", "width"]
 - !private ["Ps17CustomReflectable", "BallClipRotate"]
 - !private ["Ps17CustomReflectable", "BallRoateChase"]
+- !private ["Ps17CustomReflectable", "BallScale"]
 - ["Ps17CustomReflectable", "Element"]
 - !private ["Ps17CustomReflectable", "Gif"]
 - !private ["Ps17CustomReflectable", "Index"]
@@ -408,6 +414,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "OperationQueue"]
 - !private ["Ps23CustomStringConvertible", "RBBallClipRoateHeader"]
 - !private ["Ps23CustomStringConvertible", "RBBallRoateChaseHeader"]
+- !private ["Ps23CustomStringConvertible", "RBBallScaleHeader"]
 - !private ["Ps23CustomStringConvertible", "RBGifHeader"]
 - !private ["Ps23CustomStringConvertible", "RBNormalFooter"]
 - !private ["Ps23CustomStringConvertible", "RBNormalHeader"]
@@ -498,6 +505,7 @@ depends-member:
 - !private ["Sd", "deinit"]
 - !private ["Ps9Equatable", "BallClipRotate"]
 - !private ["Ps9Equatable", "BallRoateChase"]
+- !private ["Ps9Equatable", "BallScale"]
 - !private ["Ps9Equatable", "CGRect"]
 - !private ["Ps9Equatable", "DispatchQueue"]
 - !private ["Ps9Equatable", "Element"]
@@ -509,6 +517,7 @@ depends-member:
 - !private ["Ps9Equatable", "OperationQueue"]
 - !private ["Ps9Equatable", "RBBallClipRoateHeader"]
 - !private ["Ps9Equatable", "RBBallRoateChaseHeader"]
+- !private ["Ps9Equatable", "RBBallScaleHeader"]
 - !private ["Ps9Equatable", "RBGifHeader"]
 - !private ["Ps9Equatable", "RBNormalFooter"]
 - !private ["Ps9Equatable", "RBNormalHeader"]
@@ -598,6 +607,7 @@ depends-member:
 - !private ["Ps27ExpressibleByIntegerLiteral", "init"]
 - !private ["Ps23ExpressibleByNilLiteral", "BallClipRotate"]
 - !private ["Ps23ExpressibleByNilLiteral", "BallRoateChase"]
+- !private ["Ps23ExpressibleByNilLiteral", "BallScale"]
 - !private ["Ps23ExpressibleByNilLiteral", "Gif"]
 - !private ["Ps23ExpressibleByNilLiteral", "Normal"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
@@ -606,6 +616,7 @@ depends-member:
 - !private ["Sf", "deinit"]
 - !private ["Ps8Hashable", "BallClipRotate"]
 - !private ["Ps8Hashable", "BallRoateChase"]
+- !private ["Ps8Hashable", "BallScale"]
 - !private ["Ps8Hashable", "CGRect"]
 - !private ["Ps8Hashable", "DispatchQueue"]
 - !private ["Ps8Hashable", "Gif"]
@@ -615,6 +626,7 @@ depends-member:
 - !private ["Ps8Hashable", "OperationQueue"]
 - !private ["Ps8Hashable", "RBBallClipRoateHeader"]
 - !private ["Ps8Hashable", "RBBallRoateChaseHeader"]
+- !private ["Ps8Hashable", "RBBallScaleHeader"]
 - !private ["Ps8Hashable", "RBGifHeader"]
 - !private ["Ps8Hashable", "RBNormalFooter"]
 - !private ["Ps8Hashable", "RBNormalHeader"]
@@ -763,6 +775,7 @@ depends-member:
 - !private ["PSo8NSCoding", "OperationQueue"]
 - !private ["PSo8NSCoding", "RBBallClipRoateHeader"]
 - !private ["PSo8NSCoding", "RBBallRoateChaseHeader"]
+- !private ["PSo8NSCoding", "RBBallScaleHeader"]
 - !private ["PSo8NSCoding", "RBGifHeader"]
 - !private ["PSo8NSCoding", "RBNormalFooter"]
 - !private ["PSo8NSCoding", "RBNormalHeader"]
@@ -825,6 +838,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "OperationQueue"]
 - !private ["PSo26NSExtensionRequestHandling", "RBBallClipRoateHeader"]
 - !private ["PSo26NSExtensionRequestHandling", "RBBallRoateChaseHeader"]
+- !private ["PSo26NSExtensionRequestHandling", "RBBallScaleHeader"]
 - !private ["PSo26NSExtensionRequestHandling", "RBGifHeader"]
 - !private ["PSo26NSExtensionRequestHandling", "RBNormalFooter"]
 - !private ["PSo26NSExtensionRequestHandling", "RBNormalHeader"]
@@ -875,6 +889,7 @@ depends-member:
 - !private ["CSo8NSObject", "OperationQueue"]
 - !private ["CSo8NSObject", "RBBallClipRoateHeader"]
 - !private ["CSo8NSObject", "RBBallRoateChaseHeader"]
+- !private ["CSo8NSObject", "RBBallScaleHeader"]
 - !private ["CSo8NSObject", "RBGifHeader"]
 - !private ["CSo8NSObject", "RBNormalFooter"]
 - !private ["CSo8NSObject", "RBNormalHeader"]
@@ -939,6 +954,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "OperationQueue"]
 - !private ["PSo16NSObjectProtocol", "RBBallClipRoateHeader"]
 - !private ["PSo16NSObjectProtocol", "RBBallRoateChaseHeader"]
+- !private ["PSo16NSObjectProtocol", "RBBallScaleHeader"]
 - !private ["PSo16NSObjectProtocol", "RBGifHeader"]
 - !private ["PSo16NSObjectProtocol", "RBNormalFooter"]
 - !private ["PSo16NSObjectProtocol", "RBNormalHeader"]
@@ -1008,6 +1024,7 @@ depends-member:
 - !private ["Ps9OptionSet", "Element"]
 - !private ["Sq", "BallClipRotate"]
 - !private ["Sq", "BallRoateChase"]
+- !private ["Sq", "BallScale"]
 - !private ["Sq", "Gif"]
 - !private ["Sq", "Normal"]
 - ["Sq", "deinit"]
@@ -1015,6 +1032,8 @@ depends-member:
 - !private ["C9RBRefresh21RBBallClipRoateHeader", "init"]
 - ["C9RBRefresh22RBBallRoateChaseHeader", "deinit"]
 - !private ["C9RBRefresh22RBBallRoateChaseHeader", "init"]
+- ["C9RBRefresh17RBBallScaleHeader", "deinit"]
+- !private ["C9RBRefresh17RBBallScaleHeader", "init"]
 - ["C9RBRefresh11RBGifHeader", "deinit"]
 - !private ["C9RBRefresh11RBGifHeader", "init"]
 - ["C9RBRefresh14RBNormalFooter", "deinit"]
@@ -1122,6 +1141,7 @@ depends-member:
 - !private ["C9RBRefresh18TestViewController", "OperationQueue"]
 - !private ["C9RBRefresh18TestViewController", "RBBallClipRoateHeader"]
 - !private ["C9RBRefresh18TestViewController", "RBBallRoateChaseHeader"]
+- !private ["C9RBRefresh18TestViewController", "RBBallScaleHeader"]
 - !private ["C9RBRefresh18TestViewController", "RBGifHeader"]
 - !private ["C9RBRefresh18TestViewController", "RBNormalFooter"]
 - !private ["C9RBRefresh18TestViewController", "RBNormalHeader"]
@@ -1168,6 +1188,7 @@ depends-member:
 - !private ["Ps20TextOutputStreamable", "init"]
 - !private ["O9RBRefresh4Type", "BallClipRotate"]
 - !private ["O9RBRefresh4Type", "BallRoateChase"]
+- !private ["O9RBRefresh4Type", "BallScale"]
 - !private ["O9RBRefresh4Type", "Gif"]
 - ["O9RBRefresh4Type", "Normal"]
 - ["O9RBRefresh4Type", "deinit"]
@@ -1207,6 +1228,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "OperationQueue"]
 - !private ["PSo21UIAppearanceContainer", "RBBallClipRoateHeader"]
 - !private ["PSo21UIAppearanceContainer", "RBBallRoateChaseHeader"]
+- !private ["PSo21UIAppearanceContainer", "RBBallScaleHeader"]
 - !private ["PSo21UIAppearanceContainer", "RBGifHeader"]
 - !private ["PSo21UIAppearanceContainer", "RBNormalFooter"]
 - !private ["PSo21UIAppearanceContainer", "RBNormalHeader"]
@@ -1268,6 +1290,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "OperationQueue"]
 - !private ["PSo18UIContentContainer", "RBBallClipRoateHeader"]
 - !private ["PSo18UIContentContainer", "RBBallRoateChaseHeader"]
+- !private ["PSo18UIContentContainer", "RBBallScaleHeader"]
 - !private ["PSo18UIContentContainer", "RBGifHeader"]
 - !private ["PSo18UIContentContainer", "RBNormalFooter"]
 - !private ["PSo18UIContentContainer", "RBNormalHeader"]
@@ -1346,6 +1369,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "OperationQueue"]
 - !private ["PSo18UIFocusEnvironment", "RBBallClipRoateHeader"]
 - !private ["PSo18UIFocusEnvironment", "RBBallRoateChaseHeader"]
+- !private ["PSo18UIFocusEnvironment", "RBBallScaleHeader"]
 - !private ["PSo18UIFocusEnvironment", "RBGifHeader"]
 - !private ["PSo18UIFocusEnvironment", "RBNormalFooter"]
 - !private ["PSo18UIFocusEnvironment", "RBNormalHeader"]
@@ -1430,6 +1454,7 @@ depends-member:
 - !private ["CSo11UIResponder", "OperationQueue"]
 - !private ["CSo11UIResponder", "RBBallClipRoateHeader"]
 - !private ["CSo11UIResponder", "RBBallRoateChaseHeader"]
+- !private ["CSo11UIResponder", "RBBallScaleHeader"]
 - !private ["CSo11UIResponder", "RBGifHeader"]
 - !private ["CSo11UIResponder", "RBNormalFooter"]
 - !private ["CSo11UIResponder", "RBNormalHeader"]
@@ -1491,6 +1516,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "OperationQueue"]
 - !private ["PSo30UIResponderStandardEditActions", "RBBallClipRoateHeader"]
 - !private ["PSo30UIResponderStandardEditActions", "RBBallRoateChaseHeader"]
+- !private ["PSo30UIResponderStandardEditActions", "RBBallScaleHeader"]
 - !private ["PSo30UIResponderStandardEditActions", "RBGifHeader"]
 - !private ["PSo30UIResponderStandardEditActions", "RBNormalFooter"]
 - !private ["PSo30UIResponderStandardEditActions", "RBNormalHeader"]
@@ -1563,6 +1589,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "OperationQueue"]
 - !private ["PSo20UIScrollViewDelegate", "RBBallClipRoateHeader"]
 - !private ["PSo20UIScrollViewDelegate", "RBBallRoateChaseHeader"]
+- !private ["PSo20UIScrollViewDelegate", "RBBallScaleHeader"]
 - !private ["PSo20UIScrollViewDelegate", "RBGifHeader"]
 - !private ["PSo20UIScrollViewDelegate", "RBNormalFooter"]
 - !private ["PSo20UIScrollViewDelegate", "RBNormalHeader"]
@@ -1606,6 +1633,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "OperationQueue"]
 - !private ["PSo16UIStateRestoring", "RBBallClipRoateHeader"]
 - !private ["PSo16UIStateRestoring", "RBBallRoateChaseHeader"]
+- !private ["PSo16UIStateRestoring", "RBBallScaleHeader"]
 - !private ["PSo16UIStateRestoring", "RBGifHeader"]
 - !private ["PSo16UIStateRestoring", "RBNormalFooter"]
 - !private ["PSo16UIStateRestoring", "RBNormalHeader"]
@@ -1670,6 +1698,7 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "OperationQueue"]
 - !private ["PSo21UITableViewDataSource", "RBBallClipRoateHeader"]
 - !private ["PSo21UITableViewDataSource", "RBBallRoateChaseHeader"]
+- !private ["PSo21UITableViewDataSource", "RBBallScaleHeader"]
 - !private ["PSo21UITableViewDataSource", "RBGifHeader"]
 - !private ["PSo21UITableViewDataSource", "RBNormalFooter"]
 - !private ["PSo21UITableViewDataSource", "RBNormalHeader"]
@@ -1713,6 +1742,7 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "OperationQueue"]
 - !private ["PSo19UITableViewDelegate", "RBBallClipRoateHeader"]
 - !private ["PSo19UITableViewDelegate", "RBBallRoateChaseHeader"]
+- !private ["PSo19UITableViewDelegate", "RBBallScaleHeader"]
 - !private ["PSo19UITableViewDelegate", "RBGifHeader"]
 - !private ["PSo19UITableViewDelegate", "RBNormalFooter"]
 - !private ["PSo19UITableViewDelegate", "RBNormalHeader"]
@@ -1758,6 +1788,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "OperationQueue"]
 - !private ["PSo18UITraitEnvironment", "RBBallClipRoateHeader"]
 - !private ["PSo18UITraitEnvironment", "RBBallRoateChaseHeader"]
+- !private ["PSo18UITraitEnvironment", "RBBallScaleHeader"]
 - !private ["PSo18UITraitEnvironment", "RBGifHeader"]
 - !private ["PSo18UITraitEnvironment", "RBNormalFooter"]
 - !private ["PSo18UITraitEnvironment", "RBNormalHeader"]
@@ -1837,6 +1868,7 @@ depends-member:
 - !private ["CSo16UIViewController", "OperationQueue"]
 - !private ["CSo16UIViewController", "RBBallClipRoateHeader"]
 - !private ["CSo16UIViewController", "RBBallRoateChaseHeader"]
+- !private ["CSo16UIViewController", "RBBallScaleHeader"]
 - !private ["CSo16UIViewController", "RBGifHeader"]
 - !private ["CSo16UIViewController", "RBNormalFooter"]
 - !private ["CSo16UIViewController", "RBNormalHeader"]
@@ -1935,6 +1967,7 @@ depends-member:
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "BallClipRotate"]
 - !private ["Ps9_Hashable", "BallRoateChase"]
+- !private ["Ps9_Hashable", "BallScale"]
 - !private ["Ps9_Hashable", "CGRect"]
 - !private ["Ps9_Hashable", "DispatchQueue"]
 - !private ["Ps9_Hashable", "Gif"]
@@ -1944,6 +1977,7 @@ depends-member:
 - !private ["Ps9_Hashable", "OperationQueue"]
 - !private ["Ps9_Hashable", "RBBallClipRoateHeader"]
 - !private ["Ps9_Hashable", "RBBallRoateChaseHeader"]
+- !private ["Ps9_Hashable", "RBBallScaleHeader"]
 - !private ["Ps9_Hashable", "RBGifHeader"]
 - !private ["Ps9_Hashable", "RBNormalFooter"]
 - !private ["Ps9_Hashable", "RBNormalHeader"]
@@ -2022,6 +2056,7 @@ depends-member:
 - !private ["Ps18_IntegerArithmetic", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "BallClipRotate"]
 - !private ["Ps21_ObjectiveCBridgeable", "BallRoateChase"]
+- !private ["Ps21_ObjectiveCBridgeable", "BallScale"]
 - ["Ps21_ObjectiveCBridgeable", "Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "Gif"]
 - !private ["Ps21_ObjectiveCBridgeable", "Index"]
@@ -2046,6 +2081,7 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "width"]
 - !private ["Vs26_OptionalNilComparisonType", "BallClipRotate"]
 - !private ["Vs26_OptionalNilComparisonType", "BallRoateChase"]
+- !private ["Vs26_OptionalNilComparisonType", "BallScale"]
 - !private ["Vs26_OptionalNilComparisonType", "Gif"]
 - !private ["Vs26_OptionalNilComparisonType", "Normal"]
 - !private ["Ps14_SignedInteger", "IntegerLiteralType"]
@@ -2126,6 +2162,7 @@ depends-nominal:
 - "Sq"
 - "C9RBRefresh21RBBallClipRoateHeader"
 - "C9RBRefresh22RBBallRoateChaseHeader"
+- "C9RBRefresh17RBBallScaleHeader"
 - "C9RBRefresh11RBGifHeader"
 - "C9RBRefresh14RBNormalFooter"
 - "C9RBRefresh14RBNormalHeader"
