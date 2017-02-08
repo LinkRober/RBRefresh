@@ -58,4 +58,10 @@ self.tableview.rb_addFooterRefreshBlock({
         }, animator: RBNormalFooter.init(frame: CGRect(x:0,y:0,width:0,height:50)))
 
 ```
+###Reach Me
+HomePage:[@董二千](http://www.jianshu.com/u/84ae3fbd22e1)<br />
+GitHub:[LinkRober](https://github.com/LinkRober)<br />
+
+
+
 
