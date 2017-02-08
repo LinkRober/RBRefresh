@@ -22,6 +22,8 @@ class TestViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         self.edgesForExtendedLayout = []
         self.tableview.delegate = self
         self.tableview.dataSource = self
+        self.tableview.tableFooterView = UIView()
+        
         view.addSubview(self.tableview)
         
         if type == .Normal {
