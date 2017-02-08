@@ -8,16 +8,20 @@
 #### support swift3.0
 ### Example
 
-**RBNormalHeader**<br />
+>**RBNormalHeader**<br />
+
 ![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh1.gif)<br />
 >**RBGifHeader**<br />
 
 ![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh2.gif)<br />
-**RBBallRoateChaseHeader**<br />
+>**RBBallRoateChaseHeader**<br />
+
 ![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh3.gif)<br />
-**RBBallClipRoateHeader**<br />
+>**RBBallClipRoateHeader**<br />
+
 ![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh4.gif)<br />
-**RBBallScaleHeader**<br />
+>**RBBallScaleHeader**<br />
+
 ![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh5.gif)<br />
 
 ###  How to use
