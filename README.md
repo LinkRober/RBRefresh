@@ -9,15 +9,15 @@
 ### Example
 
 **RBNormalHeader**<br />
-![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh1.gif)
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh1.gif)<br />
 **RBGifHeader**<br />
-![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh2.gif)
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh2.gif)<br />
 **RBBallRoateChaseHeader**<br />
-![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh3.gif)
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh3.gif)<br />
 **RBBallClipRoateHeader**<br />
-![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh4.gif)
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh4.gif)<br />
 **RBBallScaleHeader**<br />
-![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh5.gif)
+![](https://github.com/LinkRober/RBRefresh/blob/master/images/RBRefresh5.gif)<br />
 
 ###  How to use
 >所有自定义的header和footer，需要遵循 `PullDownToRefreshViewDelegate` `PullUpToRefreshViewDelegate`，并且时UIView的范型。
