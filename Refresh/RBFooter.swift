@@ -134,6 +134,9 @@ class RBFooter: RBView {
             scrollow.contentInset = UIEdgeInsetsMake(0, 0, 0, 0)
         }) { (finished:Bool) in
             self.animator?.pullUpToRefreshAnimationDidStart(self)
+            if !self.enableLoadMore{
+                self.animator?.pullUpToRefreshAnimationNoticeNoMore(self)
+            }
         }
     }
     
