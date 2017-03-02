@@ -59,6 +59,7 @@ class RBFooter: RBView {
         
         if context == &KVOContentSize {
             guard !loadmore  else {
+                //TODO:when none of data ,hide
                 self.isHidden = true
                 return
             }
@@ -66,7 +67,17 @@ class RBFooter: RBView {
 
             if let scrollow = self.superview as? UIScrollView {
                 let height = self.frame.size.height
-                self.frame = CGRect(x:0,y:scrollow.contentSize.height,width:kScreenWidth,height:height)
+                //TODO:ios8 height calculate frequently，leading to footer view show for people when pull up
+                self.alpha = 0
+                UIView.animate(withDuration: 0.5, animations: { 
+                    //
+                }, completion: { (finished) in
+                    if finished {
+                        self.alpha = 1
+                        self.frame = CGRect(x:0,y:scrollow.contentSize.height,width:kScreenWidth,height:height)
+                    }
+                })
+
             }
         }
         
