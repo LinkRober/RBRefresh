@@ -59,8 +59,11 @@ class RBFooter: RBView {
         
         if context == &KVOContentSize {
             guard !loadmore  else {
+                self.isHidden = true
                 return
             }
+            self.isHidden = false
+
             if let scrollow = self.superview as? UIScrollView {
                 let height = self.frame.size.height
                 self.frame = CGRect(x:0,y:scrollow.contentSize.height,width:kScreenWidth,height:height)
