@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SwiftGifOrigin-Swift.h</key>
 		<data>
-		StGWYyzBWoI/ZqbSHX2FYAXqxK4=
+		xwv64DHl96jNU52got/eqCxRIxU=
 		</data>
 		<key>Headers/SwiftGifOrigin-umbrella.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1K++l0/m5TKtoU9gs/FuC3QsnHE=
+		SNhXaSupBs5AW9wr0AmmH4idw5c=
 		</data>
 		<key>Modules/SwiftGifOrigin.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		+x9peJhGS3zH6OInoYvJeCZ8Ozw=
+		s3/+fGOHI76lCermubbl/XwQKMY=
 		</data>
 		<key>Modules/SwiftGifOrigin.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		GYYEyQfbqdG2FCfmxg7ermClB+A=
+		3IxlT1Es3evq9LtDrErGn/okBm0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			StGWYyzBWoI/ZqbSHX2FYAXqxK4=
+			xwv64DHl96jNU52got/eqCxRIxU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bki47MHHUxxqbf7d7g4+DqDm0jYMi4MytP7efSHiHno=
+			oTCalRZTc59BiUKRVYm8fOP5CGp373HzJYx0qyp+NAU=
 			</data>
 		</dict>
 		<key>Headers/SwiftGifOrigin-umbrella.h</key>
@@ -57,22 +57,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+x9peJhGS3zH6OInoYvJeCZ8Ozw=
+			s3/+fGOHI76lCermubbl/XwQKMY=
 			</data>
 			<key>hash2</key>
 			<data>
-			wwHtejohP9xbHwbB0DrZIDM33nP3Ji6/Jq2YxMaNHHQ=
+			JeCn2FUcg3ICBFViXSUBGBy0zoK7SypIR1/xTcLosWY=
 			</data>
 		</dict>
 		<key>Modules/SwiftGifOrigin.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GYYEyQfbqdG2FCfmxg7ermClB+A=
+			3IxlT1Es3evq9LtDrErGn/okBm0=
 			</data>
 			<key>hash2</key>
 			<data>
-			7WeGN9QoaG/BDzCAm6M4daS7Cf+nGzyUYTIILMJW398=
+			KwfoZ/9icoFGgY86O6AyTP/4beeEnun+rtxC0K2XFdQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

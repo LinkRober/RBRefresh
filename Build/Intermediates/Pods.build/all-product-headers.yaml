@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphonesimulator/Pods_RBRefresh.framework/Headers",
+      'name': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphoneos/Pods_RBRefresh.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -14,29 +14,29 @@
         {
           'type': 'file',
           'name': "Pods_RBRefresh-Swift.h",
-          'external-contents': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphonesimulator/Pods_RBRefresh.framework/Headers/Pods_RBRefresh-Swift.h"
+          'external-contents': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphoneos/Pods_RBRefresh.framework/Headers/Pods_RBRefresh-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphonesimulator/Pods_RBRefresh.framework/Modules",
+      'name': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphoneos/Pods_RBRefresh.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RBRefresh.build/module.modulemap"
+          'external-contents': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-RBRefresh.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers",
+      'name': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftGifOrigin-Swift.h",
-          'external-contents': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
+          'external-contents': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
         },
         {
           'type': 'file',
@@ -47,12 +47,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Modules",
+      'name': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftGifOrigin.build/module.modulemap"
+          'external-contents': "/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Intermediates/Pods.build/Debug-iphoneos/SwiftGifOrigin.build/module.modulemap"
         }
       ]
     }

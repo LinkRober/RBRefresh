@@ -19,9 +19,9 @@ class RBNormalFooter: UIView,RBPullUpToRefreshViewDelegate {
     lazy var moreLabel:UILabel = {
         let noMoreLabel = UILabel.init()
         noMoreLabel.textColor = UIColor.black
-        noMoreLabel.text = "没有更多了..."
+        noMoreLabel.text = "上拉加载更多"
         noMoreLabel.translatesAutoresizingMaskIntoConstraints = false
-        noMoreLabel.isHidden = true
+        noMoreLabel.isHidden = false
         return noMoreLabel
     }()
     

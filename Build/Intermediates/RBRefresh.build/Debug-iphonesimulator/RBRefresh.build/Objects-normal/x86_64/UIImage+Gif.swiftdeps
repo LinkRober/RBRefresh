@@ -13,59 +13,56 @@ provides-member:
 - ["CSo7UIImage", "gcdForArray"]
 - ["CSo7UIImage", "animatedImageWithSource"]
 provides-dynamic-lookup:
-- "gcdForArray"
-- "delayForImageAtIndex"
-- "loadGif"
-- "gif"
-- "gif"
-- "gif"
 - "animatedImageWithSource"
+- "delayForImageAtIndex"
+- "gcdForArray"
+- "gif"
+- "loadGif"
 depends-top-level:
-- !private "CFDictionary"
-- !private "+="
-- "Data"
-- !private "CGImageSourceCopyPropertiesAtIndex"
-- !private "CFData"
-- "Double"
-- "UIImageView"
-- !private "print"
-- !private "*"
-- !private "BooleanLiteralType"
-- !private "..<"
-- "Int"
-- !private "StringLiteralType"
-- "String"
-- !private "Unmanaged"
-- !private "AnyObject"
-- !private "URL"
-- !private "CFDictionaryGetValueIfPresent"
-- "Array"
-- "UIImage"
-- "AssignmentPrecedence"
-- !private "Bundle"
-- !private "/"
-- !private "=="
-- "CastingPrecedence"
 - !private "!="
 - !private "%"
-- !private "UnsafeRawPointer"
-- !private "CGImageSourceCreateWithData"
-- "CGImageSource"
-- !private "UnsafeMutablePointer"
-- !private "kCGImagePropertyGIFDictionary"
-- !private "kCGImagePropertyGIFDelayTime"
-- !private "CGImageSourceGetCount"
+- !private "*"
+- !private "+="
+- !private "..<"
+- !private "/"
 - !private "<"
-- !private "kCGImagePropertyGIFUnclampedDelayTime"
-- !private "CFDictionaryGetValue"
-- !private "CGImage"
-- !private "DispatchQueue"
-- !private "||"
-- !private "CGImageSourceCreateImageAtIndex"
+- !private "=="
 - !private "??"
+- !private "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- !private "CFData"
+- !private "CFDictionary"
+- !private "CFDictionaryGetValue"
+- !private "CFDictionaryGetValueIfPresent"
+- !private "CGImage"
+- "CGImageSource"
+- !private "CGImageSourceCopyPropertiesAtIndex"
+- !private "CGImageSourceCreateImageAtIndex"
+- !private "CGImageSourceCreateWithData"
+- !private "CGImageSourceGetCount"
+- "CastingPrecedence"
+- "Data"
+- !private "DispatchQueue"
+- "Double"
+- "Int"
+- "String"
+- !private "StringLiteralType"
+- "UIImage"
+- "UIImageView"
+- !private "URL"
+- !private "Unmanaged"
+- !private "UnsafeMutablePointer"
+- !private "UnsafeRawPointer"
+- !private "kCGImagePropertyGIFDelayTime"
+- !private "kCGImagePropertyGIFDictionary"
+- !private "kCGImagePropertyGIFUnclampedDelayTime"
+- !private "print"
 - !private "unsafeBitCast"
+- !private "||"
 depends-member:
-- !private ["Ps16AbsoluteValuable", "RawValue"]
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "AnyObject"]
 - !private ["Ps9AnyObject", "Bundle"]
@@ -86,82 +83,39 @@ depends-member:
 - !private ["Ps9AnyObject", "Unmanaged"]
 - !private ["Ps9AnyObject", "UnsafeMutablePointer"]
 - !private ["Ps9AnyObject", "animatedImage"]
-- ["Ps9AnyObject", "animatedImageWithSource"]
+- !private ["Ps9AnyObject", "animatedImageWithSource"]
 - !private ["Ps9AnyObject", "async"]
-- ["Ps9AnyObject", "deinit"]
-- ["Ps9AnyObject", "delayForImageAtIndex"]
+- !private ["Ps9AnyObject", "delayForImageAtIndex"]
 - !private ["Ps9AnyObject", "doubleValue"]
-- ["Ps9AnyObject", "gcdForArray"]
-- ["Ps9AnyObject", "gcdForPair"]
-- ["Ps9AnyObject", "gif"]
+- !private ["Ps9AnyObject", "gcdForArray"]
+- !private ["Ps9AnyObject", "gcdForPair"]
+- !private ["Ps9AnyObject", "gif"]
 - !private ["Ps9AnyObject", "global"]
 - !private ["Ps9AnyObject", "image"]
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "kCGImagePropertyGIFDelayTime"]
 - !private ["Ps9AnyObject", "kCGImagePropertyGIFDictionary"]
 - !private ["Ps9AnyObject", "kCGImagePropertyGIFUnclampedDelayTime"]
-- ["Ps9AnyObject", "loadGif"]
 - !private ["Ps9AnyObject", "main"]
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "unsafeBitCast"]
 - !private ["Ps9AnyObject", "url"]
-- !private ["Sa", "Index"]
-- !private ["Sa", "IndexDistance"]
-- !private ["Sa", "Iterator"]
-- !private ["Sa", "SubSequence"]
-- !private ["Sa", "_Element"]
 - !private ["Sa", "append"]
-- ["Sa", "deinit"]
 - !private ["Sa", "init"]
 - !private ["Sa", "isEmpty"]
 - !private ["Sa", "subscript"]
-- !private ["Ps23BidirectionalCollection", "Index"]
-- !private ["Ps23BidirectionalCollection", "IndexDistance"]
-- !private ["Ps23BidirectionalCollection", "Indices"]
-- !private ["Ps23BidirectionalCollection", "Iterator"]
-- !private ["Ps23BidirectionalCollection", "SubSequence"]
-- !private ["Ps23BidirectionalCollection", "_Element"]
 - !private ["Ps23BidirectionalCollection", "append"]
 - !private ["Ps23BidirectionalCollection", "init"]
 - !private ["Ps23BidirectionalCollection", "isEmpty"]
 - !private ["Ps23BidirectionalCollection", "subscript"]
-- !private ["Ps22BidirectionalIndexable", "Index"]
-- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
-- !private ["Ps22BidirectionalIndexable", "Indices"]
-- !private ["Ps22BidirectionalIndexable", "Iterator"]
-- !private ["Ps22BidirectionalIndexable", "SubSequence"]
-- !private ["Ps22BidirectionalIndexable", "_Element"]
-- !private ["Ps22BidirectionalIndexable", "append"]
-- !private ["Ps22BidirectionalIndexable", "init"]
-- !private ["Ps22BidirectionalIndexable", "isEmpty"]
-- !private ["Ps22BidirectionalIndexable", "subscript"]
-- !private ["Vs18BidirectionalSlice", "Index"]
-- !private ["Vs18BidirectionalSlice", "IndexDistance"]
-- !private ["Vs18BidirectionalSlice", "Indices"]
-- !private ["Vs18BidirectionalSlice", "Iterator"]
-- !private ["Vs18BidirectionalSlice", "SubSequence"]
-- !private ["Vs18BidirectionalSlice", "_Element"]
-- !private ["Ps19BinaryFloatingPoint", "RawValue"]
 - !private ["Ps19BinaryFloatingPoint", "init"]
-- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
-- !private ["Ps17BitwiseOperations", "Stride"]
-- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
 - !private ["Ps17BitwiseOperations", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- ["Sb", "deinit"]
-- ["CSo6Bundle", "deinit"]
 - !private ["CSo6Bundle", "main"]
 - !private ["CSo6Bundle", "url"]
 - !private ["PSo15CALayerDelegate", "DispatchQueue"]
 - !private ["PSo15CALayerDelegate", "UIImage"]
 - !private ["PSo15CALayerDelegate", "image"]
-- ["PSo15CALayerDelegate", "loadGif"]
-- ["CSo6CFData", "deinit"]
-- ["CSo12CFDictionary", "deinit"]
-- ["CSo8CFString", "deinit"]
-- !private ["V12CoreGraphics7CGFloat", "deinit"]
-- ["CSo7CGImage", "deinit"]
-- ["CSo13CGImageSource", "deinit"]
 - !private ["Ps7CVarArg", "AnyObject"]
 - !private ["Ps7CVarArg", "Bundle"]
 - !private ["Ps7CVarArg", "CFDictionary"]
@@ -175,29 +129,20 @@ depends-member:
 - !private ["Ps7CVarArg", "Data"]
 - !private ["Ps7CVarArg", "DispatchQueue"]
 - !private ["Ps7CVarArg", "Double"]
-- !private ["Ps7CVarArg", "Index"]
-- !private ["Ps7CVarArg", "IndexDistance"]
 - !private ["Ps7CVarArg", "Int"]
-- !private ["Ps7CVarArg", "IntegerLiteralType"]
-- !private ["Ps7CVarArg", "Iterator"]
-- !private ["Ps7CVarArg", "RawValue"]
-- !private ["Ps7CVarArg", "Stride"]
-- !private ["Ps7CVarArg", "SubSequence"]
 - !private ["Ps7CVarArg", "UIImage"]
 - !private ["Ps7CVarArg", "URL"]
 - !private ["Ps7CVarArg", "Unmanaged"]
 - !private ["Ps7CVarArg", "UnsafeMutablePointer"]
-- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
-- !private ["Ps7CVarArg", "_Element"]
 - !private ["Ps7CVarArg", "allocate"]
 - !private ["Ps7CVarArg", "animatedImage"]
-- ["Ps7CVarArg", "animatedImageWithSource"]
+- !private ["Ps7CVarArg", "animatedImageWithSource"]
 - !private ["Ps7CVarArg", "append"]
 - !private ["Ps7CVarArg", "async"]
-- ["Ps7CVarArg", "delayForImageAtIndex"]
-- ["Ps7CVarArg", "gcdForArray"]
-- ["Ps7CVarArg", "gcdForPair"]
-- ["Ps7CVarArg", "gif"]
+- !private ["Ps7CVarArg", "delayForImageAtIndex"]
+- !private ["Ps7CVarArg", "gcdForArray"]
+- !private ["Ps7CVarArg", "gcdForPair"]
+- !private ["Ps7CVarArg", "gif"]
 - !private ["Ps7CVarArg", "global"]
 - !private ["Ps7CVarArg", "image"]
 - !private ["Ps7CVarArg", "init"]
@@ -205,34 +150,19 @@ depends-member:
 - !private ["Ps7CVarArg", "kCGImagePropertyGIFDelayTime"]
 - !private ["Ps7CVarArg", "kCGImagePropertyGIFDictionary"]
 - !private ["Ps7CVarArg", "kCGImagePropertyGIFUnclampedDelayTime"]
-- ["Ps7CVarArg", "loadGif"]
 - !private ["Ps7CVarArg", "main"]
 - !private ["Ps7CVarArg", "pointee"]
 - !private ["Ps7CVarArg", "print"]
 - !private ["Ps7CVarArg", "subscript"]
 - !private ["Ps7CVarArg", "unsafeBitCast"]
 - !private ["Ps7CVarArg", "url"]
-- !private ["Vs9Character", "deinit"]
-- !private ["Ps10Collection", "Index"]
-- !private ["Ps10Collection", "IndexDistance"]
-- !private ["Ps10Collection", "Indices"]
-- !private ["Ps10Collection", "Iterator"]
-- !private ["Ps10Collection", "SubSequence"]
-- !private ["Ps10Collection", "_Element"]
 - !private ["Ps10Collection", "append"]
 - !private ["Ps10Collection", "init"]
 - !private ["Ps10Collection", "isEmpty"]
 - !private ["Ps10Collection", "subscript"]
-- !private ["Ps10Comparable", "IntegerLiteralType"]
-- !private ["Ps10Comparable", "RawValue"]
-- !private ["Ps10Comparable", "Stride"]
-- !private ["Ps10Comparable", "_DisabledRangeIndex"]
 - !private ["Ps10Comparable", "allocate"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps10Comparable", "pointee"]
-- !private ["Vs14CountableRange", "Iterator"]
-- !private ["Vs14CountableRange", "_Element"]
-- ["Vs14CountableRange", "deinit"]
 - !private ["Ps28CustomDebugStringConvertible", "AnyObject"]
 - !private ["Ps28CustomDebugStringConvertible", "Bundle"]
 - !private ["Ps28CustomDebugStringConvertible", "CFDictionary"]
@@ -246,26 +176,20 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Data"]
 - !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
 - !private ["Ps28CustomDebugStringConvertible", "Double"]
-- !private ["Ps28CustomDebugStringConvertible", "Index"]
-- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
 - !private ["Ps28CustomDebugStringConvertible", "Int"]
-- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
-- !private ["Ps28CustomDebugStringConvertible", "RawValue"]
-- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
 - !private ["Ps28CustomDebugStringConvertible", "UIImage"]
 - !private ["Ps28CustomDebugStringConvertible", "URL"]
 - !private ["Ps28CustomDebugStringConvertible", "Unmanaged"]
 - !private ["Ps28CustomDebugStringConvertible", "UnsafeMutablePointer"]
-- !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - !private ["Ps28CustomDebugStringConvertible", "allocate"]
 - !private ["Ps28CustomDebugStringConvertible", "animatedImage"]
-- ["Ps28CustomDebugStringConvertible", "animatedImageWithSource"]
+- !private ["Ps28CustomDebugStringConvertible", "animatedImageWithSource"]
 - !private ["Ps28CustomDebugStringConvertible", "append"]
 - !private ["Ps28CustomDebugStringConvertible", "async"]
-- ["Ps28CustomDebugStringConvertible", "delayForImageAtIndex"]
-- ["Ps28CustomDebugStringConvertible", "gcdForArray"]
-- ["Ps28CustomDebugStringConvertible", "gcdForPair"]
-- ["Ps28CustomDebugStringConvertible", "gif"]
+- !private ["Ps28CustomDebugStringConvertible", "delayForImageAtIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "gcdForArray"]
+- !private ["Ps28CustomDebugStringConvertible", "gcdForPair"]
+- !private ["Ps28CustomDebugStringConvertible", "gif"]
 - !private ["Ps28CustomDebugStringConvertible", "global"]
 - !private ["Ps28CustomDebugStringConvertible", "image"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
@@ -273,30 +197,16 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "kCGImagePropertyGIFDelayTime"]
 - !private ["Ps28CustomDebugStringConvertible", "kCGImagePropertyGIFDictionary"]
 - !private ["Ps28CustomDebugStringConvertible", "kCGImagePropertyGIFUnclampedDelayTime"]
-- ["Ps28CustomDebugStringConvertible", "loadGif"]
 - !private ["Ps28CustomDebugStringConvertible", "main"]
 - !private ["Ps28CustomDebugStringConvertible", "pointee"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "unsafeBitCast"]
 - !private ["Ps28CustomDebugStringConvertible", "url"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "RawValue"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "allocate"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
-- !private ["Ps17CustomReflectable", "Index"]
-- !private ["Ps17CustomReflectable", "IndexDistance"]
-- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
-- !private ["Ps17CustomReflectable", "Iterator"]
-- !private ["Ps17CustomReflectable", "RawValue"]
-- !private ["Ps17CustomReflectable", "Stride"]
-- !private ["Ps17CustomReflectable", "SubSequence"]
-- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
-- !private ["Ps17CustomReflectable", "_Element"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "allocate"]
 - !private ["Ps17CustomReflectable", "append"]
@@ -317,29 +227,20 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "Data"]
 - !private ["Ps23CustomStringConvertible", "DispatchQueue"]
 - !private ["Ps23CustomStringConvertible", "Double"]
-- !private ["Ps23CustomStringConvertible", "Index"]
-- !private ["Ps23CustomStringConvertible", "IndexDistance"]
 - !private ["Ps23CustomStringConvertible", "Int"]
-- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
-- !private ["Ps23CustomStringConvertible", "Iterator"]
-- !private ["Ps23CustomStringConvertible", "RawValue"]
-- !private ["Ps23CustomStringConvertible", "Stride"]
-- !private ["Ps23CustomStringConvertible", "SubSequence"]
 - !private ["Ps23CustomStringConvertible", "UIImage"]
 - !private ["Ps23CustomStringConvertible", "URL"]
 - !private ["Ps23CustomStringConvertible", "Unmanaged"]
 - !private ["Ps23CustomStringConvertible", "UnsafeMutablePointer"]
-- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
-- !private ["Ps23CustomStringConvertible", "_Element"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "animatedImage"]
-- ["Ps23CustomStringConvertible", "animatedImageWithSource"]
+- !private ["Ps23CustomStringConvertible", "animatedImageWithSource"]
 - !private ["Ps23CustomStringConvertible", "append"]
 - !private ["Ps23CustomStringConvertible", "async"]
-- ["Ps23CustomStringConvertible", "delayForImageAtIndex"]
-- ["Ps23CustomStringConvertible", "gcdForArray"]
-- ["Ps23CustomStringConvertible", "gcdForPair"]
-- ["Ps23CustomStringConvertible", "gif"]
+- !private ["Ps23CustomStringConvertible", "delayForImageAtIndex"]
+- !private ["Ps23CustomStringConvertible", "gcdForArray"]
+- !private ["Ps23CustomStringConvertible", "gcdForPair"]
+- !private ["Ps23CustomStringConvertible", "gif"]
 - !private ["Ps23CustomStringConvertible", "global"]
 - !private ["Ps23CustomStringConvertible", "image"]
 - !private ["Ps23CustomStringConvertible", "init"]
@@ -347,33 +248,18 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "kCGImagePropertyGIFDelayTime"]
 - !private ["Ps23CustomStringConvertible", "kCGImagePropertyGIFDictionary"]
 - !private ["Ps23CustomStringConvertible", "kCGImagePropertyGIFUnclampedDelayTime"]
-- ["Ps23CustomStringConvertible", "loadGif"]
 - !private ["Ps23CustomStringConvertible", "main"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Ps23CustomStringConvertible", "unsafeBitCast"]
 - !private ["Ps23CustomStringConvertible", "url"]
-- ["V10Foundation4Data", "deinit"]
 - !private ["V10Foundation4Data", "init"]
-- !private ["Vs27DefaultBidirectionalIndices", "Index"]
-- !private ["Vs27DefaultBidirectionalIndices", "Iterator"]
-- !private ["Vs27DefaultBidirectionalIndices", "SubSequence"]
-- !private ["Vs27DefaultBidirectionalIndices", "_Element"]
-- !private ["Vs26DefaultRandomAccessIndices", "Index"]
-- !private ["Vs26DefaultRandomAccessIndices", "IndexDistance"]
-- !private ["Vs26DefaultRandomAccessIndices", "Indices"]
-- !private ["Vs26DefaultRandomAccessIndices", "Iterator"]
-- !private ["Vs26DefaultRandomAccessIndices", "SubSequence"]
-- !private ["Vs26DefaultRandomAccessIndices", "_Element"]
 - !private ["CSo14DispatchObject", "async"]
 - !private ["CSo14DispatchObject", "global"]
 - !private ["CSo14DispatchObject", "main"]
 - !private ["CSo13DispatchQueue", "async"]
-- ["CSo13DispatchQueue", "deinit"]
 - !private ["CSo13DispatchQueue", "global"]
 - !private ["CSo13DispatchQueue", "main"]
-- !private ["Sd", "RawValue"]
-- ["Sd", "deinit"]
 - !private ["Sd", "init"]
 - !private ["Ps9Equatable", "AnyObject"]
 - !private ["Ps9Equatable", "Bundle"]
@@ -389,61 +275,40 @@ depends-member:
 - !private ["Ps9Equatable", "DispatchQueue"]
 - !private ["Ps9Equatable", "Double"]
 - !private ["Ps9Equatable", "Int"]
-- !private ["Ps9Equatable", "IntegerLiteralType"]
-- !private ["Ps9Equatable", "Iterator"]
-- !private ["Ps9Equatable", "RawValue"]
-- !private ["Ps9Equatable", "Stride"]
 - !private ["Ps9Equatable", "UIImage"]
 - !private ["Ps9Equatable", "URL"]
 - !private ["Ps9Equatable", "Unmanaged"]
 - !private ["Ps9Equatable", "UnsafeMutablePointer"]
-- !private ["Ps9Equatable", "_DisabledRangeIndex"]
-- !private ["Ps9Equatable", "_Element"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "allocate"]
 - !private ["Ps9Equatable", "animatedImage"]
-- ["Ps9Equatable", "animatedImageWithSource"]
+- !private ["Ps9Equatable", "animatedImageWithSource"]
 - !private ["Ps9Equatable", "async"]
-- ["Ps9Equatable", "delayForImageAtIndex"]
-- ["Ps9Equatable", "gcdForArray"]
-- ["Ps9Equatable", "gcdForPair"]
-- ["Ps9Equatable", "gif"]
+- !private ["Ps9Equatable", "delayForImageAtIndex"]
+- !private ["Ps9Equatable", "gcdForArray"]
+- !private ["Ps9Equatable", "gcdForPair"]
+- !private ["Ps9Equatable", "gif"]
 - !private ["Ps9Equatable", "global"]
 - !private ["Ps9Equatable", "image"]
 - !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "kCGImagePropertyGIFDelayTime"]
 - !private ["Ps9Equatable", "kCGImagePropertyGIFDictionary"]
 - !private ["Ps9Equatable", "kCGImagePropertyGIFUnclampedDelayTime"]
-- ["Ps9Equatable", "loadGif"]
 - !private ["Ps9Equatable", "main"]
 - !private ["Ps9Equatable", "pointee"]
 - !private ["Ps9Equatable", "print"]
 - !private ["Ps9Equatable", "unsafeBitCast"]
 - !private ["Ps9Equatable", "url"]
-- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
-- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
-- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
-- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
-- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
 - !private ["Ps25ExpressibleByArrayLiteral", "append"]
 - !private ["Ps25ExpressibleByArrayLiteral", "init"]
 - !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
 - !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps25ExpressibleByFloatLiteral", "RawValue"]
 - !private ["Ps25ExpressibleByFloatLiteral", "init"]
-- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
-- !private ["Ps27ExpressibleByIntegerLiteral", "RawValue"]
-- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
-- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "init"]
-- !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
-- !private ["Sf", "deinit"]
-- !private ["Vs7Float80", "deinit"]
-- !private ["Ps13FloatingPoint", "RawValue"]
 - !private ["Ps13FloatingPoint", "init"]
 - !private ["Ps8Hashable", "AnyObject"]
 - !private ["Ps8Hashable", "Bundle"]
@@ -459,100 +324,40 @@ depends-member:
 - !private ["Ps8Hashable", "DispatchQueue"]
 - !private ["Ps8Hashable", "Double"]
 - !private ["Ps8Hashable", "Int"]
-- !private ["Ps8Hashable", "IntegerLiteralType"]
-- !private ["Ps8Hashable", "RawValue"]
-- !private ["Ps8Hashable", "Stride"]
 - !private ["Ps8Hashable", "UIImage"]
 - !private ["Ps8Hashable", "URL"]
 - !private ["Ps8Hashable", "Unmanaged"]
 - !private ["Ps8Hashable", "UnsafeMutablePointer"]
-- !private ["Ps8Hashable", "_DisabledRangeIndex"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "allocate"]
 - !private ["Ps8Hashable", "animatedImage"]
-- ["Ps8Hashable", "animatedImageWithSource"]
+- !private ["Ps8Hashable", "animatedImageWithSource"]
 - !private ["Ps8Hashable", "async"]
-- ["Ps8Hashable", "delayForImageAtIndex"]
-- ["Ps8Hashable", "gcdForArray"]
-- ["Ps8Hashable", "gcdForPair"]
-- ["Ps8Hashable", "gif"]
+- !private ["Ps8Hashable", "delayForImageAtIndex"]
+- !private ["Ps8Hashable", "gcdForArray"]
+- !private ["Ps8Hashable", "gcdForPair"]
+- !private ["Ps8Hashable", "gif"]
 - !private ["Ps8Hashable", "global"]
 - !private ["Ps8Hashable", "image"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "kCGImagePropertyGIFDelayTime"]
 - !private ["Ps8Hashable", "kCGImagePropertyGIFDictionary"]
 - !private ["Ps8Hashable", "kCGImagePropertyGIFUnclampedDelayTime"]
-- ["Ps8Hashable", "loadGif"]
 - !private ["Ps8Hashable", "main"]
 - !private ["Ps8Hashable", "pointee"]
 - !private ["Ps8Hashable", "print"]
 - !private ["Ps8Hashable", "unsafeBitCast"]
 - !private ["Ps8Hashable", "url"]
-- ["SQ", "deinit"]
-- !private ["Ps9Indexable", "Index"]
-- !private ["Ps9Indexable", "IndexDistance"]
-- !private ["Ps9Indexable", "Indices"]
-- !private ["Ps9Indexable", "Iterator"]
-- !private ["Ps9Indexable", "SubSequence"]
-- !private ["Ps9Indexable", "_Element"]
-- !private ["Ps9Indexable", "append"]
-- !private ["Ps9Indexable", "init"]
-- !private ["Ps9Indexable", "isEmpty"]
-- !private ["Ps9Indexable", "subscript"]
-- !private ["Ps13IndexableBase", "Index"]
-- !private ["Ps13IndexableBase", "IndexDistance"]
-- !private ["Ps13IndexableBase", "Indices"]
-- !private ["Ps13IndexableBase", "Iterator"]
-- !private ["Ps13IndexableBase", "SubSequence"]
-- !private ["Ps13IndexableBase", "_Element"]
-- !private ["Ps13IndexableBase", "append"]
-- !private ["Ps13IndexableBase", "init"]
-- !private ["Ps13IndexableBase", "isEmpty"]
-- !private ["Ps13IndexableBase", "subscript"]
-- !private ["Vs16IndexingIterator", "Element"]
-- !private ["Si", "IntegerLiteralType"]
-- !private ["Si", "Stride"]
-- !private ["Si", "_DisabledRangeIndex"]
-- ["Si", "deinit"]
 - !private ["Si", "init"]
-- !private ["Vs5Int16", "deinit"]
-- !private ["Vs5Int32", "deinit"]
-- !private ["Vs5Int64", "deinit"]
-- !private ["Vs4Int8", "deinit"]
-- !private ["Ps7Integer", "IntegerLiteralType"]
-- !private ["Ps7Integer", "Stride"]
-- !private ["Ps7Integer", "_DisabledRangeIndex"]
 - !private ["Ps7Integer", "init"]
-- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
-- !private ["Ps17IntegerArithmetic", "Stride"]
-- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
 - !private ["Ps17IntegerArithmetic", "init"]
-- !private ["Ps16IteratorProtocol", "Element"]
-- !private ["Ps25LosslessStringConvertible", "RawValue"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "init"]
-- !private ["Ps10MirrorPath", "IntegerLiteralType"]
-- !private ["Ps10MirrorPath", "Stride"]
-- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
 - !private ["Ps10MirrorPath", "init"]
-- !private ["Ps17MutableCollection", "Index"]
-- !private ["Ps17MutableCollection", "IndexDistance"]
-- !private ["Ps17MutableCollection", "Iterator"]
-- !private ["Ps17MutableCollection", "SubSequence"]
-- !private ["Ps17MutableCollection", "_Element"]
 - !private ["Ps17MutableCollection", "append"]
 - !private ["Ps17MutableCollection", "init"]
 - !private ["Ps17MutableCollection", "isEmpty"]
 - !private ["Ps17MutableCollection", "subscript"]
-- !private ["Ps16MutableIndexable", "Index"]
-- !private ["Ps16MutableIndexable", "IndexDistance"]
-- !private ["Ps16MutableIndexable", "Iterator"]
-- !private ["Ps16MutableIndexable", "SubSequence"]
-- !private ["Ps16MutableIndexable", "_Element"]
-- !private ["Ps16MutableIndexable", "append"]
-- !private ["Ps16MutableIndexable", "init"]
-- !private ["Ps16MutableIndexable", "isEmpty"]
-- !private ["Ps16MutableIndexable", "subscript"]
 - !private ["PSo8NSCoding", "AnyObject"]
 - !private ["PSo8NSCoding", "Bundle"]
 - !private ["PSo8NSCoding", "CFDictionary"]
@@ -582,12 +387,10 @@ depends-member:
 - !private ["PSo8NSCoding", "kCGImagePropertyGIFDelayTime"]
 - !private ["PSo8NSCoding", "kCGImagePropertyGIFDictionary"]
 - !private ["PSo8NSCoding", "kCGImagePropertyGIFUnclampedDelayTime"]
-- ["PSo8NSCoding", "loadGif"]
 - !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "unsafeBitCast"]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo16NSMutableCopying", "init"]
-- !private ["CSo8NSNumber", "deinit"]
 - !private ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Array"]
 - !private ["CSo8NSObject", "Bundle"]
@@ -620,7 +423,6 @@ depends-member:
 - ["CSo8NSObject", "gif"]
 - !private ["CSo8NSObject", "global"]
 - !private ["CSo8NSObject", "image"]
-- !private ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "kCGImagePropertyGIFDelayTime"]
 - !private ["CSo8NSObject", "kCGImagePropertyGIFDictionary"]
 - !private ["CSo8NSObject", "kCGImagePropertyGIFUnclampedDelayTime"]
@@ -648,19 +450,18 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Unmanaged"]
 - !private ["PSo16NSObjectProtocol", "UnsafeMutablePointer"]
 - !private ["PSo16NSObjectProtocol", "animatedImage"]
-- ["PSo16NSObjectProtocol", "animatedImageWithSource"]
+- !private ["PSo16NSObjectProtocol", "animatedImageWithSource"]
 - !private ["PSo16NSObjectProtocol", "async"]
-- ["PSo16NSObjectProtocol", "delayForImageAtIndex"]
-- ["PSo16NSObjectProtocol", "gcdForArray"]
-- ["PSo16NSObjectProtocol", "gcdForPair"]
-- ["PSo16NSObjectProtocol", "gif"]
+- !private ["PSo16NSObjectProtocol", "delayForImageAtIndex"]
+- !private ["PSo16NSObjectProtocol", "gcdForArray"]
+- !private ["PSo16NSObjectProtocol", "gcdForPair"]
+- !private ["PSo16NSObjectProtocol", "gif"]
 - !private ["PSo16NSObjectProtocol", "global"]
 - !private ["PSo16NSObjectProtocol", "image"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "kCGImagePropertyGIFDelayTime"]
 - !private ["PSo16NSObjectProtocol", "kCGImagePropertyGIFDictionary"]
 - !private ["PSo16NSObjectProtocol", "kCGImagePropertyGIFUnclampedDelayTime"]
-- ["PSo16NSObjectProtocol", "loadGif"]
 - !private ["PSo16NSObjectProtocol", "main"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "unsafeBitCast"]
@@ -698,85 +499,24 @@ depends-member:
 - !private ["CSo9OS_object", "async"]
 - !private ["CSo9OS_object", "global"]
 - !private ["CSo9OS_object", "main"]
-- ["Sq", "deinit"]
-- !private ["Ps22RandomAccessCollection", "Index"]
-- !private ["Ps22RandomAccessCollection", "IndexDistance"]
-- !private ["Ps22RandomAccessCollection", "Indices"]
-- !private ["Ps22RandomAccessCollection", "Iterator"]
-- !private ["Ps22RandomAccessCollection", "SubSequence"]
-- !private ["Ps22RandomAccessCollection", "_Element"]
 - !private ["Ps22RandomAccessCollection", "append"]
 - !private ["Ps22RandomAccessCollection", "init"]
 - !private ["Ps22RandomAccessCollection", "isEmpty"]
 - !private ["Ps22RandomAccessCollection", "subscript"]
-- !private ["Ps21RandomAccessIndexable", "Index"]
-- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
-- !private ["Ps21RandomAccessIndexable", "Indices"]
-- !private ["Ps21RandomAccessIndexable", "Iterator"]
-- !private ["Ps21RandomAccessIndexable", "SubSequence"]
-- !private ["Ps21RandomAccessIndexable", "_Element"]
-- !private ["Ps21RandomAccessIndexable", "append"]
-- !private ["Ps21RandomAccessIndexable", "init"]
-- !private ["Ps21RandomAccessIndexable", "isEmpty"]
-- !private ["Ps21RandomAccessIndexable", "subscript"]
-- !private ["Vs17RandomAccessSlice", "Index"]
-- !private ["Vs17RandomAccessSlice", "IndexDistance"]
-- !private ["Vs17RandomAccessSlice", "Indices"]
-- !private ["Vs17RandomAccessSlice", "Iterator"]
-- !private ["Vs17RandomAccessSlice", "SubSequence"]
-- !private ["Vs17RandomAccessSlice", "_Element"]
-- !private ["Vs5Range", "deinit"]
-- !private ["Ps26RangeReplaceableCollection", "Index"]
-- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
-- !private ["Ps26RangeReplaceableCollection", "Iterator"]
-- !private ["Ps26RangeReplaceableCollection", "SubSequence"]
-- !private ["Ps26RangeReplaceableCollection", "_Element"]
 - !private ["Ps26RangeReplaceableCollection", "append"]
 - !private ["Ps26RangeReplaceableCollection", "init"]
 - !private ["Ps26RangeReplaceableCollection", "isEmpty"]
 - !private ["Ps26RangeReplaceableCollection", "subscript"]
-- !private ["Ps25RangeReplaceableIndexable", "Index"]
-- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
-- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
-- !private ["Ps25RangeReplaceableIndexable", "SubSequence"]
-- !private ["Ps25RangeReplaceableIndexable", "_Element"]
-- !private ["Ps25RangeReplaceableIndexable", "append"]
-- !private ["Ps25RangeReplaceableIndexable", "init"]
-- !private ["Ps25RangeReplaceableIndexable", "isEmpty"]
-- !private ["Ps25RangeReplaceableIndexable", "subscript"]
 - !private ["P10Foundation20ReferenceConvertible", "init"]
-- !private ["Ps8Sequence", "Element"]
-- !private ["Ps8Sequence", "Index"]
-- !private ["Ps8Sequence", "IndexDistance"]
-- !private ["Ps8Sequence", "Indices"]
-- !private ["Ps8Sequence", "Iterator"]
-- !private ["Ps8Sequence", "SubSequence"]
-- !private ["Ps8Sequence", "_Element"]
 - !private ["Ps8Sequence", "append"]
 - !private ["Ps8Sequence", "init"]
 - !private ["Ps8Sequence", "isEmpty"]
 - !private ["Ps8Sequence", "subscript"]
-- !private ["Ps13SignedInteger", "IntegerLiteralType"]
-- !private ["Ps13SignedInteger", "Stride"]
-- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
 - !private ["Ps13SignedInteger", "init"]
-- !private ["Ps12SignedNumber", "IntegerLiteralType"]
-- !private ["Ps12SignedNumber", "RawValue"]
-- !private ["Ps12SignedNumber", "Stride"]
-- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
 - !private ["Ps12SignedNumber", "init"]
-- !private ["Vs5Slice", "Index"]
-- !private ["Vs5Slice", "Iterator"]
-- !private ["Vs5Slice", "SubSequence"]
-- !private ["Vs5Slice", "_Element"]
-- !private ["Ps10Strideable", "IntegerLiteralType"]
-- !private ["Ps10Strideable", "RawValue"]
-- !private ["Ps10Strideable", "Stride"]
-- !private ["Ps10Strideable", "_DisabledRangeIndex"]
 - !private ["Ps10Strideable", "allocate"]
 - !private ["Ps10Strideable", "init"]
 - !private ["Ps10Strideable", "pointee"]
-- ["SS", "deinit"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
@@ -809,33 +549,26 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "kCGImagePropertyGIFDelayTime"]
 - !private ["PSo29UIAccessibilityIdentification", "kCGImagePropertyGIFDictionary"]
 - !private ["PSo29UIAccessibilityIdentification", "kCGImagePropertyGIFUnclampedDelayTime"]
-- ["PSo29UIAccessibilityIdentification", "loadGif"]
 - !private ["PSo29UIAccessibilityIdentification", "print"]
 - !private ["PSo29UIAccessibilityIdentification", "unsafeBitCast"]
 - !private ["PSo12UIAppearance", "DispatchQueue"]
 - !private ["PSo12UIAppearance", "UIImage"]
 - !private ["PSo12UIAppearance", "image"]
-- ["PSo12UIAppearance", "loadGif"]
 - !private ["PSo21UIAppearanceContainer", "DispatchQueue"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
 - !private ["PSo21UIAppearanceContainer", "image"]
-- ["PSo21UIAppearanceContainer", "loadGif"]
 - !private ["PSo17UICoordinateSpace", "DispatchQueue"]
 - !private ["PSo17UICoordinateSpace", "UIImage"]
 - !private ["PSo17UICoordinateSpace", "image"]
-- ["PSo17UICoordinateSpace", "loadGif"]
 - !private ["PSo13UIDynamicItem", "DispatchQueue"]
 - !private ["PSo13UIDynamicItem", "UIImage"]
 - !private ["PSo13UIDynamicItem", "image"]
-- ["PSo13UIDynamicItem", "loadGif"]
 - !private ["PSo18UIFocusEnvironment", "DispatchQueue"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
 - !private ["PSo18UIFocusEnvironment", "image"]
-- ["PSo18UIFocusEnvironment", "loadGif"]
 - !private ["PSo11UIFocusItem", "DispatchQueue"]
 - !private ["PSo11UIFocusItem", "UIImage"]
 - !private ["PSo11UIFocusItem", "image"]
-- ["PSo11UIFocusItem", "loadGif"]
 - !private ["CSo7UIImage", "AnyObject"]
 - ["CSo7UIImage", "Array"]
 - !private ["CSo7UIImage", "Bundle"]
@@ -860,7 +593,6 @@ depends-member:
 - !private ["CSo7UIImage", "UnsafeRawPointer"]
 - !private ["CSo7UIImage", "animatedImage"]
 - ["CSo7UIImage", "animatedImageWithSource"]
-- ["CSo7UIImage", "deinit"]
 - ["CSo7UIImage", "delayForImageAtIndex"]
 - ["CSo7UIImage", "gcdForArray"]
 - ["CSo7UIImage", "gcdForPair"]
@@ -874,7 +606,6 @@ depends-member:
 - !private ["CSo11UIImageView", "DispatchQueue"]
 - ["CSo11UIImageView", "String"]
 - !private ["CSo11UIImageView", "UIImage"]
-- !private ["CSo11UIImageView", "deinit"]
 - !private ["CSo11UIImageView", "image"]
 - ["CSo11UIImageView", "loadGif"]
 - !private ["CSo11UIResponder", "DispatchQueue"]
@@ -885,65 +616,39 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "DispatchQueue"]
 - !private ["PSo30UIResponderStandardEditActions", "UIImage"]
 - !private ["PSo30UIResponderStandardEditActions", "image"]
-- ["PSo30UIResponderStandardEditActions", "loadGif"]
 - !private ["PSo18UITraitEnvironment", "DispatchQueue"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
 - !private ["PSo18UITraitEnvironment", "image"]
-- ["PSo18UITraitEnvironment", "loadGif"]
 - !private ["CSo6UIView", "DispatchQueue"]
 - ["CSo6UIView", "String"]
 - !private ["CSo6UIView", "UIImage"]
 - !private ["CSo6UIView", "image"]
 - ["CSo6UIView", "loadGif"]
-- !private ["Su", "deinit"]
-- !private ["Vs6UInt16", "deinit"]
-- !private ["Vs6UInt32", "deinit"]
-- !private ["Vs6UInt64", "deinit"]
-- !private ["Vs5UInt8", "deinit"]
-- ["V10Foundation3URL", "deinit"]
 - !private ["V10Foundation3URL", "init"]
-- !private ["Sc", "deinit"]
-- ["Vs9Unmanaged", "deinit"]
 - !private ["Vs9Unmanaged", "passUnretained"]
 - !private ["Vs9Unmanaged", "toOpaque"]
 - !private ["Sp", "allocate"]
-- ["Sp", "deinit"]
 - !private ["Sp", "pointee"]
-- ["Sv", "deinit"]
-- !private ["Ps14_ArrayProtocol", "Index"]
-- !private ["Ps14_ArrayProtocol", "IndexDistance"]
-- !private ["Ps14_ArrayProtocol", "Iterator"]
-- !private ["Ps14_ArrayProtocol", "SubSequence"]
-- !private ["Ps14_ArrayProtocol", "_Element"]
 - !private ["Ps14_ArrayProtocol", "append"]
 - !private ["Ps14_ArrayProtocol", "init"]
 - !private ["Ps14_ArrayProtocol", "isEmpty"]
 - !private ["Ps14_ArrayProtocol", "subscript"]
-- !private ["Ps15_CVarArgAligned", "RawValue"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "isEmpty"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
 - !private ["Ps15_CVarArgAligned", "init"]
-- !private ["Ps22_CVarArgPassedAsDouble", "RawValue"]
 - !private ["Ps22_CVarArgPassedAsDouble", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "DispatchQueue"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIImage"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "loadGif"]
-- !private ["Ps24_DestructorSafeContainer", "Index"]
-- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
-- !private ["Ps24_DestructorSafeContainer", "Iterator"]
-- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
-- !private ["Ps24_DestructorSafeContainer", "_Element"]
 - !private ["Ps24_DestructorSafeContainer", "append"]
 - !private ["Ps24_DestructorSafeContainer", "init"]
 - !private ["Ps24_DestructorSafeContainer", "isEmpty"]
 - !private ["Ps24_DestructorSafeContainer", "subscript"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "RawValue"]
 - !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
-- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
-- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "RawValue"]
-- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
-- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
@@ -978,6 +683,7 @@ depends-member:
 - !private ["Ps26_ExpressibleByImageLiteral", "kCGImagePropertyGIFUnclampedDelayTime"]
 - !private ["Ps26_ExpressibleByImageLiteral", "print"]
 - !private ["Ps26_ExpressibleByImageLiteral", "unsafeBitCast"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "AnyObject"]
 - !private ["Ps9_Hashable", "Bundle"]
@@ -993,190 +699,140 @@ depends-member:
 - !private ["Ps9_Hashable", "DispatchQueue"]
 - !private ["Ps9_Hashable", "Double"]
 - !private ["Ps9_Hashable", "Int"]
-- !private ["Ps9_Hashable", "IntegerLiteralType"]
-- !private ["Ps9_Hashable", "RawValue"]
-- !private ["Ps9_Hashable", "Stride"]
 - !private ["Ps9_Hashable", "UIImage"]
 - !private ["Ps9_Hashable", "URL"]
 - !private ["Ps9_Hashable", "Unmanaged"]
 - !private ["Ps9_Hashable", "UnsafeMutablePointer"]
-- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps9_Hashable", "allocate"]
 - !private ["Ps9_Hashable", "animatedImage"]
-- ["Ps9_Hashable", "animatedImageWithSource"]
+- !private ["Ps9_Hashable", "animatedImageWithSource"]
 - !private ["Ps9_Hashable", "async"]
-- ["Ps9_Hashable", "delayForImageAtIndex"]
-- ["Ps9_Hashable", "gcdForArray"]
-- ["Ps9_Hashable", "gcdForPair"]
-- ["Ps9_Hashable", "gif"]
+- !private ["Ps9_Hashable", "delayForImageAtIndex"]
+- !private ["Ps9_Hashable", "gcdForArray"]
+- !private ["Ps9_Hashable", "gcdForPair"]
+- !private ["Ps9_Hashable", "gif"]
 - !private ["Ps9_Hashable", "global"]
 - !private ["Ps9_Hashable", "image"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "kCGImagePropertyGIFDelayTime"]
 - !private ["Ps9_Hashable", "kCGImagePropertyGIFDictionary"]
 - !private ["Ps9_Hashable", "kCGImagePropertyGIFUnclampedDelayTime"]
-- ["Ps9_Hashable", "loadGif"]
 - !private ["Ps9_Hashable", "main"]
 - !private ["Ps9_Hashable", "pointee"]
 - !private ["Ps9_Hashable", "print"]
 - !private ["Ps9_Hashable", "unsafeBitCast"]
 - !private ["Ps9_Hashable", "url"]
-- !private ["Ps14_Incrementable", "IntegerLiteralType"]
-- !private ["Ps14_Incrementable", "Stride"]
-- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
 - !private ["Ps14_Incrementable", "init"]
-- !private ["Ps8_Integer", "IntegerLiteralType"]
-- !private ["Ps8_Integer", "Stride"]
-- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "isEmpty"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "isEmpty"]
+- !private ["Ps14_IndexableBase", "subscript"]
 - !private ["Ps8_Integer", "init"]
-- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
-- !private ["Ps18_IntegerArithmetic", "Stride"]
-- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
 - !private ["Ps18_IntegerArithmetic", "init"]
-- !private ["P10Foundation18_MutablePairBoxing", "init"]
-- !private ["Ps21_ObjectiveCBridgeable", "Index"]
-- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
-- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
-- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
-- !private ["Ps21_ObjectiveCBridgeable", "RawValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
-- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
-- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
-- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "isEmpty"]
+- !private ["Ps17_MutableIndexable", "subscript"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "append"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
-- !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps8_Pointer", "allocate"]
 - !private ["Ps8_Pointer", "pointee"]
-- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
-- !private ["Ps14_SignedInteger", "Stride"]
-- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "isEmpty"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
 - !private ["Ps14_SignedInteger", "init"]
-- !private ["Ps11_Strideable", "IntegerLiteralType"]
-- !private ["Ps11_Strideable", "RawValue"]
-- !private ["Ps11_Strideable", "Stride"]
-- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
 - !private ["Ps11_Strideable", "allocate"]
 - !private ["Ps11_Strideable", "init"]
 - !private ["Ps11_Strideable", "pointee"]
 depends-nominal:
 - !private "Ps16AbsoluteValuable"
-- "Ps9AnyObject"
-- "Sa"
+- !private "Ps9AnyObject"
+- !private "Sa"
 - !private "Ps23BidirectionalCollection"
-- !private "Ps22BidirectionalIndexable"
-- !private "Vs18BidirectionalSlice"
 - !private "Ps19BinaryFloatingPoint"
 - !private "Ps17BitwiseOperations"
-- "Sb"
-- "CSo6Bundle"
-- "PSo15CALayerDelegate"
-- "CSo6CFData"
-- "CSo12CFDictionary"
-- "CSo8CFString"
-- !private "V12CoreGraphics7CGFloat"
-- "CSo7CGImage"
-- "CSo13CGImageSource"
-- "Ps7CVarArg"
-- !private "Vs9Character"
+- !private "Sb"
+- !private "CSo6Bundle"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
 - !private "Ps10Collection"
 - !private "Ps10Comparable"
-- "Vs14CountableRange"
-- "Ps28CustomDebugStringConvertible"
+- !private "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
-- "Ps23CustomStringConvertible"
-- "V10Foundation4Data"
-- !private "Vs27DefaultBidirectionalIndices"
-- !private "Vs26DefaultRandomAccessIndices"
+- !private "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
 - !private "CSo14DispatchObject"
-- "CSo13DispatchQueue"
-- "Sd"
-- "Ps9Equatable"
+- !private "CSo13DispatchQueue"
+- !private "Sd"
+- !private "Ps9Equatable"
 - !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps25ExpressibleByFloatLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
-- !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
-- !private "Sf"
-- !private "Vs7Float80"
 - !private "Ps13FloatingPoint"
-- "Ps8Hashable"
-- "SQ"
-- !private "Ps9Indexable"
-- !private "Ps13IndexableBase"
-- !private "Vs16IndexingIterator"
-- "Si"
-- !private "Vs5Int16"
-- !private "Vs5Int32"
-- !private "Vs5Int64"
-- !private "Vs4Int8"
+- !private "Ps8Hashable"
+- !private "Si"
 - !private "Ps7Integer"
 - !private "Ps17IntegerArithmetic"
-- !private "Ps16IteratorProtocol"
 - !private "Ps25LosslessStringConvertible"
 - !private "Ps10MirrorPath"
 - !private "Ps17MutableCollection"
-- !private "Ps16MutableIndexable"
-- "PSo8NSCoding"
+- !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - !private "PSo16NSMutableCopying"
-- !private "CSo8NSNumber"
 - "CSo8NSObject"
-- "PSo16NSObjectProtocol"
+- !private "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
 - !private "CSo9OS_object"
-- "Sq"
 - !private "Ps22RandomAccessCollection"
-- !private "Ps21RandomAccessIndexable"
-- !private "Vs17RandomAccessSlice"
-- !private "Vs5Range"
 - !private "Ps26RangeReplaceableCollection"
-- !private "Ps25RangeReplaceableIndexable"
 - !private "P10Foundation20ReferenceConvertible"
 - !private "Ps8Sequence"
 - !private "Ps13SignedInteger"
 - !private "Ps12SignedNumber"
-- !private "Vs5Slice"
 - !private "Ps10Strideable"
-- "SS"
+- !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
-- "PSo29UIAccessibilityIdentification"
-- "PSo12UIAppearance"
-- "PSo21UIAppearanceContainer"
-- "PSo17UICoordinateSpace"
-- "PSo13UIDynamicItem"
-- "PSo18UIFocusEnvironment"
-- "PSo11UIFocusItem"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
 - "CSo7UIImage"
 - "CSo11UIImageView"
 - "CSo11UIResponder"
-- "PSo30UIResponderStandardEditActions"
-- "PSo18UITraitEnvironment"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
 - "CSo6UIView"
-- !private "Su"
-- !private "Vs6UInt16"
-- !private "Vs6UInt32"
-- !private "Vs6UInt64"
-- !private "Vs5UInt8"
-- "V10Foundation3URL"
-- !private "Sc"
-- "Vs9Unmanaged"
-- "Sp"
-- "Sv"
+- !private "V10Foundation3URL"
+- !private "Vs9Unmanaged"
+- !private "Sp"
 - !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
 - !private "Ps15_CVarArgAligned"
 - !private "Ps22_CVarArgPassedAsDouble"
-- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
 - !private "Ps24_DestructorSafeContainer"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
@@ -1187,30 +843,41 @@ depends-nominal:
 - !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
 - !private "Ps34_ExpressibleByFileReferenceLiteral"
 - !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
 - !private "Ps35_HasCustomAnyHashableRepresentation"
-- "Ps9_Hashable"
+- !private "Ps9_Hashable"
 - !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
 - !private "Ps8_Integer"
 - !private "Ps18_IntegerArithmetic"
-- !private "P10Foundation18_MutablePairBoxing"
+- !private "Ps17_MutableIndexable"
 - !private "Ps21_ObjectiveCBridgeable"
-- !private "Vs26_OptionalNilComparisonType"
 - !private "Ps8_Pointer"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
 - !private "Ps14_SignedInteger"
 - !private "Ps11_Strideable"
 depends-dynamic-lookup:
 - !private "doubleValue"
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh-Bridging-Header.h"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
 interface-hash: "4a3b19c3cd69db14681943749fc7df49"

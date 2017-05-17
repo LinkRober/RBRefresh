@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/xiamin/Documents/Code/RBRefresh/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules'
+    'name': '/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/xiamin/Documents/Code/RBRefresh/Build/Intermediates/Pods.build/Debug-iphoneos/SwiftGifOrigin.build/unextended-module.modulemap',
+      'external-contents': '/Users/xiamin/Documents/XYRepository/RBRefresh/Build/Intermediates/Pods.build/Debug-iphoneos/SwiftGifOrigin.build/unextended-module.modulemap',
     }]
   }]
 }

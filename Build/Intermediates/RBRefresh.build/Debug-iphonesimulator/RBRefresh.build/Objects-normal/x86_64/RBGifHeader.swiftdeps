@@ -6,29 +6,29 @@ provides-nominal:
 provides-member:
 - ["C9RBRefresh11RBGifHeader", ""]
 provides-dynamic-lookup:
-- "loadingImageView"
-- "pullDownToRefreshAnimationDidStart"
-- "pullDownToRefreshAnimationDidEnd"
 - "layoutSubviews"
+- "loadingImageView"
 - "pullDownToRefresh"
+- "pullDownToRefreshAnimationDidEnd"
+- "pullDownToRefreshAnimationDidStart"
 - "pullDownToRefreshAnimationHeight"
 depends-top-level:
-- !private "StringLiteralType"
-- "UIView"
-- "RBPullDownToRefreshViewDelegate"
-- !private "fatalError"
-- !private "NSLayoutConstraint"
-- "CGRect"
+- !private "=="
+- "AssignmentPrecedence"
 - "BooleanLiteralType"
-- !private "UIImage"
-- "RBPullDownToRefreshViewState"
 - "CGFloat"
+- "CGRect"
+- "NSCoder"
+- !private "NSLayoutConstraint"
 - "RBGifHeader"
 - "RBHeader"
-- "AssignmentPrecedence"
-- !private "=="
-- "NSCoder"
+- "RBPullDownToRefreshViewDelegate"
+- "RBPullDownToRefreshViewState"
+- !private "StringLiteralType"
+- !private "UIImage"
 - "UIImageView"
+- "UIView"
+- !private "fatalError"
 depends-member:
 - !private ["Ps9AnyObject", "NSLayoutConstraint"]
 - !private ["Ps9AnyObject", "UIImage"]
@@ -39,18 +39,15 @@ depends-member:
 - !private ["Ps9AnyObject", "fatalError"]
 - !private ["Ps9AnyObject", "gif"]
 - !private ["Ps9AnyObject", "image"]
-- ["Ps9AnyObject", "init"]
-- ["Ps9AnyObject", "layoutSubviews"]
-- ["Ps9AnyObject", "loadingImageView"]
-- ["Ps9AnyObject", "loadingImageView.storage"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layoutSubviews"]
+- !private ["Ps9AnyObject", "loadingImageView"]
 - ["Ps9AnyObject", "pullDownToRefresh"]
 - ["Ps9AnyObject", "pullDownToRefreshAnimationDidEnd"]
 - ["Ps9AnyObject", "pullDownToRefreshAnimationDidStart"]
-- ["Ps9AnyObject", "pullDownToRefreshAnimationHeight"]
 - !private ["Ps9AnyObject", "translatesAutoresizingMaskIntoConstraints"]
 - ["Ps9AnyObject", ""]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- ["Sb", "deinit"]
 - !private ["PSo15CALayerDelegate", "NSLayoutConstraint"]
 - !private ["PSo15CALayerDelegate", "UIImage"]
 - !private ["PSo15CALayerDelegate", "UIImageView"]
@@ -59,18 +56,14 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "contentMode"]
 - !private ["PSo15CALayerDelegate", "fatalError"]
 - !private ["PSo15CALayerDelegate", "image"]
-- ["PSo15CALayerDelegate", "init"]
-- ["PSo15CALayerDelegate", "layoutSubviews"]
-- ["PSo15CALayerDelegate", "loadingImageView"]
-- ["PSo15CALayerDelegate", "loadingImageView.storage"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "layoutSubviews"]
+- !private ["PSo15CALayerDelegate", "loadingImageView"]
 - ["PSo15CALayerDelegate", "pullDownToRefresh"]
 - ["PSo15CALayerDelegate", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo15CALayerDelegate", "pullDownToRefreshAnimationDidStart"]
-- ["PSo15CALayerDelegate", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo15CALayerDelegate", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo15CALayerDelegate", ""]
-- ["V12CoreGraphics7CGFloat", "deinit"]
-- ["VSC6CGRect", "deinit"]
 - !private ["Ps7CVarArg", "NSLayoutConstraint"]
 - !private ["Ps7CVarArg", "UIImage"]
 - !private ["Ps7CVarArg", "UIImageView"]
@@ -80,14 +73,12 @@ depends-member:
 - !private ["Ps7CVarArg", "fatalError"]
 - !private ["Ps7CVarArg", "gif"]
 - !private ["Ps7CVarArg", "image"]
-- ["Ps7CVarArg", "init"]
-- ["Ps7CVarArg", "layoutSubviews"]
-- ["Ps7CVarArg", "loadingImageView"]
-- ["Ps7CVarArg", "loadingImageView.storage"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "layoutSubviews"]
+- !private ["Ps7CVarArg", "loadingImageView"]
 - ["Ps7CVarArg", "pullDownToRefresh"]
 - ["Ps7CVarArg", "pullDownToRefreshAnimationDidEnd"]
 - ["Ps7CVarArg", "pullDownToRefreshAnimationDidStart"]
-- ["Ps7CVarArg", "pullDownToRefreshAnimationHeight"]
 - !private ["Ps7CVarArg", "translatesAutoresizingMaskIntoConstraints"]
 - ["Ps7CVarArg", ""]
 - !private ["Ps10Comparable", "init"]
@@ -100,15 +91,13 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "fatalError"]
 - !private ["Ps28CustomDebugStringConvertible", "gif"]
 - !private ["Ps28CustomDebugStringConvertible", "image"]
-- ["Ps28CustomDebugStringConvertible", "init"]
-- ["Ps28CustomDebugStringConvertible", "layoutSubviews"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layoutSubviews"]
 - !private ["Ps28CustomDebugStringConvertible", "loading"]
-- ["Ps28CustomDebugStringConvertible", "loadingImageView"]
-- ["Ps28CustomDebugStringConvertible", "loadingImageView.storage"]
+- !private ["Ps28CustomDebugStringConvertible", "loadingImageView"]
 - ["Ps28CustomDebugStringConvertible", "pullDownToRefresh"]
 - ["Ps28CustomDebugStringConvertible", "pullDownToRefreshAnimationDidEnd"]
 - ["Ps28CustomDebugStringConvertible", "pullDownToRefreshAnimationDidStart"]
-- ["Ps28CustomDebugStringConvertible", "pullDownToRefreshAnimationHeight"]
 - !private ["Ps28CustomDebugStringConvertible", "releaseToRefresh"]
 - !private ["Ps28CustomDebugStringConvertible", "translatesAutoresizingMaskIntoConstraints"]
 - ["Ps28CustomDebugStringConvertible", ""]
@@ -129,14 +118,12 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "fatalError"]
 - !private ["Ps23CustomStringConvertible", "gif"]
 - !private ["Ps23CustomStringConvertible", "image"]
-- ["Ps23CustomStringConvertible", "init"]
-- ["Ps23CustomStringConvertible", "layoutSubviews"]
-- ["Ps23CustomStringConvertible", "loadingImageView"]
-- ["Ps23CustomStringConvertible", "loadingImageView.storage"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layoutSubviews"]
+- !private ["Ps23CustomStringConvertible", "loadingImageView"]
 - ["Ps23CustomStringConvertible", "pullDownToRefresh"]
 - ["Ps23CustomStringConvertible", "pullDownToRefreshAnimationDidEnd"]
 - ["Ps23CustomStringConvertible", "pullDownToRefreshAnimationDidStart"]
-- ["Ps23CustomStringConvertible", "pullDownToRefreshAnimationHeight"]
 - !private ["Ps23CustomStringConvertible", "translatesAutoresizingMaskIntoConstraints"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "NSLayoutConstraint"]
@@ -153,16 +140,14 @@ depends-member:
 - !private ["Ps9Equatable", "gif"]
 - !private ["Ps9Equatable", "height"]
 - !private ["Ps9Equatable", "image"]
-- ["Ps9Equatable", "init"]
-- ["Ps9Equatable", "layoutSubviews"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layoutSubviews"]
 - !private ["Ps9Equatable", "loading"]
-- ["Ps9Equatable", "loadingImageView"]
-- ["Ps9Equatable", "loadingImageView.storage"]
+- !private ["Ps9Equatable", "loadingImageView"]
 - !private ["Ps9Equatable", "notAnAttribute"]
 - ["Ps9Equatable", "pullDownToRefresh"]
 - ["Ps9Equatable", "pullDownToRefreshAnimationDidEnd"]
 - ["Ps9Equatable", "pullDownToRefreshAnimationDidStart"]
-- ["Ps9Equatable", "pullDownToRefreshAnimationHeight"]
 - !private ["Ps9Equatable", "releaseToRefresh"]
 - !private ["Ps9Equatable", "scaleAspectFill"]
 - !private ["Ps9Equatable", "translatesAutoresizingMaskIntoConstraints"]
@@ -173,7 +158,6 @@ depends-member:
 - !private ["Ps23ExpressibleByNilLiteral", "loading"]
 - !private ["Ps23ExpressibleByNilLiteral", "pullDownToRefresh"]
 - !private ["Ps23ExpressibleByNilLiteral", "releaseToRefresh"]
-- !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps8Hashable", "NSLayoutConstraint"]
@@ -190,16 +174,14 @@ depends-member:
 - !private ["Ps8Hashable", "gif"]
 - !private ["Ps8Hashable", "height"]
 - !private ["Ps8Hashable", "image"]
-- ["Ps8Hashable", "init"]
-- ["Ps8Hashable", "layoutSubviews"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layoutSubviews"]
 - !private ["Ps8Hashable", "loading"]
-- ["Ps8Hashable", "loadingImageView"]
-- ["Ps8Hashable", "loadingImageView.storage"]
+- !private ["Ps8Hashable", "loadingImageView"]
 - !private ["Ps8Hashable", "notAnAttribute"]
 - ["Ps8Hashable", "pullDownToRefresh"]
 - ["Ps8Hashable", "pullDownToRefreshAnimationDidEnd"]
 - ["Ps8Hashable", "pullDownToRefreshAnimationDidStart"]
-- ["Ps8Hashable", "pullDownToRefreshAnimationHeight"]
 - !private ["Ps8Hashable", "releaseToRefresh"]
 - !private ["Ps8Hashable", "scaleAspectFill"]
 - !private ["Ps8Hashable", "translatesAutoresizingMaskIntoConstraints"]
@@ -217,26 +199,21 @@ depends-member:
 - !private ["PSo8NSCoding", "fatalError"]
 - !private ["PSo8NSCoding", "gif"]
 - !private ["PSo8NSCoding", "image"]
-- ["PSo8NSCoding", "init"]
-- ["PSo8NSCoding", "layoutSubviews"]
-- ["PSo8NSCoding", "loadingImageView"]
-- ["PSo8NSCoding", "loadingImageView.storage"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layoutSubviews"]
+- !private ["PSo8NSCoding", "loadingImageView"]
 - ["PSo8NSCoding", "pullDownToRefresh"]
 - ["PSo8NSCoding", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo8NSCoding", "pullDownToRefreshAnimationDidStart"]
-- ["PSo8NSCoding", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo8NSCoding", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "init"]
 - !private ["OSC17NSLayoutAttribute", "bottom"]
 - !private ["OSC17NSLayoutAttribute", "centerX"]
-- ["OSC17NSLayoutAttribute", "deinit"]
 - !private ["OSC17NSLayoutAttribute", "height"]
 - !private ["OSC17NSLayoutAttribute", "notAnAttribute"]
 - !private ["OSC17NSLayoutAttribute", "width"]
-- ["CSo18NSLayoutConstraint", "deinit"]
 - !private ["CSo18NSLayoutConstraint", "init"]
-- ["OSC16NSLayoutRelation", "deinit"]
 - !private ["OSC16NSLayoutRelation", "equal"]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "CGFloat"]
@@ -271,21 +248,17 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "fatalError"]
 - !private ["PSo16NSObjectProtocol", "gif"]
 - !private ["PSo16NSObjectProtocol", "image"]
-- ["PSo16NSObjectProtocol", "init"]
-- ["PSo16NSObjectProtocol", "layoutSubviews"]
-- ["PSo16NSObjectProtocol", "loadingImageView"]
-- ["PSo16NSObjectProtocol", "loadingImageView.storage"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layoutSubviews"]
+- !private ["PSo16NSObjectProtocol", "loadingImageView"]
 - ["PSo16NSObjectProtocol", "pullDownToRefresh"]
 - ["PSo16NSObjectProtocol", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo16NSObjectProtocol", "pullDownToRefreshAnimationDidStart"]
-- ["PSo16NSObjectProtocol", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo16NSObjectProtocol", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "gif"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
-- ["Os5Never", "deinit"]
-- ["Sq", "deinit"]
 - !private ["Sq", "loading"]
 - !private ["Sq", "pullDownToRefresh"]
 - !private ["Sq", "releaseToRefresh"]
@@ -320,7 +293,7 @@ depends-member:
 - ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidEnd"]
 - ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidStart"]
 - ["P9RBRefresh31RBPullDownToRefreshViewDelegate", ""]
-- ["O9RBRefresh28RBPullDownToRefreshViewState", "deinit"]
+- !private ["O9RBRefresh28RBPullDownToRefreshViewState", "deinit"]
 - !private ["O9RBRefresh28RBPullDownToRefreshViewState", "loading"]
 - !private ["O9RBRefresh28RBPullDownToRefreshViewState", "pullDownToRefresh"]
 - !private ["O9RBRefresh28RBPullDownToRefreshViewState", "releaseToRefresh"]
@@ -331,9 +304,7 @@ depends-member:
 - !private ["Ps16RawRepresentable", "notAnAttribute"]
 - !private ["Ps16RawRepresentable", "scaleAspectFill"]
 - !private ["Ps16RawRepresentable", "width"]
-- ["Vs12StaticString", "deinit"]
 - !private ["Vs12StaticString", "init"]
-- ["SS", "deinit"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
@@ -346,14 +317,12 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "fatalError"]
 - !private ["PSo29UIAccessibilityIdentification", "gif"]
 - !private ["PSo29UIAccessibilityIdentification", "image"]
-- ["PSo29UIAccessibilityIdentification", "init"]
-- ["PSo29UIAccessibilityIdentification", "layoutSubviews"]
-- ["PSo29UIAccessibilityIdentification", "loadingImageView"]
-- ["PSo29UIAccessibilityIdentification", "loadingImageView.storage"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layoutSubviews"]
+- !private ["PSo29UIAccessibilityIdentification", "loadingImageView"]
 - ["PSo29UIAccessibilityIdentification", "pullDownToRefresh"]
 - ["PSo29UIAccessibilityIdentification", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo29UIAccessibilityIdentification", "pullDownToRefreshAnimationDidStart"]
-- ["PSo29UIAccessibilityIdentification", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo29UIAccessibilityIdentification", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo29UIAccessibilityIdentification", ""]
 - !private ["PSo12UIAppearance", "NSLayoutConstraint"]
@@ -364,14 +333,12 @@ depends-member:
 - !private ["PSo12UIAppearance", "contentMode"]
 - !private ["PSo12UIAppearance", "fatalError"]
 - !private ["PSo12UIAppearance", "image"]
-- ["PSo12UIAppearance", "init"]
-- ["PSo12UIAppearance", "layoutSubviews"]
-- ["PSo12UIAppearance", "loadingImageView"]
-- ["PSo12UIAppearance", "loadingImageView.storage"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layoutSubviews"]
+- !private ["PSo12UIAppearance", "loadingImageView"]
 - ["PSo12UIAppearance", "pullDownToRefresh"]
 - ["PSo12UIAppearance", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo12UIAppearance", "pullDownToRefreshAnimationDidStart"]
-- ["PSo12UIAppearance", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo12UIAppearance", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo12UIAppearance", ""]
 - !private ["PSo21UIAppearanceContainer", "NSLayoutConstraint"]
@@ -382,14 +349,12 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "contentMode"]
 - !private ["PSo21UIAppearanceContainer", "fatalError"]
 - !private ["PSo21UIAppearanceContainer", "image"]
-- ["PSo21UIAppearanceContainer", "init"]
-- ["PSo21UIAppearanceContainer", "layoutSubviews"]
-- ["PSo21UIAppearanceContainer", "loadingImageView"]
-- ["PSo21UIAppearanceContainer", "loadingImageView.storage"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layoutSubviews"]
+- !private ["PSo21UIAppearanceContainer", "loadingImageView"]
 - ["PSo21UIAppearanceContainer", "pullDownToRefresh"]
 - ["PSo21UIAppearanceContainer", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo21UIAppearanceContainer", "pullDownToRefreshAnimationDidStart"]
-- ["PSo21UIAppearanceContainer", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo21UIAppearanceContainer", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo17UICoordinateSpace", "NSLayoutConstraint"]
@@ -400,14 +365,12 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "contentMode"]
 - !private ["PSo17UICoordinateSpace", "fatalError"]
 - !private ["PSo17UICoordinateSpace", "image"]
-- ["PSo17UICoordinateSpace", "init"]
-- ["PSo17UICoordinateSpace", "layoutSubviews"]
-- ["PSo17UICoordinateSpace", "loadingImageView"]
-- ["PSo17UICoordinateSpace", "loadingImageView.storage"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layoutSubviews"]
+- !private ["PSo17UICoordinateSpace", "loadingImageView"]
 - ["PSo17UICoordinateSpace", "pullDownToRefresh"]
 - ["PSo17UICoordinateSpace", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo17UICoordinateSpace", "pullDownToRefreshAnimationDidStart"]
-- ["PSo17UICoordinateSpace", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo17UICoordinateSpace", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo17UICoordinateSpace", ""]
 - !private ["PSo13UIDynamicItem", "NSLayoutConstraint"]
@@ -418,14 +381,12 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "contentMode"]
 - !private ["PSo13UIDynamicItem", "fatalError"]
 - !private ["PSo13UIDynamicItem", "image"]
-- ["PSo13UIDynamicItem", "init"]
-- ["PSo13UIDynamicItem", "layoutSubviews"]
-- ["PSo13UIDynamicItem", "loadingImageView"]
-- ["PSo13UIDynamicItem", "loadingImageView.storage"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layoutSubviews"]
+- !private ["PSo13UIDynamicItem", "loadingImageView"]
 - ["PSo13UIDynamicItem", "pullDownToRefresh"]
 - ["PSo13UIDynamicItem", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo13UIDynamicItem", "pullDownToRefreshAnimationDidStart"]
-- ["PSo13UIDynamicItem", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo13UIDynamicItem", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo13UIDynamicItem", ""]
 - !private ["PSo18UIFocusEnvironment", "NSLayoutConstraint"]
@@ -436,14 +397,12 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "contentMode"]
 - !private ["PSo18UIFocusEnvironment", "fatalError"]
 - !private ["PSo18UIFocusEnvironment", "image"]
-- ["PSo18UIFocusEnvironment", "init"]
-- ["PSo18UIFocusEnvironment", "layoutSubviews"]
-- ["PSo18UIFocusEnvironment", "loadingImageView"]
-- ["PSo18UIFocusEnvironment", "loadingImageView.storage"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layoutSubviews"]
+- !private ["PSo18UIFocusEnvironment", "loadingImageView"]
 - ["PSo18UIFocusEnvironment", "pullDownToRefresh"]
 - ["PSo18UIFocusEnvironment", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo18UIFocusEnvironment", "pullDownToRefreshAnimationDidStart"]
-- ["PSo18UIFocusEnvironment", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo18UIFocusEnvironment", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["PSo11UIFocusItem", "NSLayoutConstraint"]
@@ -454,20 +413,17 @@ depends-member:
 - !private ["PSo11UIFocusItem", "contentMode"]
 - !private ["PSo11UIFocusItem", "fatalError"]
 - !private ["PSo11UIFocusItem", "image"]
-- ["PSo11UIFocusItem", "init"]
-- ["PSo11UIFocusItem", "layoutSubviews"]
-- ["PSo11UIFocusItem", "loadingImageView"]
-- ["PSo11UIFocusItem", "loadingImageView.storage"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "layoutSubviews"]
+- !private ["PSo11UIFocusItem", "loadingImageView"]
 - ["PSo11UIFocusItem", "pullDownToRefresh"]
 - ["PSo11UIFocusItem", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo11UIFocusItem", "pullDownToRefreshAnimationDidStart"]
-- ["PSo11UIFocusItem", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo11UIFocusItem", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo11UIFocusItem", ""]
 - !private ["CSo7UIImage", "gif"]
 - !private ["CSo7UIImage", "init"]
 - !private ["CSo11UIImageView", "contentMode"]
-- ["CSo11UIImageView", "deinit"]
 - !private ["CSo11UIImageView", "image"]
 - !private ["CSo11UIImageView", "init"]
 - !private ["CSo11UIImageView", "translatesAutoresizingMaskIntoConstraints"]
@@ -501,14 +457,12 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "contentMode"]
 - !private ["PSo30UIResponderStandardEditActions", "fatalError"]
 - !private ["PSo30UIResponderStandardEditActions", "image"]
-- ["PSo30UIResponderStandardEditActions", "init"]
-- ["PSo30UIResponderStandardEditActions", "layoutSubviews"]
-- ["PSo30UIResponderStandardEditActions", "loadingImageView"]
-- ["PSo30UIResponderStandardEditActions", "loadingImageView.storage"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "layoutSubviews"]
+- !private ["PSo30UIResponderStandardEditActions", "loadingImageView"]
 - ["PSo30UIResponderStandardEditActions", "pullDownToRefresh"]
 - ["PSo30UIResponderStandardEditActions", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo30UIResponderStandardEditActions", "pullDownToRefreshAnimationDidStart"]
-- ["PSo30UIResponderStandardEditActions", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo30UIResponderStandardEditActions", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["PSo18UITraitEnvironment", "NSLayoutConstraint"]
@@ -519,14 +473,12 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "contentMode"]
 - !private ["PSo18UITraitEnvironment", "fatalError"]
 - !private ["PSo18UITraitEnvironment", "image"]
-- ["PSo18UITraitEnvironment", "init"]
-- ["PSo18UITraitEnvironment", "layoutSubviews"]
-- ["PSo18UITraitEnvironment", "loadingImageView"]
-- ["PSo18UITraitEnvironment", "loadingImageView.storage"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layoutSubviews"]
+- !private ["PSo18UITraitEnvironment", "loadingImageView"]
 - ["PSo18UITraitEnvironment", "pullDownToRefresh"]
 - ["PSo18UITraitEnvironment", "pullDownToRefreshAnimationDidEnd"]
 - ["PSo18UITraitEnvironment", "pullDownToRefreshAnimationDidStart"]
-- ["PSo18UITraitEnvironment", "pullDownToRefreshAnimationHeight"]
 - !private ["PSo18UITraitEnvironment", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo18UITraitEnvironment", ""]
 - ["CSo6UIView", "CGFloat"]
@@ -540,7 +492,6 @@ depends-member:
 - !private ["CSo6UIView", "addConstraint"]
 - !private ["CSo6UIView", "addSubview"]
 - !private ["CSo6UIView", "contentMode"]
-- ["CSo6UIView", "deinit"]
 - !private ["CSo6UIView", "fatalError"]
 - !private ["CSo6UIView", "image"]
 - ["CSo6UIView", "init"]
@@ -553,9 +504,7 @@ depends-member:
 - ["CSo6UIView", "pullDownToRefreshAnimationHeight"]
 - !private ["CSo6UIView", "translatesAutoresizingMaskIntoConstraints"]
 - ["CSo6UIView", ""]
-- !private ["OSC17UIViewContentMode", "deinit"]
 - !private ["OSC17UIViewContentMode", "scaleAspectFill"]
-- ["Su", "deinit"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSLayoutConstraint"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIImage"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIImageView"]
@@ -564,14 +513,12 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentMode"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "fatalError"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "layoutSubviews"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "loadingImageView"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "loadingImageView.storage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layoutSubviews"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "loadingImageView"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "pullDownToRefresh"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "pullDownToRefreshAnimationDidEnd"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "pullDownToRefreshAnimationDidStart"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "pullDownToRefreshAnimationHeight"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "translatesAutoresizingMaskIntoConstraints"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
@@ -581,6 +528,7 @@ depends-member:
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps26_ExpressibleByImageLiteral", "gif"]
 - !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "NSLayoutConstraint"]
 - !private ["Ps9_Hashable", "UIImage"]
@@ -596,16 +544,14 @@ depends-member:
 - !private ["Ps9_Hashable", "gif"]
 - !private ["Ps9_Hashable", "height"]
 - !private ["Ps9_Hashable", "image"]
-- ["Ps9_Hashable", "init"]
-- ["Ps9_Hashable", "layoutSubviews"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layoutSubviews"]
 - !private ["Ps9_Hashable", "loading"]
-- ["Ps9_Hashable", "loadingImageView"]
-- ["Ps9_Hashable", "loadingImageView.storage"]
+- !private ["Ps9_Hashable", "loadingImageView"]
 - !private ["Ps9_Hashable", "notAnAttribute"]
 - ["Ps9_Hashable", "pullDownToRefresh"]
 - ["Ps9_Hashable", "pullDownToRefreshAnimationDidEnd"]
 - ["Ps9_Hashable", "pullDownToRefreshAnimationDidStart"]
-- ["Ps9_Hashable", "pullDownToRefreshAnimationHeight"]
 - !private ["Ps9_Hashable", "releaseToRefresh"]
 - !private ["Ps9_Hashable", "scaleAspectFill"]
 - !private ["Ps9_Hashable", "translatesAutoresizingMaskIntoConstraints"]
@@ -621,10 +567,8 @@ depends-member:
 - !private ["Vs26_OptionalNilComparisonType", "releaseToRefresh"]
 depends-nominal:
 - "Ps9AnyObject"
-- "Sb"
+- !private "Sb"
 - "PSo15CALayerDelegate"
-- "V12CoreGraphics7CGFloat"
-- "VSC6CGRect"
 - "Ps7CVarArg"
 - !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
@@ -635,7 +579,6 @@ depends-nominal:
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps23ExpressibleByNilLiteral"
-- !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
@@ -643,22 +586,21 @@ depends-nominal:
 - !private "Ps10MirrorPath"
 - "PSo8NSCoding"
 - !private "PSo9NSCopying"
-- "OSC17NSLayoutAttribute"
-- "CSo18NSLayoutConstraint"
-- "OSC16NSLayoutRelation"
+- !private "OSC17NSLayoutAttribute"
+- !private "CSo18NSLayoutConstraint"
+- !private "OSC16NSLayoutRelation"
 - !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
-- "Os5Never"
-- "Sq"
+- !private "Sq"
 - "C9RBRefresh11RBGifHeader"
 - "P9RBRefresh31RBPullDownToRefreshViewDelegate"
-- "O9RBRefresh28RBPullDownToRefreshViewState"
+- !private "O9RBRefresh28RBPullDownToRefreshViewState"
 - !private "Ps16RawRepresentable"
-- "Vs12StaticString"
-- "SS"
+- !private "Vs12StaticString"
+- !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
 - "PSo29UIAccessibilityIdentification"
@@ -669,13 +611,12 @@ depends-nominal:
 - "PSo18UIFocusEnvironment"
 - "PSo11UIFocusItem"
 - !private "CSo7UIImage"
-- "CSo11UIImageView"
+- !private "CSo11UIImageView"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
 - "PSo18UITraitEnvironment"
 - "CSo6UIView"
 - !private "OSC17UIViewContentMode"
-- "Su"
 - "Ps37_DefaultCustomPlaygroundQuickLookable"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
@@ -683,22 +624,30 @@ depends-nominal:
 - !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
 - !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
 - !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
 - !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
 - !private "Ps21_ObjectiveCBridgeable"
 - !private "Vs26_OptionalNilComparisonType"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh-Bridging-Header.h"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
 interface-hash: "5693b2dd976efd9d6afa79cada4301f1"

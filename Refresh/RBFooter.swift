@@ -60,7 +60,7 @@ class RBFooter: RBView {
         if context == &KVOContentSize {
             guard !loadmore  else {
                 //TODO:when none of data ,hide
-                self.isHidden = true
+//                self.isHidden = true
                 return
             }
             self.isHidden = false
@@ -77,7 +77,6 @@ class RBFooter: RBView {
                         self.frame = CGRect(x:0,y:scrollow.contentSize.height,width:kScreenWidth,height:height)
                     }
                 })
-
             }
         }
         
@@ -95,7 +94,8 @@ class RBFooter: RBView {
                     if scrollow.isDragging == false && loadmore == false{
                         //拉到可以加载更多的位置，并且开始加载更多
                         if scrollow.contentSize.height < scrollow.frame.size.height {
-                            footerNoMoreData()
+                            //是否要现实交给使用者
+//                            footerNoMoreData()
                         }else {
                             //正在刷新
                             startAnimation()

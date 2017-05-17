@@ -6,38 +6,38 @@ provides-nominal:
 provides-member:
 - ["C9RBRefresh17RBBallScaleHeader", ""]
 provides-dynamic-lookup:
-- "pullDownToRefreshAnimationDidEnd"
-- "pullDownToRefresh"
 - "getAnimation"
+- "pullDownToRefresh"
+- "pullDownToRefreshAnimationDidEnd"
 - "pullDownToRefreshAnimationDidStart"
 depends-top-level:
-- !private "CAShapeLayer"
-- !private "M_PI"
-- !private "CFTimeInterval"
-- !private "fatalError"
-- "UIView"
-- "RBPullDownToRefreshViewDelegate"
-- !private "StringLiteralType"
-- !private "CABasicAnimation"
-- "CGRect"
-- !private "BooleanLiteralType"
-- !private "UIColor"
-- "RBHeader"
-- "NSCoder"
-- !private "Array"
-- !private "-"
-- !private "HUGE"
-- "CGFloat"
-- !private "/"
-- !private "UIBezierPath"
 - !private "*"
-- !private "CAMediaTimingFunction"
-- !private "kCAMediaTimingFunctionEaseInEaseOut"
-- "CAAnimationGroup"
-- !private "CGPoint"
-- "RBPullDownToRefreshViewState"
-- "RBBallScaleHeader"
+- !private "-"
+- !private "/"
+- !private "Array"
 - "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CAAnimationGroup"
+- !private "CABasicAnimation"
+- !private "CAMediaTimingFunction"
+- !private "CAShapeLayer"
+- !private "CFTimeInterval"
+- "CGFloat"
+- !private "CGPoint"
+- "CGRect"
+- !private "HUGE"
+- !private "M_PI"
+- "NSCoder"
+- "RBBallScaleHeader"
+- "RBHeader"
+- "RBPullDownToRefreshViewDelegate"
+- "RBPullDownToRefreshViewState"
+- !private "StringLiteralType"
+- !private "UIBezierPath"
+- !private "UIColor"
+- "UIView"
+- !private "fatalError"
+- !private "kCAMediaTimingFunctionEaseInEaseOut"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CAAnimationGroup"]
@@ -63,8 +63,8 @@ depends-member:
 - !private ["Ps9AnyObject", "fillColor"]
 - !private ["Ps9AnyObject", "frame"]
 - !private ["Ps9AnyObject", "fromValue"]
-- ["Ps9AnyObject", "getAnimation"]
-- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "getAnimation"]
+- !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "isRemovedOnCompletion"]
 - !private ["Ps9AnyObject", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["Ps9AnyObject", "layer"]
@@ -77,12 +77,7 @@ depends-member:
 - !private ["Ps9AnyObject", "toValue"]
 - !private ["Ps9AnyObject", "white"]
 - ["Ps9AnyObject", ""]
-- !private ["Sa", "Element"]
-- ["Sa", "deinit"]
-- !private ["Ps23BidirectionalCollection", "Element"]
-- !private ["Ps22BidirectionalIndexable", "Element"]
 - !private ["Ps19BinaryFloatingPoint", "init"]
-- ["Sb", "deinit"]
 - !private ["PSo8CAAction", "animations"]
 - !private ["PSo8CAAction", "duration"]
 - !private ["PSo8CAAction", "fromValue"]
@@ -100,20 +95,17 @@ depends-member:
 - !private ["CSo11CAAnimation", "timingFunction"]
 - !private ["CSo11CAAnimation", "toValue"]
 - !private ["CSo16CAAnimationGroup", "animations"]
-- ["CSo16CAAnimationGroup", "deinit"]
 - !private ["CSo16CAAnimationGroup", "duration"]
 - !private ["CSo16CAAnimationGroup", "init"]
 - !private ["CSo16CAAnimationGroup", "isRemovedOnCompletion"]
 - !private ["CSo16CAAnimationGroup", "repeatCount"]
 - !private ["CSo16CAAnimationGroup", "timingFunction"]
-- ["CSo16CABasicAnimation", "deinit"]
 - !private ["CSo16CABasicAnimation", "duration"]
 - !private ["CSo16CABasicAnimation", "fromValue"]
 - !private ["CSo16CABasicAnimation", "init"]
 - !private ["CSo16CABasicAnimation", "toValue"]
 - !private ["CSo7CALayer", "add"]
 - !private ["CSo7CALayer", "addSublayer"]
-- ["CSo7CALayer", "deinit"]
 - !private ["CSo7CALayer", "fillColor"]
 - !private ["CSo7CALayer", "frame"]
 - !private ["CSo7CALayer", "init"]
@@ -131,8 +123,8 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "UIColor"]
 - !private ["PSo15CALayerDelegate", "backgroundColor"]
 - !private ["PSo15CALayerDelegate", "fatalError"]
-- ["PSo15CALayerDelegate", "getAnimation"]
-- ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "getAnimation"]
+- !private ["PSo15CALayerDelegate", "init"]
 - !private ["PSo15CALayerDelegate", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo15CALayerDelegate", "layer"]
 - ["PSo15CALayerDelegate", "pullDownToRefresh"]
@@ -152,27 +144,20 @@ depends-member:
 - !private ["PSo13CAMediaTiming", "repeatCount"]
 - !private ["PSo13CAMediaTiming", "timingFunction"]
 - !private ["PSo13CAMediaTiming", "toValue"]
-- ["CSo21CAMediaTimingFunction", "deinit"]
 - !private ["CSo21CAMediaTimingFunction", "init"]
 - !private ["CSo19CAPropertyAnimation", "duration"]
 - !private ["CSo19CAPropertyAnimation", "fromValue"]
 - !private ["CSo19CAPropertyAnimation", "init"]
 - !private ["CSo19CAPropertyAnimation", "toValue"]
 - !private ["CSo12CAShapeLayer", "add"]
-- ["CSo12CAShapeLayer", "deinit"]
 - !private ["CSo12CAShapeLayer", "fillColor"]
 - !private ["CSo12CAShapeLayer", "frame"]
 - !private ["CSo12CAShapeLayer", "init"]
 - !private ["CSo12CAShapeLayer", "path"]
-- ["CSo7CGColor", "deinit"]
-- ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["V12CoreGraphics7CGFloat", "init"]
-- ["VSC7CGPoint", "deinit"]
 - !private ["VSC7CGPoint", "init"]
-- ["VSC6CGRect", "deinit"]
 - !private ["VSC6CGRect", "init"]
 - !private ["VSC6CGRect", "size"]
-- ["VSC6CGSize", "deinit"]
 - !private ["VSC6CGSize", "height"]
 - !private ["VSC6CGSize", "width"]
 - !private ["Ps7CVarArg", "CAAnimationGroup"]
@@ -182,7 +167,6 @@ depends-member:
 - !private ["Ps7CVarArg", "CGFloat"]
 - !private ["Ps7CVarArg", "CGPoint"]
 - !private ["Ps7CVarArg", "CGRect"]
-- !private ["Ps7CVarArg", "Element"]
 - !private ["Ps7CVarArg", "HUGE"]
 - !private ["Ps7CVarArg", "M_PI"]
 - !private ["Ps7CVarArg", "UIBezierPath"]
@@ -199,8 +183,8 @@ depends-member:
 - !private ["Ps7CVarArg", "fillColor"]
 - !private ["Ps7CVarArg", "frame"]
 - !private ["Ps7CVarArg", "fromValue"]
-- ["Ps7CVarArg", "getAnimation"]
-- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "getAnimation"]
+- !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "isRemovedOnCompletion"]
 - !private ["Ps7CVarArg", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["Ps7CVarArg", "layer"]
@@ -213,7 +197,6 @@ depends-member:
 - !private ["Ps7CVarArg", "toValue"]
 - !private ["Ps7CVarArg", "white"]
 - ["Ps7CVarArg", ""]
-- !private ["Ps10Collection", "Element"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "CAAnimationGroup"]
 - !private ["Ps28CustomDebugStringConvertible", "CABasicAnimation"]
@@ -222,7 +205,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
 - !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
 - !private ["Ps28CustomDebugStringConvertible", "CGRect"]
-- !private ["Ps28CustomDebugStringConvertible", "Element"]
 - !private ["Ps28CustomDebugStringConvertible", "HUGE"]
 - !private ["Ps28CustomDebugStringConvertible", "M_PI"]
 - !private ["Ps28CustomDebugStringConvertible", "UIBezierPath"]
@@ -239,9 +221,9 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "fillColor"]
 - !private ["Ps28CustomDebugStringConvertible", "frame"]
 - !private ["Ps28CustomDebugStringConvertible", "fromValue"]
-- ["Ps28CustomDebugStringConvertible", "getAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "getAnimation"]
 - !private ["Ps28CustomDebugStringConvertible", "height"]
-- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "isRemovedOnCompletion"]
 - !private ["Ps28CustomDebugStringConvertible", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["Ps28CustomDebugStringConvertible", "layer"]
@@ -260,7 +242,6 @@ depends-member:
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "size"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "width"]
-- !private ["Ps17CustomReflectable", "Element"]
 - !private ["Ps17CustomReflectable", "height"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "size"]
@@ -272,7 +253,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "CGFloat"]
 - !private ["Ps23CustomStringConvertible", "CGPoint"]
 - !private ["Ps23CustomStringConvertible", "CGRect"]
-- !private ["Ps23CustomStringConvertible", "Element"]
 - !private ["Ps23CustomStringConvertible", "HUGE"]
 - !private ["Ps23CustomStringConvertible", "M_PI"]
 - !private ["Ps23CustomStringConvertible", "UIBezierPath"]
@@ -289,8 +269,8 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "fillColor"]
 - !private ["Ps23CustomStringConvertible", "frame"]
 - !private ["Ps23CustomStringConvertible", "fromValue"]
-- ["Ps23CustomStringConvertible", "getAnimation"]
-- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "getAnimation"]
+- !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "isRemovedOnCompletion"]
 - !private ["Ps23CustomStringConvertible", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["Ps23CustomStringConvertible", "layer"]
@@ -303,7 +283,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "toValue"]
 - !private ["Ps23CustomStringConvertible", "white"]
 - ["Ps23CustomStringConvertible", ""]
-- ["Sd", "deinit"]
 - !private ["Ps9Equatable", "CAAnimationGroup"]
 - !private ["Ps9Equatable", "CABasicAnimation"]
 - !private ["Ps9Equatable", "CAMediaTimingFunction"]
@@ -327,9 +306,9 @@ depends-member:
 - !private ["Ps9Equatable", "fillColor"]
 - !private ["Ps9Equatable", "frame"]
 - !private ["Ps9Equatable", "fromValue"]
-- ["Ps9Equatable", "getAnimation"]
+- !private ["Ps9Equatable", "getAnimation"]
 - !private ["Ps9Equatable", "height"]
-- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "isRemovedOnCompletion"]
 - !private ["Ps9Equatable", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["Ps9Equatable", "layer"]
@@ -344,14 +323,11 @@ depends-member:
 - !private ["Ps9Equatable", "white"]
 - !private ["Ps9Equatable", "width"]
 - ["Ps9Equatable", ""]
-- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps25ExpressibleByFloatLiteral", "init"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "init"]
-- !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
-- ["Sf", "deinit"]
 - !private ["Ps13FloatingPoint", "init"]
 - !private ["Ps8Hashable", "CAAnimationGroup"]
 - !private ["Ps8Hashable", "CABasicAnimation"]
@@ -376,8 +352,8 @@ depends-member:
 - !private ["Ps8Hashable", "fillColor"]
 - !private ["Ps8Hashable", "frame"]
 - !private ["Ps8Hashable", "fromValue"]
-- ["Ps8Hashable", "getAnimation"]
-- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "getAnimation"]
+- !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "isRemovedOnCompletion"]
 - !private ["Ps8Hashable", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["Ps8Hashable", "layer"]
@@ -390,13 +366,8 @@ depends-member:
 - !private ["Ps8Hashable", "toValue"]
 - !private ["Ps8Hashable", "white"]
 - ["Ps8Hashable", ""]
-- !private ["Ps9Indexable", "Element"]
-- !private ["Ps13IndexableBase", "Element"]
-- ["Si", "deinit"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
-- !private ["Ps17MutableCollection", "Element"]
-- !private ["Ps16MutableIndexable", "Element"]
 - !private ["PSo8NSCoding", "CAAnimationGroup"]
 - !private ["PSo8NSCoding", "CABasicAnimation"]
 - !private ["PSo8NSCoding", "CAMediaTimingFunction"]
@@ -420,8 +391,8 @@ depends-member:
 - !private ["PSo8NSCoding", "fillColor"]
 - !private ["PSo8NSCoding", "frame"]
 - !private ["PSo8NSCoding", "fromValue"]
-- ["PSo8NSCoding", "getAnimation"]
-- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "getAnimation"]
+- !private ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "isRemovedOnCompletion"]
 - !private ["PSo8NSCoding", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo8NSCoding", "layer"]
@@ -510,8 +481,8 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "fillColor"]
 - !private ["PSo16NSObjectProtocol", "frame"]
 - !private ["PSo16NSObjectProtocol", "fromValue"]
-- ["PSo16NSObjectProtocol", "getAnimation"]
-- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "getAnimation"]
+- !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "isRemovedOnCompletion"]
 - !private ["PSo16NSObjectProtocol", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo16NSObjectProtocol", "layer"]
@@ -528,8 +499,6 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "white"]
 - !private ["CSo8NSString", "init"]
-- ["Os5Never", "deinit"]
-- !private ["Sq", "deinit"]
 - ["C9RBRefresh17RBBallScaleHeader", "CAAnimationGroup"]
 - !private ["C9RBRefresh17RBBallScaleHeader", "CABasicAnimation"]
 - !private ["C9RBRefresh17RBBallScaleHeader", "CAMediaTimingFunction"]
@@ -575,16 +544,9 @@ depends-member:
 - ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidEnd"]
 - ["P9RBRefresh31RBPullDownToRefreshViewDelegate", "pullDownToRefreshAnimationDidStart"]
 - ["P9RBRefresh31RBPullDownToRefreshViewDelegate", ""]
-- !private ["Ps22RandomAccessCollection", "Element"]
-- !private ["Ps21RandomAccessIndexable", "Element"]
-- !private ["Ps26RangeReplaceableCollection", "Element"]
-- !private ["Ps25RangeReplaceableIndexable", "Element"]
-- !private ["Ps8Sequence", "Element"]
 - !private ["Ps12SignedNumber", "init"]
-- ["Vs12StaticString", "deinit"]
 - !private ["Vs12StaticString", "init"]
 - !private ["Ps10Strideable", "init"]
-- ["SS", "deinit"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
@@ -601,8 +563,8 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "UIColor"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
 - !private ["PSo29UIAccessibilityIdentification", "fatalError"]
-- ["PSo29UIAccessibilityIdentification", "getAnimation"]
-- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "getAnimation"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo29UIAccessibilityIdentification", "layer"]
 - ["PSo29UIAccessibilityIdentification", "pullDownToRefresh"]
@@ -622,8 +584,8 @@ depends-member:
 - !private ["PSo12UIAppearance", "UIColor"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
 - !private ["PSo12UIAppearance", "fatalError"]
-- ["PSo12UIAppearance", "getAnimation"]
-- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "getAnimation"]
+- !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo12UIAppearance", "layer"]
 - ["PSo12UIAppearance", "pullDownToRefresh"]
@@ -643,8 +605,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
 - !private ["PSo21UIAppearanceContainer", "fatalError"]
-- ["PSo21UIAppearanceContainer", "getAnimation"]
-- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "getAnimation"]
+- !private ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo21UIAppearanceContainer", "layer"]
 - ["PSo21UIAppearanceContainer", "pullDownToRefresh"]
@@ -653,10 +615,8 @@ depends-member:
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo12UIBezierPath", "addArc"]
 - !private ["CSo12UIBezierPath", "cgPath"]
-- ["CSo12UIBezierPath", "deinit"]
 - !private ["CSo12UIBezierPath", "init"]
 - !private ["CSo7UIColor", "cgColor"]
-- ["CSo7UIColor", "deinit"]
 - !private ["CSo7UIColor", "init"]
 - !private ["CSo7UIColor", "white"]
 - !private ["PSo17UICoordinateSpace", "CAAnimationGroup"]
@@ -672,8 +632,8 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "UIColor"]
 - !private ["PSo17UICoordinateSpace", "backgroundColor"]
 - !private ["PSo17UICoordinateSpace", "fatalError"]
-- ["PSo17UICoordinateSpace", "getAnimation"]
-- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "getAnimation"]
+- !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo17UICoordinateSpace", "layer"]
 - ["PSo17UICoordinateSpace", "pullDownToRefresh"]
@@ -693,8 +653,8 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "UIColor"]
 - !private ["PSo13UIDynamicItem", "backgroundColor"]
 - !private ["PSo13UIDynamicItem", "fatalError"]
-- ["PSo13UIDynamicItem", "getAnimation"]
-- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "getAnimation"]
+- !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo13UIDynamicItem", "layer"]
 - ["PSo13UIDynamicItem", "pullDownToRefresh"]
@@ -714,8 +674,8 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "backgroundColor"]
 - !private ["PSo18UIFocusEnvironment", "fatalError"]
-- ["PSo18UIFocusEnvironment", "getAnimation"]
-- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "getAnimation"]
+- !private ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo18UIFocusEnvironment", "layer"]
 - ["PSo18UIFocusEnvironment", "pullDownToRefresh"]
@@ -735,8 +695,8 @@ depends-member:
 - !private ["PSo11UIFocusItem", "UIColor"]
 - !private ["PSo11UIFocusItem", "backgroundColor"]
 - !private ["PSo11UIFocusItem", "fatalError"]
-- ["PSo11UIFocusItem", "getAnimation"]
-- ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "getAnimation"]
+- !private ["PSo11UIFocusItem", "init"]
 - !private ["PSo11UIFocusItem", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo11UIFocusItem", "layer"]
 - ["PSo11UIFocusItem", "pullDownToRefresh"]
@@ -780,8 +740,8 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "UIColor"]
 - !private ["PSo30UIResponderStandardEditActions", "backgroundColor"]
 - !private ["PSo30UIResponderStandardEditActions", "fatalError"]
-- ["PSo30UIResponderStandardEditActions", "getAnimation"]
-- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "getAnimation"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
 - !private ["PSo30UIResponderStandardEditActions", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo30UIResponderStandardEditActions", "layer"]
 - ["PSo30UIResponderStandardEditActions", "pullDownToRefresh"]
@@ -801,8 +761,8 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
 - !private ["PSo18UITraitEnvironment", "fatalError"]
-- ["PSo18UITraitEnvironment", "getAnimation"]
-- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "getAnimation"]
+- !private ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["PSo18UITraitEnvironment", "layer"]
 - ["PSo18UITraitEnvironment", "pullDownToRefresh"]
@@ -825,7 +785,6 @@ depends-member:
 - !private ["CSo6UIView", "UIBezierPath"]
 - !private ["CSo6UIView", "UIColor"]
 - !private ["CSo6UIView", "backgroundColor"]
-- ["CSo6UIView", "deinit"]
 - !private ["CSo6UIView", "fatalError"]
 - ["CSo6UIView", "getAnimation"]
 - ["CSo6UIView", "init"]
@@ -835,8 +794,6 @@ depends-member:
 - ["CSo6UIView", "pullDownToRefreshAnimationDidEnd"]
 - ["CSo6UIView", "pullDownToRefreshAnimationDidStart"]
 - ["CSo6UIView", ""]
-- ["Su", "deinit"]
-- !private ["Ps14_ArrayProtocol", "Element"]
 - !private ["Ps15_CVarArgAligned", "init"]
 - !private ["Ps22_CVarArgPassedAsDouble", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CAAnimationGroup"]
@@ -852,15 +809,14 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIColor"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundColor"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "fatalError"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "getAnimation"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "getAnimation"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "pullDownToRefresh"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "pullDownToRefreshAnimationDidEnd"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "pullDownToRefreshAnimationDidStart"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
-- !private ["Ps24_DestructorSafeContainer", "Element"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
@@ -868,6 +824,7 @@ depends-member:
 - !private ["Ps26_ExpressibleByColorLiteral", "cgColor"]
 - !private ["Ps26_ExpressibleByColorLiteral", "init"]
 - !private ["Ps26_ExpressibleByColorLiteral", "white"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "CAAnimationGroup"]
 - !private ["Ps9_Hashable", "CABasicAnimation"]
@@ -892,8 +849,8 @@ depends-member:
 - !private ["Ps9_Hashable", "fillColor"]
 - !private ["Ps9_Hashable", "frame"]
 - !private ["Ps9_Hashable", "fromValue"]
-- ["Ps9_Hashable", "getAnimation"]
-- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "getAnimation"]
+- !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "isRemovedOnCompletion"]
 - !private ["Ps9_Hashable", "kCAMediaTimingFunctionEaseInEaseOut"]
 - !private ["Ps9_Hashable", "layer"]
@@ -906,7 +863,6 @@ depends-member:
 - !private ["Ps9_Hashable", "toValue"]
 - !private ["Ps9_Hashable", "white"]
 - ["Ps9_Hashable", ""]
-- !private ["Ps21_ObjectiveCBridgeable", "Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "height"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "size"]
@@ -915,52 +871,37 @@ depends-member:
 depends-nominal:
 - !private "Ps16AbsoluteValuable"
 - "Ps9AnyObject"
-- "Sa"
-- !private "Ps23BidirectionalCollection"
-- !private "Ps22BidirectionalIndexable"
 - !private "Ps19BinaryFloatingPoint"
-- "Sb"
 - !private "PSo8CAAction"
 - !private "CSo11CAAnimation"
-- "CSo16CAAnimationGroup"
-- "CSo16CABasicAnimation"
-- "CSo7CALayer"
+- !private "CSo16CAAnimationGroup"
+- !private "CSo16CABasicAnimation"
+- !private "CSo7CALayer"
 - "PSo15CALayerDelegate"
 - !private "PSo13CAMediaTiming"
-- "CSo21CAMediaTimingFunction"
+- !private "CSo21CAMediaTimingFunction"
 - !private "CSo19CAPropertyAnimation"
-- "CSo12CAShapeLayer"
-- "CSo7CGColor"
-- "V12CoreGraphics7CGFloat"
-- "VSC7CGPoint"
-- "VSC6CGRect"
-- "VSC6CGSize"
+- !private "CSo12CAShapeLayer"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
 - "Ps7CVarArg"
-- !private "Ps10Collection"
 - !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
-- "Sd"
 - "Ps9Equatable"
-- !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps25ExpressibleByFloatLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
-- !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
-- "Sf"
 - !private "Ps13FloatingPoint"
 - "Ps8Hashable"
-- !private "Ps9Indexable"
-- !private "Ps13IndexableBase"
-- "Si"
 - !private "Ps25LosslessStringConvertible"
 - !private "Ps10MirrorPath"
-- !private "Ps17MutableCollection"
-- !private "Ps16MutableIndexable"
 - "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - !private "PSo16NSMutableCopying"
@@ -968,26 +909,19 @@ depends-nominal:
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
-- "Os5Never"
-- !private "Sq"
 - "C9RBRefresh17RBBallScaleHeader"
 - "P9RBRefresh31RBPullDownToRefreshViewDelegate"
-- !private "Ps22RandomAccessCollection"
-- !private "Ps21RandomAccessIndexable"
-- !private "Ps26RangeReplaceableCollection"
-- !private "Ps25RangeReplaceableIndexable"
-- !private "Ps8Sequence"
 - !private "Ps12SignedNumber"
-- "Vs12StaticString"
+- !private "Vs12StaticString"
 - !private "Ps10Strideable"
-- "SS"
+- !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
 - "PSo29UIAccessibilityIdentification"
 - "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
-- "CSo12UIBezierPath"
-- "CSo7UIColor"
+- !private "CSo12UIBezierPath"
+- !private "CSo7UIColor"
 - "PSo17UICoordinateSpace"
 - "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
@@ -996,33 +930,38 @@ depends-nominal:
 - "PSo30UIResponderStandardEditActions"
 - "PSo18UITraitEnvironment"
 - "CSo6UIView"
-- "Su"
-- !private "Ps14_ArrayProtocol"
 - !private "Ps15_CVarArgAligned"
 - !private "Ps22_CVarArgPassedAsDouble"
 - "Ps37_DefaultCustomPlaygroundQuickLookable"
-- !private "Ps24_DestructorSafeContainer"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
 - !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
 - !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
 - !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
 - !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
 - !private "Ps21_ObjectiveCBridgeable"
 - !private "Ps11_Strideable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh-Bridging-Header.h"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
 interface-hash: "105ce7a006e207e1208b6cdf33658cf2"

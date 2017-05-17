@@ -6,39 +6,38 @@ provides-nominal:
 provides-member:
 - ["C9RBRefresh14RBNormalFooter", ""]
 provides-dynamic-lookup:
-- "layoutSubviews"
-- "pullUpToRefreshAnimationDidEnd"
-- "pullUpToRefresh"
-- "pullUpToRefreshAnimationNoticeNoMore"
-- "pullUpToRefreshAnimationDidStart"
-- "pullUpToRefreshAnimationResetNoMore"
-- "moreLabel"
 - "activity"
+- "layoutSubviews"
+- "moreLabel"
+- "pullUpToRefresh"
+- "pullUpToRefreshAnimationDidEnd"
+- "pullUpToRefreshAnimationDidStart"
+- "pullUpToRefreshAnimationNoticeNoMore"
+- "pullUpToRefreshAnimationResetNoMore"
 depends-top-level:
-- "UIActivityIndicatorView"
-- !private "BooleanLiteralType"
+- !private "=="
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CGFloat"
 - "CGRect"
+- "NSCoder"
+- !private "NSLayoutConstraint"
+- "RBFooter"
+- "RBNormalFooter"
+- "RBPullUpToRefreshViewDelegate"
+- "RBPullUpToRefreshViewState"
+- "StringLiteralType"
+- "UIActivityIndicatorView"
 - !private "UIColor"
 - "UILabel"
-- !private "StringLiteralType"
-- "NSCoder"
 - "UIView"
-- "RBFooter"
-- "AssignmentPrecedence"
-- !private "=="
-- "RBNormalFooter"
-- "RBPullUpToRefreshViewState"
 - !private "fatalError"
-- !private "NSLayoutConstraint"
-- "CGFloat"
-- "RBPullUpToRefreshViewDelegate"
 depends-member:
 - !private ["Ps9AnyObject", "NSLayoutConstraint"]
 - !private ["Ps9AnyObject", "UIActivityIndicatorView"]
 - !private ["Ps9AnyObject", "UIColor"]
 - !private ["Ps9AnyObject", "UILabel"]
-- ["Ps9AnyObject", "activity"]
-- ["Ps9AnyObject", "activity.storage"]
+- !private ["Ps9AnyObject", "activity"]
 - !private ["Ps9AnyObject", "addConstraint"]
 - !private ["Ps9AnyObject", "addSubview"]
 - !private ["Ps9AnyObject", "backgroundColor"]
@@ -46,11 +45,10 @@ depends-member:
 - !private ["Ps9AnyObject", "blue"]
 - !private ["Ps9AnyObject", "fatalError"]
 - !private ["Ps9AnyObject", "hidesWhenStopped"]
-- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "isHidden"]
-- ["Ps9AnyObject", "layoutSubviews"]
-- ["Ps9AnyObject", "moreLabel"]
-- ["Ps9AnyObject", "moreLabel.storage"]
+- !private ["Ps9AnyObject", "layoutSubviews"]
+- !private ["Ps9AnyObject", "moreLabel"]
 - ["Ps9AnyObject", "pullUpToRefresh"]
 - ["Ps9AnyObject", "pullUpToRefreshAnimationDidEnd"]
 - ["Ps9AnyObject", "pullUpToRefreshAnimationDidStart"]
@@ -63,23 +61,20 @@ depends-member:
 - !private ["Ps9AnyObject", "translatesAutoresizingMaskIntoConstraints"]
 - ["Ps9AnyObject", ""]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- ["Sb", "deinit"]
 - !private ["PSo15CALayerDelegate", "NSLayoutConstraint"]
 - !private ["PSo15CALayerDelegate", "UIActivityIndicatorView"]
 - !private ["PSo15CALayerDelegate", "UIColor"]
 - !private ["PSo15CALayerDelegate", "UILabel"]
-- ["PSo15CALayerDelegate", "activity"]
-- ["PSo15CALayerDelegate", "activity.storage"]
+- !private ["PSo15CALayerDelegate", "activity"]
 - !private ["PSo15CALayerDelegate", "addConstraint"]
 - !private ["PSo15CALayerDelegate", "addSubview"]
 - !private ["PSo15CALayerDelegate", "backgroundColor"]
 - !private ["PSo15CALayerDelegate", "fatalError"]
 - !private ["PSo15CALayerDelegate", "hidesWhenStopped"]
-- ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "init"]
 - !private ["PSo15CALayerDelegate", "isHidden"]
-- ["PSo15CALayerDelegate", "layoutSubviews"]
-- ["PSo15CALayerDelegate", "moreLabel"]
-- ["PSo15CALayerDelegate", "moreLabel.storage"]
+- !private ["PSo15CALayerDelegate", "layoutSubviews"]
+- !private ["PSo15CALayerDelegate", "moreLabel"]
 - ["PSo15CALayerDelegate", "pullUpToRefresh"]
 - ["PSo15CALayerDelegate", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo15CALayerDelegate", "pullUpToRefreshAnimationDidStart"]
@@ -91,14 +86,11 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "textColor"]
 - !private ["PSo15CALayerDelegate", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo15CALayerDelegate", ""]
-- ["V12CoreGraphics7CGFloat", "deinit"]
-- ["VSC6CGRect", "deinit"]
 - !private ["Ps7CVarArg", "NSLayoutConstraint"]
 - !private ["Ps7CVarArg", "UIActivityIndicatorView"]
 - !private ["Ps7CVarArg", "UIColor"]
 - !private ["Ps7CVarArg", "UILabel"]
-- ["Ps7CVarArg", "activity"]
-- ["Ps7CVarArg", "activity.storage"]
+- !private ["Ps7CVarArg", "activity"]
 - !private ["Ps7CVarArg", "addConstraint"]
 - !private ["Ps7CVarArg", "addSubview"]
 - !private ["Ps7CVarArg", "backgroundColor"]
@@ -106,11 +98,10 @@ depends-member:
 - !private ["Ps7CVarArg", "blue"]
 - !private ["Ps7CVarArg", "fatalError"]
 - !private ["Ps7CVarArg", "hidesWhenStopped"]
-- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "isHidden"]
-- ["Ps7CVarArg", "layoutSubviews"]
-- ["Ps7CVarArg", "moreLabel"]
-- ["Ps7CVarArg", "moreLabel.storage"]
+- !private ["Ps7CVarArg", "layoutSubviews"]
+- !private ["Ps7CVarArg", "moreLabel"]
 - ["Ps7CVarArg", "pullUpToRefresh"]
 - ["Ps7CVarArg", "pullUpToRefreshAnimationDidEnd"]
 - ["Ps7CVarArg", "pullUpToRefreshAnimationDidStart"]
@@ -127,8 +118,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "UIActivityIndicatorView"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
 - !private ["Ps28CustomDebugStringConvertible", "UILabel"]
-- ["Ps28CustomDebugStringConvertible", "activity"]
-- ["Ps28CustomDebugStringConvertible", "activity.storage"]
+- !private ["Ps28CustomDebugStringConvertible", "activity"]
 - !private ["Ps28CustomDebugStringConvertible", "addConstraint"]
 - !private ["Ps28CustomDebugStringConvertible", "addSubview"]
 - !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
@@ -136,12 +126,11 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "blue"]
 - !private ["Ps28CustomDebugStringConvertible", "fatalError"]
 - !private ["Ps28CustomDebugStringConvertible", "hidesWhenStopped"]
-- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "isHidden"]
-- ["Ps28CustomDebugStringConvertible", "layoutSubviews"]
+- !private ["Ps28CustomDebugStringConvertible", "layoutSubviews"]
 - !private ["Ps28CustomDebugStringConvertible", "loading"]
-- ["Ps28CustomDebugStringConvertible", "moreLabel"]
-- ["Ps28CustomDebugStringConvertible", "moreLabel.storage"]
+- !private ["Ps28CustomDebugStringConvertible", "moreLabel"]
 - ["Ps28CustomDebugStringConvertible", "pullUpToRefresh"]
 - ["Ps28CustomDebugStringConvertible", "pullUpToRefreshAnimationDidEnd"]
 - ["Ps28CustomDebugStringConvertible", "pullUpToRefreshAnimationDidStart"]
@@ -166,8 +155,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "UIColor"]
 - !private ["Ps23CustomStringConvertible", "UILabel"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
-- ["Ps23CustomStringConvertible", "activity"]
-- ["Ps23CustomStringConvertible", "activity.storage"]
+- !private ["Ps23CustomStringConvertible", "activity"]
 - !private ["Ps23CustomStringConvertible", "addConstraint"]
 - !private ["Ps23CustomStringConvertible", "addSubview"]
 - !private ["Ps23CustomStringConvertible", "backgroundColor"]
@@ -175,11 +163,10 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "blue"]
 - !private ["Ps23CustomStringConvertible", "fatalError"]
 - !private ["Ps23CustomStringConvertible", "hidesWhenStopped"]
-- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "isHidden"]
-- ["Ps23CustomStringConvertible", "layoutSubviews"]
-- ["Ps23CustomStringConvertible", "moreLabel"]
-- ["Ps23CustomStringConvertible", "moreLabel.storage"]
+- !private ["Ps23CustomStringConvertible", "layoutSubviews"]
+- !private ["Ps23CustomStringConvertible", "moreLabel"]
 - ["Ps23CustomStringConvertible", "pullUpToRefresh"]
 - ["Ps23CustomStringConvertible", "pullUpToRefreshAnimationDidEnd"]
 - ["Ps23CustomStringConvertible", "pullUpToRefreshAnimationDidStart"]
@@ -196,8 +183,7 @@ depends-member:
 - !private ["Ps9Equatable", "UIColor"]
 - !private ["Ps9Equatable", "UILabel"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
-- ["Ps9Equatable", "activity"]
-- ["Ps9Equatable", "activity.storage"]
+- !private ["Ps9Equatable", "activity"]
 - !private ["Ps9Equatable", "addConstraint"]
 - !private ["Ps9Equatable", "addSubview"]
 - !private ["Ps9Equatable", "backgroundColor"]
@@ -208,12 +194,11 @@ depends-member:
 - !private ["Ps9Equatable", "equal"]
 - !private ["Ps9Equatable", "fatalError"]
 - !private ["Ps9Equatable", "hidesWhenStopped"]
-- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "isHidden"]
-- ["Ps9Equatable", "layoutSubviews"]
+- !private ["Ps9Equatable", "layoutSubviews"]
 - !private ["Ps9Equatable", "loading"]
-- ["Ps9Equatable", "moreLabel"]
-- ["Ps9Equatable", "moreLabel.storage"]
+- !private ["Ps9Equatable", "moreLabel"]
 - ["Ps9Equatable", "pullUpToRefresh"]
 - ["Ps9Equatable", "pullUpToRefreshAnimationDidEnd"]
 - ["Ps9Equatable", "pullUpToRefreshAnimationDidStart"]
@@ -232,7 +217,6 @@ depends-member:
 - !private ["Ps23ExpressibleByNilLiteral", "loading"]
 - !private ["Ps23ExpressibleByNilLiteral", "pullUpToRefresh"]
 - !private ["Ps23ExpressibleByNilLiteral", "releaseToLoadMore"]
-- !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps8Hashable", "NSLayoutConstraint"]
@@ -240,8 +224,7 @@ depends-member:
 - !private ["Ps8Hashable", "UIColor"]
 - !private ["Ps8Hashable", "UILabel"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
-- ["Ps8Hashable", "activity"]
-- ["Ps8Hashable", "activity.storage"]
+- !private ["Ps8Hashable", "activity"]
 - !private ["Ps8Hashable", "addConstraint"]
 - !private ["Ps8Hashable", "addSubview"]
 - !private ["Ps8Hashable", "backgroundColor"]
@@ -252,12 +235,11 @@ depends-member:
 - !private ["Ps8Hashable", "equal"]
 - !private ["Ps8Hashable", "fatalError"]
 - !private ["Ps8Hashable", "hidesWhenStopped"]
-- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "isHidden"]
-- ["Ps8Hashable", "layoutSubviews"]
+- !private ["Ps8Hashable", "layoutSubviews"]
 - !private ["Ps8Hashable", "loading"]
-- ["Ps8Hashable", "moreLabel"]
-- ["Ps8Hashable", "moreLabel.storage"]
+- !private ["Ps8Hashable", "moreLabel"]
 - ["Ps8Hashable", "pullUpToRefresh"]
 - ["Ps8Hashable", "pullUpToRefreshAnimationDidEnd"]
 - ["Ps8Hashable", "pullUpToRefreshAnimationDidStart"]
@@ -278,8 +260,7 @@ depends-member:
 - !private ["PSo8NSCoding", "UIActivityIndicatorView"]
 - !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UILabel"]
-- ["PSo8NSCoding", "activity"]
-- ["PSo8NSCoding", "activity.storage"]
+- !private ["PSo8NSCoding", "activity"]
 - !private ["PSo8NSCoding", "addConstraint"]
 - !private ["PSo8NSCoding", "addSubview"]
 - !private ["PSo8NSCoding", "backgroundColor"]
@@ -287,11 +268,10 @@ depends-member:
 - !private ["PSo8NSCoding", "blue"]
 - !private ["PSo8NSCoding", "fatalError"]
 - !private ["PSo8NSCoding", "hidesWhenStopped"]
-- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "isHidden"]
-- ["PSo8NSCoding", "layoutSubviews"]
-- ["PSo8NSCoding", "moreLabel"]
-- ["PSo8NSCoding", "moreLabel.storage"]
+- !private ["PSo8NSCoding", "layoutSubviews"]
+- !private ["PSo8NSCoding", "moreLabel"]
 - ["PSo8NSCoding", "pullUpToRefresh"]
 - ["PSo8NSCoding", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo8NSCoding", "pullUpToRefreshAnimationDidStart"]
@@ -308,10 +288,7 @@ depends-member:
 - !private ["PSo9NSCopying", "init"]
 - !private ["OSC17NSLayoutAttribute", "centerX"]
 - !private ["OSC17NSLayoutAttribute", "centerY"]
-- ["OSC17NSLayoutAttribute", "deinit"]
-- ["CSo18NSLayoutConstraint", "deinit"]
 - !private ["CSo18NSLayoutConstraint", "init"]
-- ["OSC16NSLayoutRelation", "deinit"]
 - !private ["OSC16NSLayoutRelation", "equal"]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "CGFloat"]
@@ -351,8 +328,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UIActivityIndicatorView"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UILabel"]
-- ["PSo16NSObjectProtocol", "activity"]
-- ["PSo16NSObjectProtocol", "activity.storage"]
+- !private ["PSo16NSObjectProtocol", "activity"]
 - !private ["PSo16NSObjectProtocol", "addConstraint"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
@@ -360,11 +336,10 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "blue"]
 - !private ["PSo16NSObjectProtocol", "fatalError"]
 - !private ["PSo16NSObjectProtocol", "hidesWhenStopped"]
-- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "isHidden"]
-- ["PSo16NSObjectProtocol", "layoutSubviews"]
-- ["PSo16NSObjectProtocol", "moreLabel"]
-- ["PSo16NSObjectProtocol", "moreLabel.storage"]
+- !private ["PSo16NSObjectProtocol", "layoutSubviews"]
+- !private ["PSo16NSObjectProtocol", "moreLabel"]
 - ["PSo16NSObjectProtocol", "pullUpToRefresh"]
 - ["PSo16NSObjectProtocol", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo16NSObjectProtocol", "pullUpToRefreshAnimationDidStart"]
@@ -380,8 +355,6 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "blue"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
-- ["Os5Never", "deinit"]
-- ["Sq", "deinit"]
 - !private ["Sq", "loading"]
 - !private ["Sq", "pullUpToRefresh"]
 - !private ["Sq", "releaseToLoadMore"]
@@ -426,7 +399,7 @@ depends-member:
 - ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefreshAnimationNoticeNoMore"]
 - ["P9RBRefresh29RBPullUpToRefreshViewDelegate", "pullUpToRefreshAnimationResetNoMore"]
 - ["P9RBRefresh29RBPullUpToRefreshViewDelegate", ""]
-- ["O9RBRefresh26RBPullUpToRefreshViewState", "deinit"]
+- !private ["O9RBRefresh26RBPullUpToRefreshViewState", "deinit"]
 - !private ["O9RBRefresh26RBPullUpToRefreshViewState", "loading"]
 - !private ["O9RBRefresh26RBPullUpToRefreshViewState", "pullUpToRefresh"]
 - !private ["O9RBRefresh26RBPullUpToRefreshViewState", "releaseToLoadMore"]
@@ -434,9 +407,7 @@ depends-member:
 - !private ["Ps16RawRepresentable", "centerY"]
 - !private ["Ps16RawRepresentable", "equal"]
 - !private ["Ps16RawRepresentable", "white"]
-- ["Vs12StaticString", "deinit"]
 - !private ["Vs12StaticString", "init"]
-- ["SS", "deinit"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
@@ -444,18 +415,16 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "UIActivityIndicatorView"]
 - !private ["PSo29UIAccessibilityIdentification", "UIColor"]
 - !private ["PSo29UIAccessibilityIdentification", "UILabel"]
-- ["PSo29UIAccessibilityIdentification", "activity"]
-- ["PSo29UIAccessibilityIdentification", "activity.storage"]
+- !private ["PSo29UIAccessibilityIdentification", "activity"]
 - !private ["PSo29UIAccessibilityIdentification", "addConstraint"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
 - !private ["PSo29UIAccessibilityIdentification", "fatalError"]
 - !private ["PSo29UIAccessibilityIdentification", "hidesWhenStopped"]
-- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "isHidden"]
-- ["PSo29UIAccessibilityIdentification", "layoutSubviews"]
-- ["PSo29UIAccessibilityIdentification", "moreLabel"]
-- ["PSo29UIAccessibilityIdentification", "moreLabel.storage"]
+- !private ["PSo29UIAccessibilityIdentification", "layoutSubviews"]
+- !private ["PSo29UIAccessibilityIdentification", "moreLabel"]
 - ["PSo29UIAccessibilityIdentification", "pullUpToRefresh"]
 - ["PSo29UIAccessibilityIdentification", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo29UIAccessibilityIdentification", "pullUpToRefreshAnimationDidStart"]
@@ -467,30 +436,26 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "textColor"]
 - !private ["PSo29UIAccessibilityIdentification", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo29UIAccessibilityIdentification", ""]
-- ["CSo23UIActivityIndicatorView", "deinit"]
 - !private ["CSo23UIActivityIndicatorView", "hidesWhenStopped"]
 - !private ["CSo23UIActivityIndicatorView", "init"]
 - !private ["CSo23UIActivityIndicatorView", "startAnimating"]
 - !private ["CSo23UIActivityIndicatorView", "stopAnimating"]
 - !private ["CSo23UIActivityIndicatorView", "translatesAutoresizingMaskIntoConstraints"]
-- !private ["OSC28UIActivityIndicatorViewStyle", "deinit"]
 - !private ["OSC28UIActivityIndicatorViewStyle", "white"]
 - !private ["PSo12UIAppearance", "NSLayoutConstraint"]
 - !private ["PSo12UIAppearance", "UIActivityIndicatorView"]
 - !private ["PSo12UIAppearance", "UIColor"]
 - !private ["PSo12UIAppearance", "UILabel"]
-- ["PSo12UIAppearance", "activity"]
-- ["PSo12UIAppearance", "activity.storage"]
+- !private ["PSo12UIAppearance", "activity"]
 - !private ["PSo12UIAppearance", "addConstraint"]
 - !private ["PSo12UIAppearance", "addSubview"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
 - !private ["PSo12UIAppearance", "fatalError"]
 - !private ["PSo12UIAppearance", "hidesWhenStopped"]
-- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "isHidden"]
-- ["PSo12UIAppearance", "layoutSubviews"]
-- ["PSo12UIAppearance", "moreLabel"]
-- ["PSo12UIAppearance", "moreLabel.storage"]
+- !private ["PSo12UIAppearance", "layoutSubviews"]
+- !private ["PSo12UIAppearance", "moreLabel"]
 - ["PSo12UIAppearance", "pullUpToRefresh"]
 - ["PSo12UIAppearance", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo12UIAppearance", "pullUpToRefreshAnimationDidStart"]
@@ -506,18 +471,16 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "UIActivityIndicatorView"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UILabel"]
-- ["PSo21UIAppearanceContainer", "activity"]
-- ["PSo21UIAppearanceContainer", "activity.storage"]
+- !private ["PSo21UIAppearanceContainer", "activity"]
 - !private ["PSo21UIAppearanceContainer", "addConstraint"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
 - !private ["PSo21UIAppearanceContainer", "fatalError"]
 - !private ["PSo21UIAppearanceContainer", "hidesWhenStopped"]
-- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "isHidden"]
-- ["PSo21UIAppearanceContainer", "layoutSubviews"]
-- ["PSo21UIAppearanceContainer", "moreLabel"]
-- ["PSo21UIAppearanceContainer", "moreLabel.storage"]
+- !private ["PSo21UIAppearanceContainer", "layoutSubviews"]
+- !private ["PSo21UIAppearanceContainer", "moreLabel"]
 - ["PSo21UIAppearanceContainer", "pullUpToRefresh"]
 - ["PSo21UIAppearanceContainer", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo21UIAppearanceContainer", "pullUpToRefreshAnimationDidStart"]
@@ -531,7 +494,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo7UIColor", "black"]
 - !private ["CSo7UIColor", "blue"]
-- ["CSo7UIColor", "deinit"]
 - !private ["PSo30UIContentSizeCategoryAdjusting", "init"]
 - !private ["PSo30UIContentSizeCategoryAdjusting", "isHidden"]
 - !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
@@ -541,18 +503,16 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "UIActivityIndicatorView"]
 - !private ["PSo17UICoordinateSpace", "UIColor"]
 - !private ["PSo17UICoordinateSpace", "UILabel"]
-- ["PSo17UICoordinateSpace", "activity"]
-- ["PSo17UICoordinateSpace", "activity.storage"]
+- !private ["PSo17UICoordinateSpace", "activity"]
 - !private ["PSo17UICoordinateSpace", "addConstraint"]
 - !private ["PSo17UICoordinateSpace", "addSubview"]
 - !private ["PSo17UICoordinateSpace", "backgroundColor"]
 - !private ["PSo17UICoordinateSpace", "fatalError"]
 - !private ["PSo17UICoordinateSpace", "hidesWhenStopped"]
-- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "isHidden"]
-- ["PSo17UICoordinateSpace", "layoutSubviews"]
-- ["PSo17UICoordinateSpace", "moreLabel"]
-- ["PSo17UICoordinateSpace", "moreLabel.storage"]
+- !private ["PSo17UICoordinateSpace", "layoutSubviews"]
+- !private ["PSo17UICoordinateSpace", "moreLabel"]
 - ["PSo17UICoordinateSpace", "pullUpToRefresh"]
 - ["PSo17UICoordinateSpace", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo17UICoordinateSpace", "pullUpToRefreshAnimationDidStart"]
@@ -568,18 +528,16 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "UIActivityIndicatorView"]
 - !private ["PSo13UIDynamicItem", "UIColor"]
 - !private ["PSo13UIDynamicItem", "UILabel"]
-- ["PSo13UIDynamicItem", "activity"]
-- ["PSo13UIDynamicItem", "activity.storage"]
+- !private ["PSo13UIDynamicItem", "activity"]
 - !private ["PSo13UIDynamicItem", "addConstraint"]
 - !private ["PSo13UIDynamicItem", "addSubview"]
 - !private ["PSo13UIDynamicItem", "backgroundColor"]
 - !private ["PSo13UIDynamicItem", "fatalError"]
 - !private ["PSo13UIDynamicItem", "hidesWhenStopped"]
-- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "isHidden"]
-- ["PSo13UIDynamicItem", "layoutSubviews"]
-- ["PSo13UIDynamicItem", "moreLabel"]
-- ["PSo13UIDynamicItem", "moreLabel.storage"]
+- !private ["PSo13UIDynamicItem", "layoutSubviews"]
+- !private ["PSo13UIDynamicItem", "moreLabel"]
 - ["PSo13UIDynamicItem", "pullUpToRefresh"]
 - ["PSo13UIDynamicItem", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo13UIDynamicItem", "pullUpToRefreshAnimationDidStart"]
@@ -595,18 +553,16 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "UIActivityIndicatorView"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "UILabel"]
-- ["PSo18UIFocusEnvironment", "activity"]
-- ["PSo18UIFocusEnvironment", "activity.storage"]
+- !private ["PSo18UIFocusEnvironment", "activity"]
 - !private ["PSo18UIFocusEnvironment", "addConstraint"]
 - !private ["PSo18UIFocusEnvironment", "addSubview"]
 - !private ["PSo18UIFocusEnvironment", "backgroundColor"]
 - !private ["PSo18UIFocusEnvironment", "fatalError"]
 - !private ["PSo18UIFocusEnvironment", "hidesWhenStopped"]
-- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "isHidden"]
-- ["PSo18UIFocusEnvironment", "layoutSubviews"]
-- ["PSo18UIFocusEnvironment", "moreLabel"]
-- ["PSo18UIFocusEnvironment", "moreLabel.storage"]
+- !private ["PSo18UIFocusEnvironment", "layoutSubviews"]
+- !private ["PSo18UIFocusEnvironment", "moreLabel"]
 - ["PSo18UIFocusEnvironment", "pullUpToRefresh"]
 - ["PSo18UIFocusEnvironment", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo18UIFocusEnvironment", "pullUpToRefreshAnimationDidStart"]
@@ -622,18 +578,16 @@ depends-member:
 - !private ["PSo11UIFocusItem", "UIActivityIndicatorView"]
 - !private ["PSo11UIFocusItem", "UIColor"]
 - !private ["PSo11UIFocusItem", "UILabel"]
-- ["PSo11UIFocusItem", "activity"]
-- ["PSo11UIFocusItem", "activity.storage"]
+- !private ["PSo11UIFocusItem", "activity"]
 - !private ["PSo11UIFocusItem", "addConstraint"]
 - !private ["PSo11UIFocusItem", "addSubview"]
 - !private ["PSo11UIFocusItem", "backgroundColor"]
 - !private ["PSo11UIFocusItem", "fatalError"]
 - !private ["PSo11UIFocusItem", "hidesWhenStopped"]
-- ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "init"]
 - !private ["PSo11UIFocusItem", "isHidden"]
-- ["PSo11UIFocusItem", "layoutSubviews"]
-- ["PSo11UIFocusItem", "moreLabel"]
-- ["PSo11UIFocusItem", "moreLabel.storage"]
+- !private ["PSo11UIFocusItem", "layoutSubviews"]
+- !private ["PSo11UIFocusItem", "moreLabel"]
 - ["PSo11UIFocusItem", "pullUpToRefresh"]
 - ["PSo11UIFocusItem", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo11UIFocusItem", "pullUpToRefreshAnimationDidStart"]
@@ -645,7 +599,6 @@ depends-member:
 - !private ["PSo11UIFocusItem", "textColor"]
 - !private ["PSo11UIFocusItem", "translatesAutoresizingMaskIntoConstraints"]
 - ["PSo11UIFocusItem", ""]
-- ["CSo7UILabel", "deinit"]
 - !private ["CSo7UILabel", "init"]
 - !private ["CSo7UILabel", "isHidden"]
 - !private ["CSo7UILabel", "text"]
@@ -686,18 +639,16 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "UIActivityIndicatorView"]
 - !private ["PSo30UIResponderStandardEditActions", "UIColor"]
 - !private ["PSo30UIResponderStandardEditActions", "UILabel"]
-- ["PSo30UIResponderStandardEditActions", "activity"]
-- ["PSo30UIResponderStandardEditActions", "activity.storage"]
+- !private ["PSo30UIResponderStandardEditActions", "activity"]
 - !private ["PSo30UIResponderStandardEditActions", "addConstraint"]
 - !private ["PSo30UIResponderStandardEditActions", "addSubview"]
 - !private ["PSo30UIResponderStandardEditActions", "backgroundColor"]
 - !private ["PSo30UIResponderStandardEditActions", "fatalError"]
 - !private ["PSo30UIResponderStandardEditActions", "hidesWhenStopped"]
-- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
 - !private ["PSo30UIResponderStandardEditActions", "isHidden"]
-- ["PSo30UIResponderStandardEditActions", "layoutSubviews"]
-- ["PSo30UIResponderStandardEditActions", "moreLabel"]
-- ["PSo30UIResponderStandardEditActions", "moreLabel.storage"]
+- !private ["PSo30UIResponderStandardEditActions", "layoutSubviews"]
+- !private ["PSo30UIResponderStandardEditActions", "moreLabel"]
 - ["PSo30UIResponderStandardEditActions", "pullUpToRefresh"]
 - ["PSo30UIResponderStandardEditActions", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo30UIResponderStandardEditActions", "pullUpToRefreshAnimationDidStart"]
@@ -713,18 +664,16 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "UIActivityIndicatorView"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UILabel"]
-- ["PSo18UITraitEnvironment", "activity"]
-- ["PSo18UITraitEnvironment", "activity.storage"]
+- !private ["PSo18UITraitEnvironment", "activity"]
 - !private ["PSo18UITraitEnvironment", "addConstraint"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
 - !private ["PSo18UITraitEnvironment", "fatalError"]
 - !private ["PSo18UITraitEnvironment", "hidesWhenStopped"]
-- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "isHidden"]
-- ["PSo18UITraitEnvironment", "layoutSubviews"]
-- ["PSo18UITraitEnvironment", "moreLabel"]
-- ["PSo18UITraitEnvironment", "moreLabel.storage"]
+- !private ["PSo18UITraitEnvironment", "layoutSubviews"]
+- !private ["PSo18UITraitEnvironment", "moreLabel"]
 - ["PSo18UITraitEnvironment", "pullUpToRefresh"]
 - ["PSo18UITraitEnvironment", "pullUpToRefreshAnimationDidEnd"]
 - ["PSo18UITraitEnvironment", "pullUpToRefreshAnimationDidStart"]
@@ -750,7 +699,6 @@ depends-member:
 - !private ["CSo6UIView", "addConstraint"]
 - !private ["CSo6UIView", "addSubview"]
 - !private ["CSo6UIView", "backgroundColor"]
-- ["CSo6UIView", "deinit"]
 - !private ["CSo6UIView", "fatalError"]
 - !private ["CSo6UIView", "hidesWhenStopped"]
 - ["CSo6UIView", "init"]
@@ -769,23 +717,20 @@ depends-member:
 - !private ["CSo6UIView", "textColor"]
 - !private ["CSo6UIView", "translatesAutoresizingMaskIntoConstraints"]
 - ["CSo6UIView", ""]
-- ["Su", "deinit"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSLayoutConstraint"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIActivityIndicatorView"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIColor"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UILabel"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "activity"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "activity.storage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "activity"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addConstraint"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundColor"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "fatalError"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "hidesWhenStopped"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "layoutSubviews"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "moreLabel"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", "moreLabel.storage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layoutSubviews"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "moreLabel"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "pullUpToRefresh"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "pullUpToRefreshAnimationDidEnd"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "pullUpToRefreshAnimationDidStart"]
@@ -804,14 +749,14 @@ depends-member:
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps26_ExpressibleByColorLiteral", "black"]
 - !private ["Ps26_ExpressibleByColorLiteral", "blue"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "NSLayoutConstraint"]
 - !private ["Ps9_Hashable", "UIActivityIndicatorView"]
 - !private ["Ps9_Hashable", "UIColor"]
 - !private ["Ps9_Hashable", "UILabel"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
-- ["Ps9_Hashable", "activity"]
-- ["Ps9_Hashable", "activity.storage"]
+- !private ["Ps9_Hashable", "activity"]
 - !private ["Ps9_Hashable", "addConstraint"]
 - !private ["Ps9_Hashable", "addSubview"]
 - !private ["Ps9_Hashable", "backgroundColor"]
@@ -822,12 +767,11 @@ depends-member:
 - !private ["Ps9_Hashable", "equal"]
 - !private ["Ps9_Hashable", "fatalError"]
 - !private ["Ps9_Hashable", "hidesWhenStopped"]
-- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "isHidden"]
-- ["Ps9_Hashable", "layoutSubviews"]
+- !private ["Ps9_Hashable", "layoutSubviews"]
 - !private ["Ps9_Hashable", "loading"]
-- ["Ps9_Hashable", "moreLabel"]
-- ["Ps9_Hashable", "moreLabel.storage"]
+- !private ["Ps9_Hashable", "moreLabel"]
 - ["Ps9_Hashable", "pullUpToRefresh"]
 - ["Ps9_Hashable", "pullUpToRefreshAnimationDidEnd"]
 - ["Ps9_Hashable", "pullUpToRefreshAnimationDidStart"]
@@ -851,10 +795,8 @@ depends-member:
 - !private ["Vs26_OptionalNilComparisonType", "releaseToLoadMore"]
 depends-nominal:
 - "Ps9AnyObject"
-- "Sb"
+- !private "Sb"
 - "PSo15CALayerDelegate"
-- "V12CoreGraphics7CGFloat"
-- "VSC6CGRect"
 - "Ps7CVarArg"
 - !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
@@ -865,7 +807,6 @@ depends-nominal:
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps23ExpressibleByNilLiteral"
-- !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
@@ -873,41 +814,39 @@ depends-nominal:
 - !private "Ps10MirrorPath"
 - "PSo8NSCoding"
 - !private "PSo9NSCopying"
-- "OSC17NSLayoutAttribute"
-- "CSo18NSLayoutConstraint"
-- "OSC16NSLayoutRelation"
+- !private "OSC17NSLayoutAttribute"
+- !private "CSo18NSLayoutConstraint"
+- !private "OSC16NSLayoutRelation"
 - !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
-- "Os5Never"
-- "Sq"
+- !private "Sq"
 - "C9RBRefresh14RBNormalFooter"
 - "P9RBRefresh29RBPullUpToRefreshViewDelegate"
-- "O9RBRefresh26RBPullUpToRefreshViewState"
+- !private "O9RBRefresh26RBPullUpToRefreshViewState"
 - !private "Ps16RawRepresentable"
-- "Vs12StaticString"
-- "SS"
+- !private "Vs12StaticString"
+- !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
 - "PSo29UIAccessibilityIdentification"
-- "CSo23UIActivityIndicatorView"
+- !private "CSo23UIActivityIndicatorView"
 - !private "OSC28UIActivityIndicatorViewStyle"
 - "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
-- "CSo7UIColor"
+- !private "CSo7UIColor"
 - !private "PSo30UIContentSizeCategoryAdjusting"
 - "PSo17UICoordinateSpace"
 - "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
 - "PSo11UIFocusItem"
-- "CSo7UILabel"
+- !private "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
 - "PSo18UITraitEnvironment"
 - "CSo6UIView"
-- "Su"
 - "Ps37_DefaultCustomPlaygroundQuickLookable"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
@@ -915,22 +854,30 @@ depends-nominal:
 - !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
 - !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
 - !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
 - !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
 - !private "Ps21_ObjectiveCBridgeable"
 - !private "Vs26_OptionalNilComparisonType"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/xiamin/Documents/XYRepository/RBRefresh/RBRefresh-Bridging-Header.h"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
 interface-hash: "82b5090ea9a138c00ea2845e441afe40"
